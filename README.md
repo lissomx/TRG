@@ -1,0 +1,2 @@
+# TRG
+Text-Reassambling Generator
