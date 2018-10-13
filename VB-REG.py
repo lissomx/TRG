@@ -7,7 +7,7 @@
 
 __author__ = "Xiao Li"
 __copyright__ = "Copyright 2018, Xiao Li"
-__license__ = "GPL"
+__license__ = "MIT"
 __version__ = "1.0"
 __email__ = ""
 

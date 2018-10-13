@@ -7,11 +7,11 @@
 
 __author__ = "Xiao Li"
 __copyright__ = "Copyright 2018, Xiao Li"
-__license__ = "GPL"
+__license__ = "MIT"
 __version__ = "1.0"
 __email__ = ""
 
-from VBLS import *
+import VBLS
 
 class TRG:
     def __init__(self, AlignedCorpus, separator=' ', strict=True):
@@ -20,7 +20,7 @@ class TRG:
         self.Strict = strict
         self.separator = separator
         schemas = [(s,s.Features) for s in (self.Schema(r) for r in AlignedCorpus)]
-        self.schemaSelector = VBLS(schemas)
+        self.schemaSelector = VBLS.VBLS(schemas)
         smallCorpora = [x for s,_ in schemas for x in s.GetPlaceholderData(self.Strict)]
         dataDic = {}
         for tag,word,fg in smallCorpora:
@@ -28,7 +28,7 @@ class TRG:
                 dataDic[tag].append((word,fg))
             else:
                 dataDic[tag] = [(word,fg)]
-        self.lexSelectors = dict([(key,VBLS(val)) for key,val in dataDic.items()])
+        self.lexSelectors = dict([(key,VBLS.VBLS(val)) for key,val in dataDic.items()])
 
     def Generate(self,features,threshold=0.2):
         '''
