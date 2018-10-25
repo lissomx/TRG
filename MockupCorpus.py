@@ -29,8 +29,7 @@ Furniture = [
         ('type','fun',1)
     ]),
     ('green sofa',[
-        ('colour','green',1),
-        ('type','sofa',1)
+        ('type','desk',1)
     ]),
     ('the desk',[
         ('type','desk',1)
@@ -38,14 +37,38 @@ Furniture = [
 ]
 
 FurnitureEx = [
-    [('the',None),('red',{'colour':'red'}),('sofa',{'type':'sofa'})],
-    [('the',None),('blue',{'colour':'blue'}),('fun',{'type':'fun'})],
-    [('the',None),('green',{'colour':'green'}),('desk',{'type':'desk'})],
-    [('red',{'colour':'red'}),('fun',{'type':'fun'})],
-    [('green',{'colour':'green'}),('sofa',{'type':'sofa'})],
-    [('the',None),('desk',{'type':'desk'})]
+    [ ('the',None),('red',[('colour','red',1)]),('sofa',[('type','sofa',1)]) ],
+    [ ('the',None),('blue',[('colour','blue',1)]),('fun',[('type','fun',1)]) ],
+    [ ('the',None),('green',[('colour','green',1)]),('desk',[('type','desk',1)]) ],
+    [ ('red',[('colour','red',1)]),('fun',[('type','fun',1)]) ],
+    [ ('green',[('colour','green',1)]),('sofa',[('type','sofa',1)]) ],
+    [ ('the',None),('desk',[('type','desk',1)]) ]
 ]
 
-Tuna = [
-    
+FurnitureDistractors = [
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ],
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ],
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ],
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ],
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ],
+    [
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
+    ]
+
 ]

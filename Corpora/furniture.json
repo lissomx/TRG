@@ -1,0 +1,33 @@
+﻿{
+  "separator": " ",
+  "right2left": false,
+  "version": 1.0,
+  "case-sensitive": false,
+
+  "data": [
+    {
+      "concepts": "c=red;t=table",
+      "text": "a red table ."
+    },
+    {
+      "concepts": "c=red;t=chair",
+      "text": "a red chair ."
+    },
+    {
+      "concepts": "c=blue;t=fan",
+      "text": "a blue fan ."
+    },
+    {
+      "concepts": "c=blue;t=chair",
+      "text": "a blue chair ."
+    },
+    {
+      "concepts": "c=blue;t=table",
+      "text": "a table that is blue ."
+    },
+    {
+      "concepts": "c=red;t=fan",
+      "text": "a fan that is red ."
+    }
+  ]
+}

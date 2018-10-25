@@ -1,0 +1,4165 @@
+﻿{
+  "separator": " ",
+  "right2left": false,
+  "version": 1.0,
+  "case-sensitive": false,
+
+  "data": [
+    {
+      "concepts": "T=inform;name=piperade;goodformeal=dinner;food=basque",
+      "text": "piperade is good for dinner and serves basque"
+    },
+    {
+      "concepts": "T=inform;name=piperade;area=hayes_valley_or_telegraph_hill;address=1015_battery_street",
+      "text": "piperade is in the area of hayes valley or telegraph hill . its address is 1015 battery street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform_no_match;area=martin_luther_king_square",
+      "text": "i regret to inform you that there are no restaurant -s in the area of martin luther king square"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;goodformeal=breakfast;area=cathedral_hill;kidsallowed=no",
+      "text": "red door cafe is in the area of cathedral hill and serves breakfast but does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;address=1608_bush_street",
+      "text": "the address to red door cafe is 1608 bush street"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;phone=4152828283",
+      "text": "the phone number to reach red door cafe is 4152828283"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=a_la_turca_restaurant;pricerange=cheap",
+      "text": "a la turca restaurant is a cheap restaurant"
+    },
+    {
+      "concepts": "T=inform;name=a_la_turca_restaurant;near=tenderloin",
+      "text": "a la turca restaurant is near tenderloin"
+    },
+    {
+      "concepts": "T=inform;name=stroganoff_restaurant;pricerange=cheap;near=fishermans_wharf",
+      "text": "stroganoff restaurant is cheap and near fishermans wharf"
+    },
+    {
+      "concepts": "T=inform;name=stroganoff_restaurant;goodformeal=dinner",
+      "text": "stroganoff restaurant is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=stroganoff_restaurant;address=418_beach_street",
+      "text": "stroganoff restaurant is located at 418 beach street"
+    },
+    {
+      "concepts": "T=inform;name=stroganoff_restaurant;food=ethnic_food_or_russian",
+      "text": "stroganoff restaurant serves ethnic food or russian"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=no;area=opera_plaza",
+      "text": "there are 0 restaurant -s where kid -s are allowed in the opera plaza area"
+    },
+    {
+      "concepts": "T=inform_no_match;near=chinatown;area=opera_plaza",
+      "text": "unfortunately there are 0 restaurant -s near chinatown in the opera plaza area"
+    },
+    {
+      "concepts": "T=inform;name=frances;area=hayes_valley",
+      "text": "frances is a nice restaurant in the hayes valley area"
+    },
+    {
+      "concepts": "T=inform;name=forbes_island;area=hayes_valley;kidsallowed=no",
+      "text": "forbes island is a nice restaurant in the hayes valley area no kid -s are allowed"
+    },
+    {
+      "concepts": "T=inform;name=forbes_island;price=between_30_and_58_euro",
+      "text": "forbes island restaurant cost between 30 and 58 euro"
+    },
+    {
+      "concepts": "T=inform;name=forbes_island;address=pier_41",
+      "text": "forbes island restaurant is located at pier 41"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_fillmore;pricerange=expensive;near=lower_pacific_heights",
+      "text": "dosa on fillmore is an expensive restaurant near lower pacific heights"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;pricerange=expensive;near=lower_pacific_heights",
+      "text": "kiss seafood is an expensive restaurant close to lower pacific heights"
+    },
+    {
+      "concepts": "T=inform_only_match;name=dosa_on_fillmore_and_kiss_seafood;pricerange=expensive;near=lower_pacific_heights",
+      "text": "i apologize , dosa on fillmore and kiss seafood are the only expensive restaurant -s near lower pacific heights"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;address=1700_laguna_street",
+      "text": "kiss seafood address is 1700 laguna street"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_fillmore;pricerange=expensive;near=lower_pacific_heights",
+      "text": "dosa on fillmore is an expensive restaurant -s near lower pacific heights"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "there are no restaurant -s in the area of tenderloin"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=colibri_mexican_bistro;pricerange=moderate",
+      "text": "colibri mexican bistro is a moderate -ly priced restaurant"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;near=potrero_hill;pricerange=moderate",
+      "text": "aperto restaurant is near potrero hill and is moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;goodformeal=dinner;near=potrero_hill;pricerange=moderate",
+      "text": "i found 4 restaurant -s that is moderate -ly priced , near potrero hill and good for dinner"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area are you looking in"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;price=22_euro;phone=4152521625",
+      "text": "the phone number for aperto restaurant is 4152521625 . the price is 22 euro"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;goodformeal=dinner;near=potrero_hill;pricerange=moderate",
+      "text": "chez maman is a dinner restaurant near potrero hill with a moderate price range"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=confirm;kidsallowed=no",
+      "text": "can i confirm that you want a restaurant that does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;kidsallowed=no;pricerange=cheap",
+      "text": "house of nanking is a nice restaurant in the cheap price range that does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;type=restaurant",
+      "text": "house of nanking is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;type=restaurant",
+      "text": "house of nanking is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;phone=4154211429",
+      "text": "the phone number of house of nanking is 4154211429"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;food=chinese",
+      "text": "house of nanking serves chinese food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=38;goodformeal=lunch",
+      "text": "there are 38 restaurant -s that are good for lunch"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food would you like to eat"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=36;goodformeal=lunch;food=dont_care",
+      "text": "there are 36 restaurant -s that are good for lunch with any kind of food"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area would you like to dine near"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=36;goodformeal=lunch;food=dont_care",
+      "text": "there are 36 restaurant -s that are good for lunch with any kind of food"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "how much would you like to spend"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;pricerange=cheap;food=taiwanese;goodformeal=lunch",
+      "text": "taiwan restaurant is a cheap restaurant with taiwanese food that is good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;type=restaurant",
+      "text": "taiwan restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;type=restaurant",
+      "text": "taiwan restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;near=inner_richmond",
+      "text": "taiwan restaurant is near inner richmond"
+    },
+    {
+      "concepts": "T=inform;name=ploy_2;pricerange=cheap",
+      "text": "i have found ploy 2 , with a cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=ploy_2;type=restaurant",
+      "text": "i have found a restaurant called ploy 2"
+    },
+    {
+      "concepts": "T=inform;name=source;kidsallowed=yes;pricerange=cheap",
+      "text": "i would recommend source . child -s are allowed there and the food is cheap"
+    },
+    {
+      "concepts": "T=inform;name=source;address=11_division_street;phone=4158649000",
+      "text": "the address for source is 11 division street and the phone number is 4158649000"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=brunch",
+      "text": "i see 2 restaurant -s that serve brunch"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your price range"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "please specify you price range"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;pricerange=cheap;goodformeal=brunch",
+      "text": "the red door cafe serves brunch and the price range is cheap"
+    },
+    {
+      "concepts": "T=inform_only_match;name=red_door_cafe;pricerange=cheap;goodformeal=brunch",
+      "text": "there are no other restaurant -s besides the red door cafe that serve brunch in your cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;address=1608_bush_street",
+      "text": "the address for the red door cafe is 1608 bush street"
+    },
+    {
+      "concepts": "T=inform_only_match;name=red_door_cafe;pricerange=cheap;goodformeal=brunch",
+      "text": "i apologize , the red door cafe is the only available restaurant that serves brunch in your cheap price range"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you , goodbye"
+    },
+    {
+      "concepts": "T=inform;name=da_flora_a_venetian_osteria;pricerange=cheap;goodformeal=dinner",
+      "text": "i have found da flora a venetian osteria , where the price range is cheap , and they serve dinner"
+    },
+    {
+      "concepts": "T=inform;name=da_flora_a_venetian_osteria;area=hayes_valley_or_little_italy;address=701_columbus_avenue",
+      "text": "the address of da flora a venetian osteria is 701 columbus avenue and they are located in hayes valley or little italy"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=ethnic_food;pricerange=expensive",
+      "text": "there are no restaurant -s serving ethnic food in the expensive price range"
+    },
+    {
+      "concepts": "T=confirm;pricerange=expensive",
+      "text": "are you looking for a restaurant in the expensive price range"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;pricerange=expensive;kidsallowed=yes",
+      "text": "helmand palace is in the expensive price range and allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;type=restaurant",
+      "text": "helmand palace is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;food=afghan",
+      "text": "helmand palace serves afghan food"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;phone=4153450072;postcode=94109",
+      "text": "the phone number to helmand palace is 4153450072 and the postcode is 94109"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you goodbye"
+    },
+    {
+      "concepts": "T=inform;name=fresca;pricerange=moderate;kidsallowed=no;food=tapas",
+      "text": "fresca serves tapas , is moderate -ly priced and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=fresca;phone=4154472668",
+      "text": "the name is fresca , the phone number is 4154472668"
+    },
+    {
+      "concepts": "T=inform;name=fresca;type=restaurant",
+      "text": "fresca is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=fresca;type=restaurant",
+      "text": "fresca is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=fresca;goodformeal=dinner",
+      "text": "fresca is good for dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;food=indpak;goodformeal=lunch",
+      "text": "the darbar restaurant serves indpak food and is good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;kidsallowed=yes",
+      "text": "child -s are allowed at the darbar restaurant"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;area=hayes_valley_or_lower_nob_hill;phone=4153591236",
+      "text": "the darbar restaurant is located in hayes valley or lower nob hill their phone number is 4153591236"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s that are great for any meal"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your price range"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s that are great for any meal"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your price range"
+    },
+    {
+      "concepts": "T=inform;name=alborz_persian_cuisine;food=persian;goodformeal=dinner",
+      "text": "alborz persian cuisine is a persian restaurant that is suitable for dinner"
+    },
+    {
+      "concepts": "T=inform;name=alborz_persian_cuisine;type=restaurant",
+      "text": "alborz persian cuisine is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=alborz_persian_cuisine;pricerange=moderate",
+      "text": "alborz persian cuisine has a moderate price range"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=fringale;near=mission_bay;goodformeal=dinner",
+      "text": "there is a nice restaurant near mission bay named fringale , and is good for dinner"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=3;goodformeal=dinner;near=mission_bay",
+      "text": "there are 3 restaurant -s near mission bay that are good for dinner"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you looking for a restaurant that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=la_briciola;kidsallowed=no;near=mission_bay;goodformeal=dinner",
+      "text": "la briciola is near mission bay , allows child -s and is a good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=la_briciola;area=hayes_valley_or_financial_district_south;address=489_third_street",
+      "text": "la briciola is located in the hayes valley or financial district south and the address is 489 third street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=gluten_free;pricerange=cheap",
+      "text": "unfortunately there is no cheap restaurant that serves gluten free food"
+    },
+    {
+      "concepts": "T=inform;name=canto_do_brasil_restaurant;food=brazilian",
+      "text": "canto do brasil restaurant serves brazilian food"
+    },
+    {
+      "concepts": "T=inform;name=canto_do_brasil_restaurant;phone=4156268727;postcode=94102",
+      "text": "the phone number for canto do brasil restaurant is 4156268727 , its postcode is 94102"
+    },
+    {
+      "concepts": "T=inform;name=canto_do_brasil_restaurant;kidsallowed=no",
+      "text": "canto do brasil restaurant does not allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;pricerange=cheap;near=inner_richmond;kidsallowed=no",
+      "text": "sushi bistro is a cheap restaurant near inner richmond where no kid -s are allowed"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "i am not sure"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;type=restaurant",
+      "text": "the name of the restaurant is sushi bistro"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;type=restaurant",
+      "text": "the name of the restaurant is sushi bistro"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;food=sushi_or_japanese;phone=4159337100",
+      "text": "sushi bistro is a sushi or japanese restaurant . the phone number is 4159337100"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;food=lounge;goodformeal=dinner",
+      "text": "i have found the fifth floor . this restaurant is good for dinner and include lounge"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;address=hotel_palomar_12_fourth_street",
+      "text": "the fifth floor is located at hotel palomar 12 fourth street"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;type=restaurant",
+      "text": "fifth floor is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;price=between_29_and_58_euro",
+      "text": "the price of fifth floor is between 29 and 58 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=atelier_crenn;pricerange=expensive",
+      "text": "atelier crenn is an expensive restaurant"
+    },
+    {
+      "concepts": "T=inform;name=atelier_crenn;type=restaurant",
+      "text": "atelier crenn is a type of restaurant"
+    },
+    {
+      "concepts": "T=inform;name=atelier_crenn;address=3127_fillmore_street",
+      "text": "atelier crenn is at 3127 fillmore street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "can i confirm you are requesting price range -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "i have found 239 restaurant -s in various price range -s"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what do you want to eat today"
+    },
+    {
+      "concepts": "T=inform;name=kappa_japanese_restaurant;goodformeal=dinner;area=lower_pacific_heights;pricerange=moderate",
+      "text": "i have found the kappa japanese restaurant that is good for dinner and is located in the lower pacific heights as well as being priced moderate -ly"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "can i confirm you are requesting more information"
+    },
+    {
+      "concepts": "T=inform;name=kappa_japanese_restaurant;near=lower_pacific_heights_or_japantown;address=1700_post_street_suite_k;phone=4156736004",
+      "text": "the address to the kappa japanese restaurant near the lower pacific heights or japantown is 1700 post street suite k and the phone number is 4156736004"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your price range"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;pricerange=expensive;kidsallowed=yes",
+      "text": "franciscan crab restaurant is an expensive restaurant that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;address=pier_43_fishermans_wharf;phone=4153627733",
+      "text": "the address for franciscan crab restaurant is pier 43 fishermans wharf . the phone number is 4153627733"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye , have a great day"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;near=mission_bay",
+      "text": "marlowe is near mission bay"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=3;near=mission_bay",
+      "text": "there are 3 restaurant -s near mission bay"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "yes , child -s are allowed"
+    },
+    {
+      "concepts": "T=inform;name=fringale;kidsallowed=no;near=mission_bay",
+      "text": "fringale is a nice restaurant near mission bay that does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=fringale;address=570_fourth_street;phone=4155430573",
+      "text": "fringale is located at 570 fourth street , the phone number is 4155430573"
+    },
+    {
+      "concepts": "T=inform;name=fringale;food=french",
+      "text": "fringale serves french food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=94;kidsallowed=yes",
+      "text": "there are 94 restaurant -s that allow kid -s in the area"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what part of the city are you interested in"
+    },
+    {
+      "concepts": "T=inform;name=franchino;kidsallowed=no",
+      "text": "franchino does not allow child -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=135;kidsallowed=no",
+      "text": "there are 135 restaurant -s that do not allow child -s"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "which part of the city are you looking for"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye"
+    },
+    {
+      "concepts": "T=inform;name=minami_restaurant;area=little_russia;pricerange=cheap;goodformeal=dinner",
+      "text": "minami restaurant is located in little russia , has a cheap price range and is good for dinner"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=dont_care;pricerange=cheap;area=little_russia",
+      "text": "there are 2 restaurant -s that have a cheap price range in little russia if you do not mind what meal they serve"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "do you care if kid -s are allowed"
+    },
+    {
+      "concepts": "T=confirm;area=little_russia",
+      "text": "you are looking in the little russia area correct"
+    },
+    {
+      "concepts": "T=inform;name=minami_restaurant;address=1900_clement_street;phone=4153875913",
+      "text": "minami restaurant is located on 1900 clement street and their phone number is 4153875913"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=spruce;area=presidio_heights;pricerange=expensive",
+      "text": "there is a nice restaurant called spruce near presidio heights that is expensive"
+    },
+    {
+      "concepts": "T=inform;name=spruce;type=restaurant",
+      "text": "there is a nice restaurant called spruce"
+    },
+    {
+      "concepts": "T=inform_no_match;food=cafes;area=presidio_heights",
+      "text": "there are 0 restaurant -s that are cafes near presidio heights"
+    },
+    {
+      "concepts": "T=inform;name=spruce;address=3640_sacramento_street;phone=4159315100",
+      "text": "spruce is located at 3640 sacramento street and their phone number is 4159315100"
+    },
+    {
+      "concepts": "T=inform;name=spruce;type=restaurant",
+      "text": "there is a nice restaurant -s named spruce"
+    },
+    {
+      "concepts": "T=inform;name=spruce;goodformeal=dinner",
+      "text": "spruce is good for dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "have a nice day"
+    },
+    {
+      "concepts": "T=inform;name=firefly;kidsallowed=no",
+      "text": "firefly does not allow kid -s"
+    },
+    {
+      "concepts": "T=confirm;near=inner_richmond",
+      "text": "let me make sure , are you looking for a restaurant near inner richmond"
+    },
+    {
+      "concepts": "T=inform;name=the_richmond;near=inner_richmond;kidsallowed=no",
+      "text": "the richmond is near the inner richmond and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=the_richmond;area=hayes_valley_or_inner_richmond;address=615_balboa_street;phone=4153798988",
+      "text": "the richmond is in hayes valley or inner richmond . the address is 615 balboa street and the phone number is 4153798988"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;goodformeal=breakfast;food=shanghainese",
+      "text": "there are no restaurant -s serving shanghainese food for breakfast"
+    },
+    {
+      "concepts": "T=inform;name=bund_shanghai_restaurant;food=shanghainese",
+      "text": "there is a place called bund shanghai restaurant that serves shanghainese food"
+    },
+    {
+      "concepts": "T=inform;name=bund_shanghai_restaurant;type=restaurant",
+      "text": "there is a place called bund shanghai restaurant the serves shanghainese food"
+    },
+    {
+      "concepts": "T=inform_only_match;name=bund_shanghai_restaurant;food=shanghainese",
+      "text": "bund shanghai restaurant is the only place serving shanghainese food"
+    },
+    {
+      "concepts": "T=inform;name=bund_shanghai_restaurant;address=640_jackson_street",
+      "text": "bund shanghai restaurant is located at 640 jackson street"
+    },
+    {
+      "concepts": "T=inform;name=bund_shanghai_restaurant;pricerange=cheap",
+      "text": "bund shanghai restaurant is cheap"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=steak;pricerange=cheap",
+      "text": "i am sorry . there are no cheap restaurant -s that serve steak"
+    },
+    {
+      "concepts": "T=inform;name=udupi_palace;food=indian",
+      "text": "udupi palace serves indian food"
+    },
+    {
+      "concepts": "T=inform;name=udupi_palace;address=1007_valencia_street",
+      "text": "the address for udupi palace is 1007 valencia street"
+    },
+    {
+      "concepts": "T=inform;name=udupi_palace;kidsallowed=yes",
+      "text": "udupi palace does allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=jasmine_garden;pricerange=expensive;goodformeal=lunch",
+      "text": "jasmine garden is an expensive restaurant that is good for lunch"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "kid -s allowed yes or no"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;area=financial_district;kidsallowed=yes",
+      "text": "mangia tutti ristorante is in financial district and allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;type=restaurant",
+      "text": "mangia tutti ristorante is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;area=financial_district_or_hayes_valley",
+      "text": "mangia tutti ristorante is in financial district or hayes valley"
+    },
+    {
+      "concepts": "T=confirm;area=financial_district",
+      "text": "is it the financial district"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;address=635_clay_street",
+      "text": "mangia tutti ristorante 's address is 635 clay street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "please confirm your preferred price range"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;near=glen_park;kidsallowed=yes;pricerange=moderate",
+      "text": "i have a restaurant for you . it is named chenery park , it is close to the glen park area , child -s are allowed and it is moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;area=hayes_valley_or_glen_park;address=683_chenery_street",
+      "text": "chenery park is in the hayes valley and glen park area and it is address is 683 chenery street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=amber_india;kidsallowed=no;food=indpak",
+      "text": "amber india serves indpak food and kid -s are not allowed"
+    },
+    {
+      "concepts": "T=inform;name=amber_india;phone=4157770500;postcode=94103",
+      "text": "amber india 's phone number is 4157770500 . their postcode is 94103"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;food=middle_eastern;kidsallowed=no;pricerange=cheap",
+      "text": "i have just the restaurant for you . it is called la mediterranee , it serves cheap middle eastern food and child -s are not allowed"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;phone=4159212956",
+      "text": "the best way to communicate with la mediterranee is by telephone , and their phone number is 4159212956"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;goodformeal=lunch_or_dinner",
+      "text": "la mediterranee is well known for its lunch and dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "can i confirm you would like price range -s"
+    },
+    {
+      "concepts": "T=inform_no_match;pricerange=expensive;food=cambodian",
+      "text": "there are no expensive restaurant -s in that price range that serve cambodian food"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;pricerange=expensive;goodformeal=dinner",
+      "text": "the crustacean restaurant is expensive and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;address=1475_polk_street_suite_6;phone=4157762722",
+      "text": "the address to crustacean restaurant is 1475 polk street suite 6 and the phone number is 4157762722"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=betelnut;food=malaysian",
+      "text": "there is a malaysian restaurant called betelnut"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you for calling . good bye"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;near=potrero_hill",
+      "text": "aperto restaurant is near potrero hill"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;kidsallowed=yes",
+      "text": "aperto restaurant does allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;type=restaurant",
+      "text": "the restaurant is named aperto restaurant"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;kidsallowed=no;near=potrero_hill",
+      "text": "chez maman is near potrero hill and does not allow kid -s in the restaurant"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;food=burgers_or_creperies;address=1453_18th_street",
+      "text": "burgers or creperies are served at chez maman which is located at 1453 18th street"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;phone=4158247166",
+      "text": "chez maman 's phone number is 4158247166"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "you are welcome , goodbye"
+    },
+    {
+      "concepts": "T=inform;name=manna;pricerange=cheap;kidsallowed=yes",
+      "text": "manna is a cheap restaurant where kid -s are allowed"
+    },
+    {
+      "concepts": "T=confirm;pricerange=cheap",
+      "text": "it is a cheap restaurant"
+    },
+    {
+      "concepts": "T=confirm;pricerange=cheap",
+      "text": "it is a cheap restaurant"
+    },
+    {
+      "concepts": "T=inform;name=manna;type=restaurant",
+      "text": "manna is a nice restaurant"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=manna;area=hayes_valley_or_inset;address=845_irving_street",
+      "text": "manna is in hayes valley or inset . it is located at 845 irving street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what do you want to eat today"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you looking for a restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=3;area=pacific_heights",
+      "text": "there are 3 restaurant -s in teh pacific heights area"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;pricerange=expensive",
+      "text": "crustacean restaurant is in the expensive price range"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;phone=4157762722",
+      "text": "the phone number to crustacean restaurant is 4157762722"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;pricerange=expensive",
+      "text": "crustacean restaurant is in the expensive price range"
+    },
+    {
+      "concepts": "T=inform_no_match;area=pacific_heights;pricerange=expensive",
+      "text": "there are no restaurant -s in the pacific heights area in teh expensive price range"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=capital_restaurant;pricerange=cheap;goodformeal=lunch",
+      "text": "capital restaurant is cheap and good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=capital_restaurant;type=restaurant",
+      "text": "capital restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=capital_restaurant;phone=4153976269",
+      "text": "capital restaurant number is 4153976269"
+    },
+    {
+      "concepts": "T=inform;name=capital_restaurant;kidsallowed=none",
+      "text": "i have no information whether capital restaurant allows kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform;name=piperade;food=basque;kidsallowed=no",
+      "text": "there is a nice restaurant called piperade that serves basque food that does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=piperade;type=restaurant",
+      "text": "a restaurant called piperade"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=basque;kidsallowed=no;pricerange=moderate",
+      "text": "there are 2 restaurant -s that serve basque food , does not allow kid -s , and has a moderate price range"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what do you want the restaurant to be near"
+    },
+    {
+      "concepts": "T=inform;name=zarzuela;pricerange=moderate;food=basque;kidsallowed=no",
+      "text": "there is zarzuela that has a moderate price range , serves basque food and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=yes;food=basque",
+      "text": "unfortunately , there are 0 basque restaurant -s that allow kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=a_16;food=pizza",
+      "text": "a 16 is a pizza restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;food=pizza",
+      "text": "there are 4 restaurant -s that serve pizza"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , lunch or dinner"
+    },
+    {
+      "concepts": "T=inform;name=a_16;type=restaurant",
+      "text": "a 16 is the name of the restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;food=pizza",
+      "text": "totally 4 restaurant -s serve pizza"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you wondering if kid -s are allowed"
+    },
+    {
+      "concepts": "T=inform;name=mozzeria;kidsallowed=yes;food=pizza",
+      "text": "the mozzeria pizza place definitely allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=mozzeria;pricerange=moderate;address=3228_16th_street;phone=4154890963",
+      "text": "mozzeria is in the moderate range and is located at 3228 16th street . the phone number is 4154890963"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=cafes;near=russian_hill",
+      "text": "there are 0 restaurant -s that are cafes near russian hill"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;food=vietnamese;near=russian_hill",
+      "text": "there is a place called aux delices restaurant that serves vietnamese food near russian hill"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;address=2327_polk_street",
+      "text": "aux delices restaurant -s is located at 2327 polk street"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;kidsallowed=yes",
+      "text": "aux delices restaurant allows kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=tanuki_restaurant;goodformeal=dinner;kidsallowed=yes",
+      "text": "tanuki restaurant serves dinner and allows child -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=89;goodformeal=dinner;kidsallowed=yes",
+      "text": "there are 89 restaurant -s that allow child -s for dinner"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "would you like a certain food type"
+    },
+    {
+      "concepts": "T=inform;name=old_jerusalem_restaurant;food=middle_eastern;goodformeal=dinner;kidsallowed=yes",
+      "text": "old jerusalem restaurant offers middle eastern food for dinner and allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=hong_kong_clay_pot_restaurant;food=chinese;near=chinatown;goodformeal=dinner;kidsallowed=yes",
+      "text": "hong kong clay pot restaurant serves chinese for dinner and allows kid -s . it is near to chinatown"
+    },
+    {
+      "concepts": "T=inform;name=enjoy_vegetarian_restaurant;food=chinese;near=chinatown;goodformeal=dinner;kidsallowed=yes",
+      "text": "enjoy vegetarian restaurant serves chinese food for dinner and allows kid -s . it is near to chinatown"
+    },
+    {
+      "concepts": "T=inform;name=enjoy_vegetarian_restaurant;address=839_kearny_street;phone=4159567868;postcode=94108_or_94122",
+      "text": "enjoy vegetarian restaurant is located at 839 kearny street their phone number is 4159567868 . the postcode is 94108 or 94122"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=dong_baek_restaurant;pricerange=moderate;goodformeal=dinner",
+      "text": "dong baek restaurant is moderate -ly priced and good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=dong_baek_restaurant;near=tenderloin",
+      "text": "dong baek restaurant is near tenderloin"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;near=outer_sunset;pricerange=moderate;goodformeal=dinner",
+      "text": "marnee thai is near outer sunset , with a moderate price for dinner"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;phone=4157319999",
+      "text": "marnee thai can be reached at 4157319999"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;kidsallowed=yes",
+      "text": "marnee thai allows kid -s , yes"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=little_nepal;pricerange=moderate;food=himalayan;kidsallowed=yes",
+      "text": "little nepal is a moderate -ly priced himalayan food restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=little_nepal;area=hayes_valley_or_bernal_heights_north",
+      "text": "little nepal is located in the hayes valley or bernal heights north area"
+    },
+    {
+      "concepts": "T=inform;name=little_nepal;address=925_cortland_avenue",
+      "text": "little nepal is located at 925 cortland avenue"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=hong_kong_clay_pot_restaurant;pricerange=cheap;kidsallowed=yes",
+      "text": "hong kong clay pot restaurant is cheap and allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;pricerange=cheap;kidsallowed=yes",
+      "text": "taiwan restaurant is cheap and allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;type=restaurant",
+      "text": "taiwan restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;phone=4153871789",
+      "text": "taiwan restaurant -s number is 4153871789"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;type=restaurant",
+      "text": "taiwan restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=6;food=korean;kidsallowed=yes;pricerange=dont_care",
+      "text": "there are 6 restaurant -s that serves korean food , allows kid -s and is in various price range -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform_no_match;near=chinatown;pricerange=expensive",
+      "text": "there are 0 expensive restaurant -s near chinatown"
+    },
+    {
+      "concepts": "T=select;food=chinese_or_singaporean",
+      "text": "do you prefer chinese or singaporean"
+    },
+    {
+      "concepts": "T=inform_no_match;food=chinese;near=chinatown;pricerange=moderate",
+      "text": "there are no moderate -ly priced chinese restaurant -s near chinatown"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;kidsallowed=no;goodformeal=breakfast",
+      "text": "there is a place called red door cafe that does not allow kid -s and is good for breakfast"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;area=hayes_valley_or_cathedral_hill;phone=4152828283",
+      "text": "red door cafe is near hayes valley or cathedral hill and their number is 4152828283"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;goodformeal=dinner;food=brasseries",
+      "text": "marlowe is good for dinner and serves brasseries food"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;area=hayes_valley_or_mission_bay;address=330_townsend_street_suite_101",
+      "text": "marlowe near hayes valley or mission bay is at 330 townsend street suite 101"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;kidsallowed=yes;food=pakistani;goodformeal=lunch",
+      "text": "darbar restaurant serves good pakistani food for lunch that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;area=hayes_valley_or_lower_nob_hill;address=1412_polk_street;phone=4153591236",
+      "text": "darbar restaurant is located in hayes valley and lower nob hill . the address is 1412 polk street and the phone number is 4153591236"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "i am sorry , but there are no restaurant -s in bayview heights"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "there are no restaurant -s in bayview heights . please try another location"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "there are no restaurant -s in bayview heights . please try another location"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "i regret that there are no restaurant -s in the bayview heights"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "i regret that there are no restaurant -s in the bayview heights"
+    },
+    {
+      "concepts": "T=inform_no_match;area=bayview_heights",
+      "text": "i am sorry , but there are no restaurant -s in bayview heights"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "a restaurant near you"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "can i ask the area"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "would you like breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;goodformeal=dinner",
+      "text": "assab eritrean restaurant serves dinner"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;pricerange=cheap;address=2845_geary_blvd",
+      "text": "assab eritrean restaurant is cheap and the address is 2845 geary blvd"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;goodformeal=dinner",
+      "text": "crustacean restaurant is also good for dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform_no_match;goodformeal=lunch;food=afghan",
+      "text": "there are no restaurant -s good for lunch that serve afghan food"
+    },
+    {
+      "concepts": "T=inform_no_match;food=afghan;goodformeal=lunch",
+      "text": "there are no restaurant -s that serve afghan food that are good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=restaurant_ducroix;food=french;goodformeal=lunch",
+      "text": "restaurant ducroix serves french food and is good for lunch"
+    },
+    {
+      "concepts": "T=inform_only_match;name=restaurant_ducroix;kidsallowed=no;food=french;goodformeal=lunch",
+      "text": "no place except for restaurant ducroix does not allow child -s and serves french food good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=restaurant_ducroix;kidsallowed=no;address=690_sacramento_street;phone=4153917195;postcode=94111",
+      "text": "restaurant ducroix does not allow kid -s and their address is 690 sacramento street , their phone number is 4153917195 and their postcode is 94111"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;pricerange=moderate;near=outer_sunset;goodformeal=dinner",
+      "text": "marnee thai is a moderate -ly priced restaurant near outer sunset that is a good restaurant for dinner"
+    },
+    {
+      "concepts": "T=inform;name=thanh_long;pricerange=moderate;near=outer_sunset;goodformeal=dinner",
+      "text": "the thanh long is a moderate -ly priced restaurant near outer sunset that is a good restaurant for dinner"
+    },
+    {
+      "concepts": "T=inform_only_match;name=marnee_thai_and_thanh_long;pricerange=moderate;near=outer_sunset;goodformeal=dinner",
+      "text": "marnee thai and thanh long are the only 2 moderate -ly priced restaurant -s near outer sunset that are good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=thanh_long;address=4101_judah_street;postcode=94122",
+      "text": "thanh long is located at 4101 judah street . the postcode is 94122"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=frances;pricerange=moderate;kidsallowed=no",
+      "text": "frances is a moderate -ly priced restaurant that does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=77;kidsallowed=no;pricerange=moderate",
+      "text": "there are 77 restaurant -s with a moderate price range that do not allow kid -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant that serves breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=inform;name=burma_superstar;kidsallowed=no;pricerange=moderate",
+      "text": "the restaurant burma superstar is moderate -ly priced and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=burma_superstar;near=inner_richmond;price=between_15_and_22_euro",
+      "text": "the restaurant burma superstar is near inner richmond and is priced between 15 and 22 euro"
+    },
+    {
+      "concepts": "T=inform;name=burma_superstar;phone=4153872147",
+      "text": "the phone number for the burma superstar is 4153872147"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=77;kidsallowed=no;pricerange=moderate",
+      "text": "there are 77 restaurant -s that have a moderate price range and do not allow kid -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant that serves breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;near=inner_richmond;goodformeal=lunch;kidsallowed=no",
+      "text": "i am sorry i did not find any restaurant -s near inner richmond and good for lunch with kid -s not allowed"
+    },
+    {
+      "concepts": "T=inform;name=thai_time_restaurant;kidsallowed=yes;near=inner_richmond",
+      "text": "thai time restaurant is a nice restaurant that allows child -s near inner richmond"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;goodformeal=lunch;kidsallowed=yes;near=inner_richmond",
+      "text": "taiwan restaurant is a good lunch place that allows kid -s near inner richmond"
+    },
+    {
+      "concepts": "T=inform;name=taiwan_restaurant;address=445_clement_street;phone=4153871789",
+      "text": "the address for taiwan restaurant is 445 clement street . the phone number is 4153871789"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;area=little_osaka",
+      "text": "kiss seafood is a nice restaurant in the little osaka area"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;near=lower_pacific_heights_or_japantown;address=1700_laguna_street;phone=4154742866",
+      "text": "kiss seafood is near the lower pacific heights and japantown area -s . the address is 1700 laguna street . the phone number is 4154742866"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;area=potrero_hill",
+      "text": "there are no restaurant -s in the potrero hill area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye bye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is the price range you are looking for"
+    },
+    {
+      "concepts": "T=inform;name=eiji;kidsallowed=no;pricerange=cheap",
+      "text": "eiji is a cheap -ly priced restaurant which does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=eiji;phone=4155588149",
+      "text": "the phone number for eiji is 4155588149"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;goodformeal=lunch;kidsallowed=no;pricerange=cheap",
+      "text": "la mediterranee is a nice restaurant that is good for lunch , does not allow child -s and is cheap -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;price=15_euro",
+      "text": "la mediterranee is priced at 15 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=thai_house_express;food=thai",
+      "text": "thai house express serves thai food"
+    },
+    {
+      "concepts": "T=inform;name=thai_house_express;near=tenderloin",
+      "text": "thai house express is near tenderloin"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;food=thai;near=inner_sunset",
+      "text": "marnee thai is near inner sunset and serves thai food"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;address=2225_irving_street;phone=4157319999;postcode=94122",
+      "text": "the address to marnee thai is 2225 irving street and the phone number is 4157319999 . postcode is 94122"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=ananda_fuara;food=vegetarian",
+      "text": "ananda fuara is a good vegetarian restaurant"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "lucky creation restaurant is a good vegetarian restaurant in cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "shangri la vegetarian restaurant is a cheap vegetarian restaurant"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;area=hayes_valley_or_golden_gate_park;phone=4157312548",
+      "text": "the phone number of shangri la vegetarian restaurant in the area of hayes valley or golden gate park is 4157312548"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=lavash;pricerange=moderate",
+      "text": "lavash is moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;near=chinatown;pricerange=moderate",
+      "text": "great eastern restaurant near chinatown is moderate -ly price -s"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;address=649_jackson_street",
+      "text": "great eastern restaurant is located at 649 jackson street"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;type=restaurant",
+      "text": "great eastern restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;phone=4159862500",
+      "text": "great eastern restaurant -s phone number is 4159862500"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you and have a great time"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;pricerange=cheap;near=outer_mission",
+      "text": "beijing restaurant is a cheap restaurant near outer mission"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;near=outer_mission;pricerange=cheap",
+      "text": "beijing restaurant is a nice restaurant near outer mission , with cheap price -s"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;near=outer_mission;pricerange=cheap",
+      "text": "beijing restaurant is near outer mission , and offers cheap price -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you , have a great day"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant that serves breakfast , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=benu;food=asian;kidsallowed=no",
+      "text": "benu is a nice restaurant that serves asian food and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=benu;address=22_hawthorne_street;postcode=94105",
+      "text": "benu 's address is 22 hawthorne street . it is postcode is 94105"
+    },
+    {
+      "concepts": "T=inform;name=benu;type=restaurant",
+      "text": "benu is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=benu;phone=4156854860",
+      "text": "the phone number for benu is 4156854860"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye , thank you for choosing parlance dialogue system"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;kidsallowed=no;goodformeal=brunch",
+      "text": "red door cafe is good for brunch and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=alamo_square_seafood_grill;near=alamo_square;kidsallowed=no;goodformeal=dinner",
+      "text": "alamo square seafood grill is near alamo square does not allow kid -s and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=alamo_square_seafood_grill;address=803_fillmore_street",
+      "text": "alamo square seafood grill address is 803 fillmore street"
+    },
+    {
+      "concepts": "T=inform;name=alamo_square_seafood_grill;food=sea_food",
+      "text": "alamo square seafood grill serves sea food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=piperade;food=basque;kidsallowed=no",
+      "text": "piperade serves basque food and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=piperade;type=restaurant",
+      "text": "piperade is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=basque;kidsallowed=no;pricerange=moderate",
+      "text": "2 moderate -ly priced restaurant -s were found that serve basque but not allow child -s"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what do you want the restaurant to be near"
+    },
+    {
+      "concepts": "T=inform;name=zarzuela;pricerange=moderate;food=basque;kidsallowed=no",
+      "text": "zarzuela serves basque food , is in the moderate price range and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=yes;food=basque",
+      "text": "there are no basque restaurant -s that allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "should child -s be allowed ? please say yes or no"
+    },
+    {
+      "concepts": "T=inform;name=chouchou;kidsallowed=no",
+      "text": "chouchou does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=straits_restaurant;pricerange=expensive",
+      "text": "hello , straits restaurant is a expensive restaurant"
+    },
+    {
+      "concepts": "T=inform_no_match;near=laurel_heights;pricerange=expensive",
+      "text": "there is no restaurant near laurel heights offers expensive price range"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;pricerange=cheap;near=laurel_heights",
+      "text": "assab eritrean restaurant is a cheap restaurant near laurel heights"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;address=2845_geary_blvd",
+      "text": "assab eritrean restaurant 's address is at 2845 geary blvd"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;phone=4154417083",
+      "text": "assab eritrean restaurant phone number is 4154417083"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;postcode=94118",
+      "text": "assab eritrean restaurant postcode is 94118"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=jasmine_garden;pricerange=expensive;kidsallowed=yes",
+      "text": "jasmine garden is expensive and allows child -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;kidsallowed=yes;pricerange=expensive",
+      "text": "there are 4 restaurant -s that are expensive and allow child -s"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food are you looking for"
+    },
+    {
+      "concepts": "T=inform_no_match;area=embarcadero;kidsallowed=yes;pricerange=expensive",
+      "text": "there are no expensive restaurant -s that allow child -s near the embarcadero"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is the price range that you are looking for"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;kidsallowed=no;goodformeal=brunch;near=lower_pacific_heights",
+      "text": "you might enjoy the red door cafe . it does not allow child -s . it is good for brunch and it is near the lower pacific heights"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;pricerange=cheap;phone=4152828283",
+      "text": "the red door cafe is cheap . their phone number is 4152828283"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what do you want the restaurant to be near"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "is there a certain price range that you are looking for"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=delancey_street_restaurant;goodformeal=brunch",
+      "text": "the delancey street restaurant serves a wonderful brunch"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;goodformeal=brunch",
+      "text": "the red door cafe is equally as good for brunch"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;area=hayes_valley_or_cathedral_hill;phone=4152828283",
+      "text": "the red door cafe has 2 branches , in hayes valley or cathedral hill . their phone number is 4152828283 . enjoy"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "okay goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;kidsallowed=no;area=pacific_heights",
+      "text": "i found 2 restaurant -s that do not allow kid -s in the pacific heights area"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food do you want"
+    },
+    {
+      "concepts": "T=inform;name=fresca;food=peruvian;area=pacific_heights;kidsallowed=no",
+      "text": "there is a nice restaurant named fresca that serves peruvian food near the pacific heights area that does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=fresca;area=pacific_heights_or_hayes_valley;address=2114_fillmore_street",
+      "text": "fresca is in the pacific heights or hayes valley area . the address is 2114 fillmore street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;food=creperies;goodformeal=dinner",
+      "text": "chez maman serves creperies and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;type=restaurant",
+      "text": "chez maman is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;phone=4158247166",
+      "text": "chez maman number is 4158247166"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;area=hayes_valley_or_victoria_mews",
+      "text": "chez maman is in the area of hayes valley or victoria mews"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you interested in"
+    },
+    {
+      "concepts": "T=inform;name=eiji;kidsallowed=no;pricerange=cheap",
+      "text": "eiji is cheap and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=eiji;phone=4155588149",
+      "text": "the phone number for eiji is 4155588149"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;goodformeal=lunch;kidsallowed=no;pricerange=cheap",
+      "text": "la mediterranee is cheap , does not allow child -s , and is good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;price=15_euro",
+      "text": "la mediterranee is priced around 15 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=seven_hills;pricerange=moderate",
+      "text": "the seven hills is moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=seven_hills;address=1550_hyde_street;phone=4157751550",
+      "text": "the seven hills is located at 1550 hyde street their phone number is 4157751550"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;pricerange=moderate",
+      "text": "the aperto restaurant has a moderate price range"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;type=restaurant",
+      "text": "the aperto restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=spruce;kidsallowed=no;near=presidio_heights",
+      "text": "there is a nice restaurant named spruce close to presidio heights that does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=spruce;phone=4159315100",
+      "text": "the phone number for spruce is 4159315100"
+    },
+    {
+      "concepts": "T=inform;name=spruce;goodformeal=dinner",
+      "text": "spruce is a good restaurant for dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you for calling . good bye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there are 239 restaurant -s available in any price range"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what do you want the restaurant to be near"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=ristorante_parma;pricerange=cheap;near=marina_cow_hollow",
+      "text": "ristorante parma is in the cheap price range and it is near marina cow hollow"
+    },
+    {
+      "concepts": "T=inform;name=ristorante_parma;address=3314_steiner_street",
+      "text": "ristorante parma 's address is 3314 steiner street"
+    },
+    {
+      "concepts": "T=inform;name=ristorante_parma;near=marina_cow_hollow",
+      "text": "ristorante parma is near marina cow hollow"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "kid -s allowed yes or no"
+    },
+    {
+      "concepts": "T=inform;name=nopa;food=modern_european",
+      "text": "nopa serves modern european"
+    },
+    {
+      "concepts": "T=inform;name=salt_house;food=modern_european",
+      "text": "salt house serves modern european"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=confirm;food=comfort_food",
+      "text": "just to double check , you would like a restaurant that serves comfort food"
+    },
+    {
+      "concepts": "T=inform;name=chow;food=comfort_food;goodformeal=dinner;near=castro",
+      "text": "there is a nice restaurant called chow near castro , which serves comfort food and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=chow;address=215_church_street",
+      "text": "chow is located at 215 church street"
+    },
+    {
+      "concepts": "T=inform;name=chow;kidsallowed=yes",
+      "text": "yes , chow allows child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;goodformeal=lunch_or_dinner",
+      "text": "would you like a restaurant that is good for lunch or dinner"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you looking for"
+    },
+    {
+      "concepts": "T=select;pricerange=expensive_or_cheap",
+      "text": "are you looking for and expensive or cheap restaurant"
+    },
+    {
+      "concepts": "T=select;pricerange=cheap_or_expensive",
+      "text": "would you like to find a cheap or expensive restaurant"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "would you like to know if kid -s are allowed"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=54;kidsallowed=yes;pricerange=cheap",
+      "text": "there are 54 cheap restaurant -s where kid -s are allowed"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "is there anything else i can help you with"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=chinese;pricerange=expensive",
+      "text": "there are 2 restaurant -s that serve chinese and are expensive -ly priced"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "in what area would you like to search for a restaurant"
+    },
+    {
+      "concepts": "T=inform;name=mission_chinese_food;kidsallowed=no;food=chinese;pricerange=expensive",
+      "text": "the restaurant mission chinese food serves chinese , is expensive -ly priced and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;area=financial_district;food=cantonese",
+      "text": "i would recommend hakkasan , as they serve cantonese food , allow child -s , and in the financial district"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;kidsallowed=no",
+      "text": "no , hakkasan does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;address=1_kearny_street",
+      "text": "the address is 1 kearny street for hakkasan"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;type=restaurant",
+      "text": "the name of the restaurant is hakkasan"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;area=financial_district_or_hayes_valley",
+      "text": "hakkasan is located in the financial district or hayes valley"
+    },
+    {
+      "concepts": "T=inform;name=hakkasan;phone=4158298148",
+      "text": "the phone number for hakkasan is 4158298148"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;near=lower_haight",
+      "text": "thep phanom thai restaurant is near lower haight"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;type=restaurant",
+      "text": "thep phanom thai restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_only_match;name=thep_phanom_thai_restaurant;goodformeal=dinner;near=lower_haight;kidsallowed=no",
+      "text": "i am sorry but there is no place other than thep phanom thai restaurant that is good for dinner , does not allow child -s , and is near lower haight"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;address=400_waller_street;phone=4154312526;postcode=94117",
+      "text": "thep phanom thai restaurant 's address is 400 waller street , its phone number is 4154312526 , and the postcode is 94117"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=espetus_churrascaria;food=brazilian;goodformeal=dinner",
+      "text": "yes , espetus churrascaria serves brazilian food for dinner"
+    },
+    {
+      "concepts": "T=inform;name=espetus_churrascaria;address=1686_market_street",
+      "text": "the address for espetus churrascaria is 1686 market street"
+    },
+    {
+      "concepts": "T=inform;name=espetus_churrascaria;phone=4155528792",
+      "text": "the phone number for espetus churrascaria is 4155528792"
+    },
+    {
+      "concepts": "T=inform;name=espetus_churrascaria;area=hayes_valley",
+      "text": "the restaurant espetus churrascaria is in hayes valley"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you for calling . good bye"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;goodformeal=brunch",
+      "text": "red door cafe is a good brunch place"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;area=hayes_valley_or_cathedral_hill;address=1608_bush_street",
+      "text": "the address for red door cafe is 1608 bush street . it is in the hayes valley or cathedral hill area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=select;food=new_american_or_thai",
+      "text": "are you looking for new american or thai food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=benu;pricerange=expensive;near=financial_district;food=asian",
+      "text": "benu has an expensive price range . it is close to the financial district and serves asian food"
+    },
+    {
+      "concepts": "T=inform;name=benu;type=restaurant",
+      "text": "benu is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=benu;area=hayes_valley_or_financial_district_south",
+      "text": "benu is located in the area of hayes valley or financial district south"
+    },
+    {
+      "concepts": "T=inform;name=benu;address=22_hawthorne_street",
+      "text": "benu is at 22 hawthorne street"
+    },
+    {
+      "concepts": "T=inform;name=oyaji_restaurant;pricerange=cheap;kidsallowed=no",
+      "text": "oyaji restaurant is in the cheap price range and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;pricerange=cheap;kidsallowed=no",
+      "text": "red door cafe is in the cheap price range and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;food=none;address=1608_bush_street",
+      "text": "the address of the red door cafe is 1608 bush street and the food type is unknown to me , sorry"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=orexi;pricerange=moderate;kidsallowed=yes;food=new_american",
+      "text": "orexi is a new american restaurant in the moderate price range that allows kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=new_american;kidsallowed=yes;pricerange=moderate",
+      "text": "we have 2 child friendly restaurant -s that are in the moderate price range and serve new american food"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near"
+    },
+    {
+      "concepts": "T=inform;name=original_us_restaurant;near=russian_hill;kidsallowed=yes;pricerange=moderate;food=new_american",
+      "text": "original us restaurant is in nearby russian hill , it is new american food in the moderate price range and allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=original_us_restaurant;postcode=94133",
+      "text": "the postcode for original us restaurant is 94133"
+    },
+    {
+      "concepts": "T=inform;name=original_us_restaurant;address=515_columbus_avenue;phone=4153975200",
+      "text": "the address for original us restaurant is 515 columbus avenue , and the phone number is 4153975200"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;pricerange=cheap",
+      "text": "darbar restaurant is in your cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;goodformeal=dinner;area=bernal_heights;pricerange=cheap",
+      "text": "angkor borei restaurant is good dinner choice for your cheap range in bernal heights"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;type=restaurant",
+      "text": "angkor borei restaurant would fit you"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;area=hayes_valley_or_bernal_heights;phone=4155508417",
+      "text": "the phone number for angkor borei restaurant is 4155508417 and is located in hayes valley or bernal heights"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;kidsallowed=yes;pricerange=cheap;goodformeal=breakfast",
+      "text": "sanjalisco is a nice restaurant that allows child -s in the cheap price range that is good for breakfast"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;area=hayes_valley_or_cathedral_hill;phone=4156488383",
+      "text": "sanjalisco is in the hayes valley or cathedral hill and the phone number is 4156488383"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=zuni_cafe;pricerange=expensive",
+      "text": "there is a nice restaurant called zuni cafe in the expensive price range"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;pricerange=expensive;kidsallowed=yes",
+      "text": "the franciscan crab restaurant is in the expensive price range that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;price=between_29_and_44_euro;phone=4153627733",
+      "text": "the franciscan crab restaurant price range is between 29 and 44 euro and their phone number is 4153627733"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=maverick;area=hayes_valley;food=new_american",
+      "text": "there is a nice restaurant called maverick in the hayes valley area that serves new american"
+    },
+    {
+      "concepts": "T=inform;name=maverick;type=restaurant",
+      "text": "it is called maverick and it is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=maverick;type=restaurant",
+      "text": "it is called maverick and it is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_no_match;area=outer_richmond;pricerange=expensive",
+      "text": "there are no restaurant -s in the outer richmond area in the expensive price range"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=spruce;near=presidio_heights",
+      "text": "spruce is near presidio heights"
+    },
+    {
+      "concepts": "T=inform_only_match;name=spruce;near=presidio_heights",
+      "text": "i am sorry but there is no place other than spruce that is near presidio heights"
+    },
+    {
+      "concepts": "T=inform;name=spruce;goodformeal=dinner;near=presidio_heights",
+      "text": "spruce is good for dinner and it is near presidio heights"
+    },
+    {
+      "concepts": "T=inform_only_match;name=spruce;kidsallowed=no;goodformeal=dinner;near=presidio_heights",
+      "text": "i am sorry but there is no place other than spruce that does not allow child -s , is good for dinner , and is near presidio heights"
+    },
+    {
+      "concepts": "T=inform;name=spruce;address=3640_sacramento_street",
+      "text": "spruce 's address is 3640 sacramento street"
+    },
+    {
+      "concepts": "T=inform;name=spruce;pricerange=expensive",
+      "text": "spruce is in the expensive price range"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "please choose whether you would like kid -s to be allowed or no"
+    },
+    {
+      "concepts": "T=inform;name=enjoy_vegetarian_restaurant;kidsallowed=yes",
+      "text": "enjoy vegetarian restaurant allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=chow;pricerange=moderate;kidsallowed=yes",
+      "text": "chow is moderate -ly priced and allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=chow;address=215_church_street;phone=4155522469",
+      "text": "chows is located at 215 church street and the phone number is 4155522469"
+    },
+    {
+      "concepts": "T=inform;name=chow;near=castro",
+      "text": "chow is near castro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you and have a great time"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant that serves breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;near=lower_haight",
+      "text": "thep phanom thai restaurant is near lower haight"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;type=restaurant",
+      "text": "thep phanom thai restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_only_match;name=thep_phanom_thai_restaurant;goodformeal=dinner;near=lower_haight;kidsallowed=no",
+      "text": "thep phanom thai restaurant is the only restaurant good for dinner and is located near lower haight . it does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=thep_phanom_thai_restaurant;address=400_waller_street;phone=4154312526;postcode=94117",
+      "text": "the address for thep phanom thai restaurant is 400 waller street . the postcode is 94117 . the phone number is 4154312526"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "would you like to dine at a restaurant that allows child -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=229;kidsallowed=dont_care",
+      "text": "there are 229 restaurant -s do not have any policy about child -s"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food would you like to eat"
+    },
+    {
+      "concepts": "T=inform;name=sotto_mare;pricerange=cheap;food=sea_food",
+      "text": "sotto mare is a cheap sea food restaurant"
+    },
+    {
+      "concepts": "T=inform;name=sotto_mare;phone=4153983181;postcode=94133",
+      "text": "sotto mare 's phone number is 4153983181 and the postcode is 94133"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=3;area=pacific_heights",
+      "text": "there are 3 restaurant -s in the pacific heights area"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "how much are you willing to spend"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;pricerange=expensive",
+      "text": "crustacean restaurant is in that area it is expensive"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;phone=4157762722",
+      "text": "crustacean restaurant number is 4157762722"
+    },
+    {
+      "concepts": "T=inform;name=crustacean_restaurant;pricerange=expensive",
+      "text": "crustacean restaurant is in that area it is expensive"
+    },
+    {
+      "concepts": "T=inform_no_match;area=pacific_heights;pricerange=expensive",
+      "text": "zero restaurant -s in the pacific heights area that are expensive"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=fujiyama_ya_japanese_restaurant;area=golden_gate_heights;pricerange=cheap",
+      "text": "fujiyama ya japanese restaurant is in the golden gate heights area and is cheap"
+    },
+    {
+      "concepts": "T=inform;name=fujiyama_ya_japanese_restaurant;food=japanese_or_sushi;phone=4156651772",
+      "text": "fujiyama ya japanese restaurant serves japanese or sushi , the phone number is 4156651772"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye"
+    },
+    {
+      "concepts": "T=select;near=marina_cow_hollow_or_japantown",
+      "text": "sorry would you like a restaurant near marina cow hollow or japantown"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;area=glen_park",
+      "text": "chenery park is a nice restaurant in glen park"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;area=glen_park",
+      "text": "chenery park is a restaurant in glen park"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;area=glen_park",
+      "text": "chenery park is restaurant in the glen park area"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=ananda_fuara;food=vegetarian",
+      "text": "ananda fuara serves vegetarian food"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "lucky creation restaurant has cheap vegetarian food"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "shangri la vegetarian restaurant has cheap vegetarian food"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;area=hayes_valley_or_golden_gate_park;phone=4157312548",
+      "text": "shangri la vegetarian restaurant is in hayes valley or golden gate park , number is 4157312548"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=zadin;pricerange=moderate;food=gluten_free",
+      "text": "zadin restaurant offer gluten free food of moderate price -s"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is the price range you want"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_valencia;pricerange=moderate;food=gluten_free",
+      "text": "you can go to dosa on valencia also providing gluten free food but with moderate price -s"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_valencia;type=restaurant",
+      "text": "the dosa on valencia restaurant"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_valencia;near=mission;phone=4156423672",
+      "text": "dosa on valencia is near mission , phone number is 4156423672"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=udupi_palace;kidsallowed=yes;area=mission_district",
+      "text": "udupi palace allows kid -s and is in mission district"
+    },
+    {
+      "concepts": "T=inform;name=udupi_palace;goodformeal=dinner;food=indpak_or_indian",
+      "text": "udupi palace is good for dinner and serves indpak or indian food"
+    },
+    {
+      "concepts": "T=confirm;kidsallowed=yes",
+      "text": "kid -s allowed yes or no"
+    },
+    {
+      "concepts": "T=inform;name=la_traviata;kidsallowed=yes;goodformeal=dinner;area=mission_district",
+      "text": "la traviata allows kid -s and is good for dinner on mission district"
+    },
+    {
+      "concepts": "T=inform;name=la_traviata;address=2854_mission_street;phone=4152820500",
+      "text": "la traviata is on 2854 mission street , number is 4152820500"
+    },
+    {
+      "concepts": "T=inform;name=la_traviata;pricerange=moderate",
+      "text": "la traviata is moderate -ly priced"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what do you want to eat today"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what do you want to eat today"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;near=glen_park",
+      "text": "chenery park is near glen park"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;address=683_chenery_street;phone=4153378537",
+      "text": "the address for chenery park is 683 chenery street , the phone number is 4153378537"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "what else can i help you with"
+    },
+    {
+      "concepts": "T=inform;name=chenery_park;kidsallowed=yes",
+      "text": "yes , chenery park does allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "would you like restaurant -s in a particular price range"
+    },
+    {
+      "concepts": "T=inform;name=thai_cottage_restaurant;pricerange=cheap",
+      "text": "thai cottage restaurant is cheap"
+    },
+    {
+      "concepts": "T=inform;name=thai_cottage_restaurant;type=restaurant",
+      "text": "a local restaurant is thai cottage restaurant"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;pricerange=cheap;near=laurel_heights",
+      "text": "you could try the assab eritrean restaurant which is cheap and near laurel heights"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;address=2845_geary_blvd",
+      "text": "assab eritrean restaurant is on 2845 geary blvd"
+    },
+    {
+      "concepts": "T=inform;name=assab_eritrean_restaurant;price=between_7_and_11_euro",
+      "text": "assab eritrean restaurant meal -s cost between 7 and 11 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area would you like"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;area=dont_care",
+      "text": "i have found 239 restaurant -s around if the area does not matter"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food"
+    },
+    {
+      "concepts": "T=inform;name=muguboka_restaurant;area=hayes_valley;food=korean",
+      "text": "i have found muguboka restaurant in hayes valley that serves korean food"
+    },
+    {
+      "concepts": "T=inform;name=muguboka_restaurant;address=401_balboa_street;phone=4156686007;postcode=94118",
+      "text": "the address of muguboka restaurant is 401 balboa street 94118 and the phone number is 4156686007"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;food=arabian",
+      "text": "arabian nights restaurant serves arabian food"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;address=2345_mission_street",
+      "text": "arabian nights restaurant 's address is 2345 mission street"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;phone=4156481444",
+      "text": "arabian nights restaurant 's phone number is 4156481444"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;area=hayes_valley_or_noma",
+      "text": "arabian nights restaurant is in the hayes valley or noma area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area can i help you find a restaurant in"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;near=financial_district;kidsallowed=yes;goodformeal=dinner",
+      "text": "there is a nice restaurant called mangia tutti ristorante near the financial district that allows kid -s and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;address=635_clay_street",
+      "text": "the address for the mangia tutti ristorante is 635 clay street"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "is there anything that i can help you with"
+    },
+    {
+      "concepts": "T=inform;name=mangia_tutti_ristorante;pricerange=moderate",
+      "text": "the mangia tutti ristorante is moderate -ly priced"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=little_delhi;pricerange=cheap",
+      "text": "little delhi is in the cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=little_delhi;address=83_eddy_street",
+      "text": "little delhi 's address is 83 eddy street"
+    },
+    {
+      "concepts": "T=inform;name=little_delhi;type=restaurant",
+      "text": "little delhi is a good restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=old_skool_cafe;food=soul_food;goodformeal=dinner",
+      "text": "the old skool cafe offers soul food for dinner -s"
+    },
+    {
+      "concepts": "T=inform;name=old_skool_cafe;kidsallowed=yes",
+      "text": "the old skool cafe allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=mochica;food=peruvian;goodformeal=dinner",
+      "text": "the mochica serves peruvian food for dinner"
+    },
+    {
+      "concepts": "T=inform;name=mochica;kidsallowed=no",
+      "text": "the mochica does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=mochica;area=hayes_valley_or_financial_district_south;phone=4152780480",
+      "text": "the mochica is located in the hayes valley or financial district south area . their phone number is 4152780480"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=brunch",
+      "text": "there are 2 restaurant -s that are good for brunch"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "please indicate a price range . thank you"
+    },
+    {
+      "concepts": "T=inform_no_match;food=french;goodformeal=brunch",
+      "text": "there are 0 restaurant -s that serve french food and are good for brunch"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=17;food=french",
+      "text": "there are 17 restaurant -s that serve french food"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your preferred price range"
+    },
+    {
+      "concepts": "T=inform;name=range;type=restaurant",
+      "text": "range is a nice restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you for using parlance , goodbye"
+    },
+    {
+      "concepts": "T=inform;name=singapore_malaysian_restaurant;pricerange=cheap;food=malaysian",
+      "text": "singapore malaysian restaurant is in the cheap price range serving malaysian"
+    },
+    {
+      "concepts": "T=inform;name=singapore_malaysian_restaurant;area=hayes_valley_or_richmond_district;phone=4157509518",
+      "text": "singapore malaysian restaurant is in the hayes valley or richmond district . the phone number is 4157509518"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=asian;goodformeal=lunch",
+      "text": "unfortunately there are 0 asian restaurant -s that are good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=chaya_brasserie;food=asian",
+      "text": "chaya brasserie is an asian restaurant"
+    },
+    {
+      "concepts": "T=inform;name=betelnut;food=malaysian",
+      "text": "betelnut is a malaysian restaurant"
+    },
+    {
+      "concepts": "T=inform;name=lime_tree_southeast_asian_kitchen;goodformeal=lunch;food=malaysian",
+      "text": "lime tree southeast asian kitchen is a malaysian restaurant that is good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=lime_tree_southeast_asian_kitchen;phone=4156651415",
+      "text": "the phone number of lime tree southeast asian kitchen is 4156651415"
+    },
+    {
+      "concepts": "T=inform;name=lime_tree_southeast_asian_kitchen;near=inner_sunset",
+      "text": "lime tree southeast asian kitchen is near inner sunset"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=aperto_restaurant;kidsallowed=yes;pricerange=moderate;near=potrero_hill",
+      "text": "the aperto restaurant is moderate -ly priced , is near potrero hill , and allows kid -s"
+    },
+    {
+      "concepts": "T=confirm;near=potrero_hill",
+      "text": "are you wondering if it is near potrero hill"
+    },
+    {
+      "concepts": "T=inform;name=pera;near=potrero_hill;kidsallowed=yes;pricerange=moderate",
+      "text": "pera is near potrero hill , allows kid -s , and is moderate -ly priced"
+    },
+    {
+      "concepts": "T=confirm;near=potrero_hill",
+      "text": "are you wondering if there is something else near potrero hill"
+    },
+    {
+      "concepts": "T=inform_only_match;name=aperto_restaurant_and_pera;near=potrero_hill;kidsallowed=yes;pricerange=moderate",
+      "text": "just aperto restaurant and pera near potrero hill that allow kid -s and are moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=pera;address=1457_18th_street;phone=4157963812;postcode=94107",
+      "text": "pera is at 1457 18th street , phone 4157963812 , postal code 94107"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=dong_baek_restaurant;pricerange=moderate;goodformeal=dinner",
+      "text": "dong baek restaurant is moderate -ly priced and good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=dong_baek_restaurant;near=tenderloin",
+      "text": "dong baek restaurant is near tenderloin"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;near=outer_sunset;pricerange=moderate;goodformeal=dinner",
+      "text": "marnee thai is near outer sunset with a price range of moderate and good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;phone=4157319999",
+      "text": "marnee thai 's phone is 4157319999"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;kidsallowed=yes",
+      "text": "marnee thai allows kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform;name=canto_do_brasil_restaurant;pricerange=cheap;food=brazilian",
+      "text": "canto do brasil restaurant serves cheap brazilian food"
+    },
+    {
+      "concepts": "T=inform;name=canto_do_brasil_restaurant;area=hayes_valley;address=41_franklin_street",
+      "text": "the address for canto do brasil restaurant s 41 franklin street , in the hayes valley area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=pizza;kidsallowed=yes",
+      "text": "there are 2 restaurant -s that serve pizza and allow kid -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant that serves breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=dont_care;food=pizza;kidsallowed=yes",
+      "text": "there are 2 restaurant -s that serve pizza and allow kid -s if you do not mind what meal the serve"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is the price range you are looking for"
+    },
+    {
+      "concepts": "T=confirm;goodformeal=dont_care",
+      "text": "are you looking for restaurant -s that are good for any meal"
+    },
+    {
+      "concepts": "T=inform;name=source;goodformeal=lunch;pricerange=cheap;kidsallowed=yes;food=pizza",
+      "text": "source is good for lunch in the cheap price range and allows child -s , that serves pizza"
+    },
+    {
+      "concepts": "T=inform;name=source;address=11_division_street",
+      "text": "the address for source is 11 division street"
+    },
+    {
+      "concepts": "T=inform;name=source;goodformeal=lunch_or_dinner",
+      "text": "source is good for lunch or dinner"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you goodbye"
+    },
+    {
+      "concepts": "T=inform;name=piperade;food=basque;kidsallowed=no",
+      "text": "there is a nice restaurant called piperade that serves basque food that does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=piperade;type=restaurant",
+      "text": "a restaurant called piperade"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;food=basque;kidsallowed=no;pricerange=moderate",
+      "text": "there are 2 restaurant -s that serve basque food , does not allow kid -s , and has a moderate price range"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near"
+    },
+    {
+      "concepts": "T=inform;name=zarzuela;pricerange=moderate;food=basque;kidsallowed=no",
+      "text": "there is zarzuela that has a moderate price range , serves basque food and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=yes;food=basque",
+      "text": "there are 0 basque restaurant -s that allow kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "yes , what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;pricerange=expensive;kidsallowed=yes;goodformeal=dinner",
+      "text": "franciscan crab restaurant has expensive price -s range and it allows kid -s and it is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;price=between_29_and_44_euro;phone=4153627733",
+      "text": "in franciscan crab restaurant price -s range between between 29 and 44 euro and the phone number is 4153627733"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;goodformeal=dont_care;kidsallowed=yes;pricerange=expensive",
+      "text": "there are 4 expensive restaurant -s that allows child -s if you do not mind what meal they serve"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near by"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "you are welcome bye"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=yes;food=lounge",
+      "text": "there are 0 lounge restaurant -s that allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;food=lounge;pricerange=expensive",
+      "text": "fifth floor is an expensive lounge"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;phone=4153481555",
+      "text": "the phone number for fifth floor is 4153481555"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;near=financial_district_or_union_square",
+      "text": "fifth floor is near the financial district or union square"
+    },
+    {
+      "concepts": "T=inform;name=fifth_floor;kidsallowed=no",
+      "text": "fifth floor does not allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;pricerange=cheap",
+      "text": "lucky creation restaurant is an cheap restaurant"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;type=restaurant",
+      "text": "lucky creation restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;area=hayes_valley_or_chinatown;phone=4159890818",
+      "text": "lucky creation restaurant is in hayes valley or chinatown . they are phone number is 4159890818"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;pricerange=cheap;kidsallowed=no",
+      "text": "the sushi bistro is an cheap restaurant that does not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;phone=4159337100;postcode=94118",
+      "text": "the postcode for sushi bistro is 94118 and their phone number is 4159337100"
+    },
+    {
+      "concepts": "T=inform;name=sushi_bistro;address=431_balboa_street",
+      "text": "the address for sushi bistro is 431 balboa street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=89;goodformeal=dinner;kidsallowed=yes",
+      "text": "there are 89 restaurant -s that allow kid -s and are good for dinner"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what part of the city are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=pad_thai_restaurant;kidsallowed=yes;goodformeal=dinner",
+      "text": "pad thai restaurant allows kid -s and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=pad_thai_restaurant;pricerange=cheap;phone=4152854210",
+      "text": "pad thai restaurant has cheap price -s and the phone number is 4152854210"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near by"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;pricerange=expensive;kidsallowed=yes",
+      "text": "how about helmand palace , it fits your request where child -s are allowed with an expensive price range "
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;address=2424_van_ness_avenue",
+      "text": "the address of helmand palace is 2424 van ness avenue"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;type=restaurant",
+      "text": "the restaurant is helmand palace"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;phone=4153450072",
+      "text": "helmand palace 's phone number is 4153450072"
+    },
+    {
+      "concepts": "T=inform;name=helmand_palace;food=afghan",
+      "text": "helmand palace serves afghan food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=osha_thai;pricerange=cheap",
+      "text": "i would recommend osha thai as a cheap restaurant"
+    },
+    {
+      "concepts": "T=inform;name=osha_thai;type=restaurant",
+      "text": "i would recommend osha thai"
+    },
+    {
+      "concepts": "T=inform;name=osha_thai;type=restaurant",
+      "text": "i would recommend osha thai"
+    },
+    {
+      "concepts": "T=inform;name=osha_thai;phone=4152789991",
+      "text": "the phone number for osha thai is 4152789991"
+    },
+    {
+      "concepts": "T=inform;name=nicaragua_restaurant;pricerange=cheap",
+      "text": "i would recommend nicaragua restaurant as a cheap restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=borobudur_restaurant;food=indonesian",
+      "text": "there is borobudur restaurant -s that servers indonesian food"
+    },
+    {
+      "concepts": "T=inform;name=borobudur_restaurant;type=restaurant",
+      "text": "a restaurant called borobudur restaurant"
+    },
+    {
+      "concepts": "T=inform;name=borobudur_restaurant;address=700_post_street;phone=4157751512",
+      "text": "the address to borobudur restaurant is 700 post street and their number is 4157751512"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=source;pricerange=cheap;food=pizza;kidsallowed=yes",
+      "text": "source is a cheap pizza place that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=source;address=11_division_street",
+      "text": "source is located at 11 division street"
+    },
+    {
+      "concepts": "T=inform;name=source;phone=4158649000",
+      "text": "the phone number for source is 4158649000"
+    },
+    {
+      "concepts": "T=inform;name=source;area=hayes_valley_or_showplace_square",
+      "text": "source is in hayes valley or showplace square"
+    },
+    {
+      "concepts": "T=inform;name=source;type=restaurant",
+      "text": "source is a good restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=butterfly;pricerange=expensive;food=vietnamese",
+      "text": "butterfly is an expensive vietnamese restaurant"
+    },
+    {
+      "concepts": "T=inform;name=butterfly;kidsallowed=no",
+      "text": "no , butterfly does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=jasmine_garden;kidsallowed=yes;pricerange=expensive;food=vietnamese",
+      "text": "jasmine garden is an expensive vietnamese restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform_only_match;name=jasmine_garden;kidsallowed=yes;pricerange=expensive;food=vietnamese",
+      "text": "jasmine garden is the only expensive vietnamese restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=jasmine_garden;address=708_1fourth_street;phone=4158612682",
+      "text": "jasmine garden is at 708 1fourth street and the phone number is 4158612682"
+    },
+    {
+      "concepts": "T=inform;name=jasmine_garden;near=duboce_triangle",
+      "text": "jasmine garden is near duboce triangle"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range of restaurant are you looking for"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "i cannot find any restaurant -s in the tenderloin area"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "there are no restaurant -s in the tenderloin area"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "i cannot find any restaurant -s near tenderloin area"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "there are no restaurant -s in the tenderloin area"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "no there are no restaurant -s near the tenderloin area"
+    },
+    {
+      "concepts": "T=inform_no_match;area=tenderloin",
+      "text": "i am sorry there are no restaurant -s in the tenderloin area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "would you like a restaurant for breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s that are good for any meal"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care;food=dont_care",
+      "text": "there are 239 place -s serve meal food if the food type is not an issue"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area are you looking for"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , brunch , lunch or dinner"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "what meal are you looking for"
+    },
+    {
+      "concepts": "T=confirm;goodformeal=dont_care",
+      "text": "so , you want a place good for any meal"
+    },
+    {
+      "concepts": "T=inform_no_match;food=thai;goodformeal=breakfast",
+      "text": "we do not have any thai restaurant -s listed that serve breakfast"
+    },
+    {
+      "concepts": "T=inform_no_match;food=thai;goodformeal=breakfast",
+      "text": "we do not have any thai restaurant -s open for breakfast"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=vicoletto;pricerange=cheap",
+      "text": "vicoletto restaurant is in the cheap price range"
+    },
+    {
+      "concepts": "T=inform;name=vicoletto;type=restaurant",
+      "text": "vicoletto is the name of the restaurant"
+    },
+    {
+      "concepts": "T=inform;name=vicoletto;type=restaurant",
+      "text": "vicoletto is the name of the restaurant"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "can i help you with anything else"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "can i help you with anything else"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you , goodbye"
+    },
+    {
+      "concepts": "T=inform;name=thai_time_restaurant;kidsallowed=yes;food=thai",
+      "text": "thai time restaurant allows kid -s and serves thai food"
+    },
+    {
+      "concepts": "T=inform;name=thai_time_restaurant;area=hayes_valley_or_inner_richmond",
+      "text": "thai time restaurant is in hayes valley or inner richmond"
+    },
+    {
+      "concepts": "T=inform;name=thai_time_restaurant;type=restaurant",
+      "text": "thai time restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_no_match;food=thai;near=inner_richmond;kidsallowed=no",
+      "text": "there are 0 restaurant -s near inner richmond that serve thai and do not allow child -s"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area are you searching for"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s available serving any meal"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=eiji;area=mastro;goodformeal=dinner",
+      "text": "eiji is located in mastro and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=eiji;address=317_sanchez_street;phone=4155588149",
+      "text": "eiji 's address is 317 sanchez street and the phone number is 4155588149"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=confirm;pricerange=expensive",
+      "text": "can i confirm you would like to find an expensive restaurant"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;pricerange=expensive;kidsallowed=yes",
+      "text": "franciscan crab restaurant is an expensive restaurant that allows child -s"
+    },
+    {
+      "concepts": "T=inform;name=franciscan_crab_restaurant;area=hayes_valley_or_fishermans_wharf;address=pier_43_fishermans_wharf",
+      "text": "franciscan crab restaurant is in the hayes valley or fishermans wharf area located at pier 43 fishermans wharf"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "i can help you . what type of food would you like to eat"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;food=brasseries",
+      "text": "i can recommend the marlowe which is a brasseries"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;area=hayes_valley_or_mission_bay;phone=4159745599",
+      "text": "the marlowe is in the hayes valley or mission bay area . the phone number is 4159745599"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "enjoy your meal . thank you for calling . good bye"
+    },
+    {
+      "concepts": "T=inform;name=bar_crudo;food=raw_food",
+      "text": "bar crudo serves raw food fits you"
+    },
+    {
+      "concepts": "T=inform;name=bar_crudo;address=655_divisadero_street",
+      "text": "bar crudo is on 655 divisadero street"
+    },
+    {
+      "concepts": "T=inform;name=bar_crudo;phone=4154090679",
+      "text": "bar crudo number is 4154090679"
+    },
+    {
+      "concepts": "T=inform;name=bar_crudo;pricerange=moderate",
+      "text": "bar crudo price range is moderate"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye"
+    },
+    {
+      "concepts": "T=inform;name=chai_yo_thai_restaurant;near=nob_hill",
+      "text": "chai yo thai restaurant is near nob hill"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=11;near=nob_hill",
+      "text": "there are 11 restaurant -s that serve american food near nob hill"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your desired price range"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;pricerange=cheap;near=nob_hill",
+      "text": "darbar restaurant has a cheap price range and is near nob hill"
+    },
+    {
+      "concepts": "T=inform;name=the_big_4_restaurant;near=nob_hill;pricerange=moderate",
+      "text": "the big 4 restaurant is near nob hill and moderate -ly priced"
+    },
+    {
+      "concepts": "T=inform;name=the_big_4_restaurant;phone=4157711140",
+      "text": "the phone number of the big 4 restaurant is 4157711140"
+    },
+    {
+      "concepts": "T=inform;name=the_big_4_restaurant;postcode=94108",
+      "text": "the postcode of the big 4 restaurant is 94108"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=mochica;food=peruvian;goodformeal=dinner",
+      "text": "mochica is a good restaurant that serves peruvian food , especially for dinner"
+    },
+    {
+      "concepts": "T=inform;name=fresca;food=peruvian;goodformeal=dinner",
+      "text": "fresca is a good restaurant for dinner that serves peruvian food"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=dinner;food=peruvian",
+      "text": "there are 2 restaurant -s that serve good peruvian food for dinner"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "can i help you find he price range"
+    },
+    {
+      "concepts": "T=inform;name=fresca;area=hayes_valley_or_pacific_heights;price=between_15_and_26_euro;phone=4154472668",
+      "text": "fresca is in hayes valley or pacific heights , with price -s between 15 and 26 euro . their phone number is 4154472668"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;food=creperies",
+      "text": "i can recommend chez maman for creperies"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;type=restaurant",
+      "text": "the chez maman is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;phone=4158247166",
+      "text": "the phone number for chez maman is 4158247166"
+    },
+    {
+      "concepts": "T=inform;name=chez_maman;area=hayes_valley_or_victoria_mews",
+      "text": "chez maman is located in hayes valley or victoria mews"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;pricerange=cheap;goodformeal=brunch",
+      "text": "red door cafe is cheap and good for brunch"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "could you please add more info"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;phone=4152828283",
+      "text": "red door cafes number is 4152828283"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;area=golden_gate_park",
+      "text": "shangri la vegetarian restaurant is a nice restaurant in the golden gate park area"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;type=restaurant",
+      "text": "shangri la vegetarian restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;area=golden_gate_park",
+      "text": "i know of 2 restaurant -s it he golden gate park area"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you looking for a restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;kidsallowed=dont_care;area=golden_gate_park",
+      "text": "i know of 2 restaurant -s in the golden gate park area if you do not care whether kid -s are allowed or not"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food are you hungry for"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;food=thai;kidsallowed=yes;area=golden_gate_park",
+      "text": "marnee thai is a thai restaurant in golden gate park that allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=marnee_thai;address=2225_irving_street",
+      "text": "marnee thai is located at 2225 irving street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye . thank you"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;goodformeal=brunch",
+      "text": "there are 2 restaurant -s that are good for brunch"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;kidsallowed=yes;pricerange=cheap;goodformeal=breakfast",
+      "text": "sanjalisco is a good restaurant for breakfast that is kid friendly and serves cheap food"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;area=hayes_valley_or_cathedral_hill;phone=4156488383",
+      "text": "the phone number for sanjalisco , located in the hayes valley or cathedral hill area , is 4156488383"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "you are welcome . goodbye"
+    },
+    {
+      "concepts": "T=inform;name=skool;pricerange=expensive;kidsallowed=no",
+      "text": "skool is expensive and does not allow child -s"
+    },
+    {
+      "concepts": "T=inform_no_match;pricerange=expensive;goodformeal=breakfast",
+      "text": "there's no place serves expensive breakfast"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=luella;food=spanish",
+      "text": "there is a spanish restaurant named luella"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "may i help you with anything else"
+    },
+    {
+      "concepts": "T=inform;name=luella;type=restaurant",
+      "text": "yes , the luella is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=zarzuela;food=spanish",
+      "text": "there is also zarzuela that serves spanish food if you are looking for a put"
+    },
+    {
+      "concepts": "T=inform;name=piperade;food=spanish",
+      "text": "there is a spanish restaurant called piperade that may interest you"
+    },
+    {
+      "concepts": "T=inform;name=specchio_ristorante;kidsallowed=no;pricerange=expensive",
+      "text": "specchio ristorante does not allow kid -s and it is expensive"
+    },
+    {
+      "concepts": "T=inform;name=betelnut;area=cow_hollow;kidsallowed=no;pricerange=expensive",
+      "text": "betelnut is an expensive restaurant that does not allow kid -s in the cow hollow area"
+    },
+    {
+      "concepts": "T=inform;name=betelnut;near=marina_cow_hollow;area=cow_hollow_or_hayes_valley;phone=4159298855",
+      "text": "betelnut is near the marina cow hollow and in the cow hollow or hayes valley area . the phone number is 4159298855"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=ristorante_ideale;pricerange=moderate",
+      "text": "there is a nice restaurant named ristorante ideale . it is moderate price good restaurant"
+    },
+    {
+      "concepts": "T=inform;name=ristorante_ideale;type=restaurant",
+      "text": "there is a nice restaurant named ristorante ideale"
+    },
+    {
+      "concepts": "T=inform;name=la_ciccia;area=bernal_heights;pricerange=moderate",
+      "text": "la ciccia is a moderate price restaurant in bernal heights"
+    },
+    {
+      "concepts": "T=inform_only_match;name=la_ciccia;kidsallowed=no;area=bernal_heights;pricerange=moderate",
+      "text": "la ciccia is the only restaurant of moderate -ly priced where kid -s are allowed located in the bernal heights area"
+    },
+    {
+      "concepts": "T=inform;name=la_ciccia;address=291_30th_street;price=between_15_and_22_euro",
+      "text": "address of restaurant la ciccia , 291 30th street . price range between 15 and 22 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you goodbye"
+    },
+    {
+      "concepts": "T=confirm;pricerange=expensive",
+      "text": "are you sure that you want to look for restaurant -s serving food in the expensive price range"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "in which area are you looking for restaurant -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for a restaurant serving breakfast , lunch or dinner"
+    },
+    {
+      "concepts": "T=select;near=bay_view_hunters_point_or_nopa",
+      "text": "would you like restaurant -s in the bay view hunters point or nopa area"
+    },
+    {
+      "concepts": "T=select;area=mission_bay_or_victoria_mews",
+      "text": "would you like to find restaurant -s in the mission bay or victoria mews area"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you looking for restaurant -s that allow child -s or one that do not allow child -s"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;near=mission_terrace",
+      "text": "the beijing restaurant is near to the mission terrace"
+    },
+    {
+      "concepts": "T=inform_only_match;name=beijing_restaurant;near=mission_terrace",
+      "text": "the beijing restaurant is the only place near the mission terrace"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "can i help you with anything else"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;address=1801_alemany_blvd",
+      "text": "the beijing restaurant is located at 1801 alemany blvd"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;type=restaurant",
+      "text": "the beijing restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;phone=4153338182",
+      "text": "the beijing restaurant phone number is 4153338182"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 good restaurant -s for any meal"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where are you looking for near by"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 good restaurant -s for any meal"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "do you want kid -s allowed"
+    },
+    {
+      "concepts": "T=confirm;kidsallowed=dont_care",
+      "text": "so you do not care whether it allows child -s or not"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;kidsallowed=dont_care;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s that are good for any meal if you do not care whether child -s are allowed"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what is the area of the restaurant you are looking for"
+    },
+    {
+      "concepts": "T=inform;name=eiji;area=mastro;kidsallowed=no;goodformeal=dinner",
+      "text": "eiji is a nice restaurant in the mastro area that allows child -s and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=eiji;phone=4155588149",
+      "text": "the phone number for eiji is 4155588149"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=7;food=japanese;pricerange=cheap",
+      "text": "there are 7 restaurant -s serve japanese and cheap -ly priced"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you interested in breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=tanuki_restaurant;goodformeal=dinner;pricerange=cheap;food=japanese",
+      "text": "tanuki restaurant serves cheap japanese dinner"
+    },
+    {
+      "concepts": "T=inform;name=tanuki_restaurant;address=4419_california_street",
+      "text": "tanuki restaurant is located at 4419 california street"
+    },
+    {
+      "concepts": "T=inform;name=tanuki_restaurant;area=hayes_valley_or_inner_richmond",
+      "text": "tanuki restaurant is in the hayes valley or inner richmond area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=seoul_garden;pricerange=moderate",
+      "text": "the seoul garden is a nice restaurant in the moderate price range"
+    },
+    {
+      "concepts": "T=inform;name=seoul_garden;area=hayes_valley_or_little_osaka",
+      "text": "the seoul garden is in the hayes valley or little osaka area"
+    },
+    {
+      "concepts": "T=inform;name=canteen;pricerange=moderate",
+      "text": "the price range of canteen is moderate"
+    },
+    {
+      "concepts": "T=inform;name=canteen;price=between_23_and_29_euro;phone=4159288870",
+      "text": "the phone number of canteen is 4159288870 and the price for meal -s range between 23 and 29 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=gracias_madre;area=mission_dolores;pricerange=cheap",
+      "text": "gracias madre is a cheap place in mission dolores"
+    },
+    {
+      "concepts": "T=inform;name=gracias_madre;type=restaurant",
+      "text": "gracias madre is the name of the restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;pricerange=cheap;area=mission_dolores",
+      "text": "2 restaurant -s  are listed as cheap in the area of mission dolores"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food do you want"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;pricerange=cheap;area=mission_dolores",
+      "text": "i have 2 restaurant -s listed in the cheap range in mission dolores"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what type of food do you have in mind"
+    },
+    {
+      "concepts": "T=inform;name=gracias_madre;type=restaurant",
+      "text": "gracias madre is another restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=2;pricerange=cheap;area=mission_dolores",
+      "text": "there are 2 cheap restaurant -s in mission dolores"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "are you wondering about the food"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=select;kidsallowed=yes;kidsallowed=no",
+      "text": "are you looking for a restaurant that does or does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=135;kidsallowed=no",
+      "text": "there are 135 restaurant -s that does not allow kid -s"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=a_16;pricerange=moderate;kidsallowed=no",
+      "text": "the restaurant a 16 has a moderate price range and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=marlowe;goodformeal=dinner;area=mission_bay",
+      "text": "marlowe serves dinner in the mission bay area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;food=chinese",
+      "text": "beijing restaurant serves chinese food"
+    },
+    {
+      "concepts": "T=inform;name=beijing_restaurant;near=mission_terrace_or_outer_mission",
+      "text": "beijing restaurant is near mission terrace or outer mission"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;near=outer_sunset;food=chinese",
+      "text": "shangri la vegetarian restaurant is near outer sunset and it serves chinese food"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;phone=4157312548",
+      "text": "the phone number for shangri la vegetarian restaurant is 4157312548"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;address=2026_irving_street",
+      "text": "the address for shangri la vegetarian restaurant is 2026 irving street"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;area=little_osaka;kidsallowed=no;goodformeal=dinner",
+      "text": "kiss seafood is located in little osaka that is good for dinner . childe-s are not admitted"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;phone=4154742866",
+      "text": "kiss seafood number is 4154742866"
+    },
+    {
+      "concepts": "T=inform;name=kiss_seafood;pricerange=expensive",
+      "text": "kiss seafood is expensive"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=confirm;kidsallowed=no",
+      "text": "can i confirm that you are looking for a restaurant that does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=foreign_cinema;kidsallowed=no",
+      "text": "foreign cinema does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=kappa_japanese_restaurant;area=lower_pacific_heights;kidsallowed=no",
+      "text": "kappa japanese restaurant is the lower pacific heights area does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform_no_match;area=lower_pacific_heights;goodformeal=brunch",
+      "text": "0 restaurant -s in lower pacific heights are good for brunch"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you and have a great time"
+    },
+    {
+      "concepts": "T=inform_no_match;area=potrero_hill",
+      "text": "there are no restaurant -s in the potrero hill area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye"
+    },
+    {
+      "concepts": "T=inform;name=chouchou;pricerange=moderate",
+      "text": "chouchou is of moderate price"
+    },
+    {
+      "concepts": "T=inform;name=little_nepal;pricerange=moderate;food=himalayan",
+      "text": "little nepal is of moderate price and serves himalayan food"
+    },
+    {
+      "concepts": "T=inform;name=little_nepal;area=hayes_valley_or_bernal_heights_north;address=925_cortland_avenue",
+      "text": "little nepal is located in hayes valley or bernal heights north . its address is 925 cortland avenue"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you and have a great time"
+    },
+    {
+      "concepts": "T=inform_no_match;pricerange=expensive;area=bernal_heights",
+      "text": "there are no expensive restaurant -s in bernal heights"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=amber_india;food=indian",
+      "text": "amber india is a nice restaurant that serves indian food"
+    },
+    {
+      "concepts": "T=inform;name=dosa_on_valencia;food=indian",
+      "text": "dosa on valencia serves indian food in the fenditton area"
+    },
+    {
+      "concepts": "T=inform;name=little_delhi;food=indian;goodformeal=dinner",
+      "text": "little delhi serves indian food and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=campton_place_restaurant;area=downtown;food=indian;goodformeal=dinner",
+      "text": "campton place restaurant a good downtown place for an indian dinner"
+    },
+    {
+      "concepts": "T=inform;name=campton_place_restaurant;phone=4157815555",
+      "text": "campton place restaurant 's phone number is 4157815555"
+    },
+    {
+      "concepts": "T=inform;name=campton_place_restaurant;pricerange=expensive",
+      "text": "campton place restaurant is expensive"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;goodformeal=lunch",
+      "text": "i know of a great eastern restaurant that is good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;near=chinatown",
+      "text": "the great eastern restaurant is near chinatown"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;type=restaurant",
+      "text": "the great eastern restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;type=restaurant",
+      "text": "the great eastern restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=great_eastern_restaurant;type=restaurant",
+      "text": "the great eastern restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;kidsallowed=yes;pricerange=expensive",
+      "text": "i found 4 expensive restaurant -s that allow child -s"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "where is it near"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=94;kidsallowed=yes",
+      "text": "there are a total of 94 restaurant -s that allow kid -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=poc_chuc;food=mexican;kidsallowed=yes",
+      "text": "poc chuc is a nice restaurant that serves mexican food and allows kid -s"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=3;food=mexican;kidsallowed=yes",
+      "text": "i have found 3 other restaurant -s that serve mexican food and allow kid -s"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for breakfast , brunch , lunch , or dinner"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;goodformeal=breakfast;food=mexican;kidsallowed=yes",
+      "text": "i see . sanjalisco is a mexican restaurant that allows kid -s and is good for breakfast"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;address=901_s_van_ness_avenue",
+      "text": "the address for sanjalisco is 901 s van ness avenue"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;near=mission",
+      "text": "sanjalisco is near the mission"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you . goodbye"
+    },
+    {
+      "concepts": "T=inform;name=ananda_fuara;food=vegetarian",
+      "text": "there is a vegetarian restaurant nearby called ananda fuara"
+    },
+    {
+      "concepts": "T=inform;name=lucky_creation_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "there is another vegetarian restaurant nearby called lucky creation restaurant and it is fairly cheap"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;pricerange=cheap;food=vegetarian",
+      "text": "there is another vegetarian restaurant nearby called shangri la vegetarian restaurant and it is also cheap"
+    },
+    {
+      "concepts": "T=inform;name=shangri_la_vegetarian_restaurant;area=hayes_valley_or_golden_gate_park;phone=4157312548",
+      "text": "sure , the phone number to shangri la vegetarian restaurant is 4157312548 and the restaurant has too location -s in hayes valley and golden gate park"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;food=arabian;goodformeal=dinner",
+      "text": "arabian nights restaurant serves arabian and is good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;pricerange=moderate;area=hayes_valley_or_noma",
+      "text": "arabian nights restaurant has moderate price -s and is in hayes valley or noma"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;type=restaurant",
+      "text": "arabian nights restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;area=hayes_valley_or_noma;address=2345_mission_street;phone=4156481444",
+      "text": "arabian nights restaurant is in hayes valley or noma at 2345 mission street , you can call at 4156481444"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thanks"
+    },
+    {
+      "concepts": "T=inform_no_match;kidsallowed=yes;food=moroccan",
+      "text": "sorry , there are no restaurant -s allowing kid -s and serving moroccan food"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;food=lebanese",
+      "text": "arabian nights restaurant serves lebanese food"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;type=restaurant",
+      "text": "the restaurant is called arabian nights restaurant"
+    },
+    {
+      "concepts": "T=inform;name=arabian_nights_restaurant;address=2345_mission_street;phone=4156481444",
+      "text": "arabian nights restaurant is located at 2345 mission street and can be reached by phone at 4156481444"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=lavash;food=persian",
+      "text": "lavash is a recommended restaurant that serves persian food"
+    },
+    {
+      "concepts": "T=inform;name=zare_at_fly_trap;pricerange=moderate;food=persian",
+      "text": "zare at fly trap is a moderate -ly priced persian restaurant"
+    },
+    {
+      "concepts": "T=inform;name=alborz_persian_cuisine;pricerange=moderate;food=persian",
+      "text": "alborz persian cuisine serving good persian food is a moderate priced restaurant"
+    },
+    {
+      "concepts": "T=inform;name=alborz_persian_cuisine;price=between_9_and_13_dollar",
+      "text": "the price of alborz persian cuisine is between 9 and 13 dollar"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;goodformeal=breakfast",
+      "text": "sanjalisco is a good breakfast restaurant"
+    },
+    {
+      "concepts": "T=inform;name=sanjalisco;kidsallowed=yes",
+      "text": "yes , sanjalisco allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;kidsallowed=no;goodformeal=breakfast",
+      "text": "red door cafe serves breakfast and does not allow kid -s"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;address=1608_bush_street",
+      "text": "red door cafe is at 1608 bush street"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;phone=4152828283",
+      "text": "red door cafe can be called at 4152828283"
+    },
+    {
+      "concepts": "T=inform;name=red_door_cafe;area=hayes_valley_or_cathedral_hill",
+      "text": "red door cafe is located in the hayes valley or cathedral hill area"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what kind of price range are you looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "how much are you looking to spend"
+    },
+    {
+      "concepts": "T=inform;name=bund_shanghai_restaurant;food=shanghainese",
+      "text": "bund shanghai restaurant serves shanghainese food"
+    },
+    {
+      "concepts": "T=inform_no_match;goodformeal=dinner;food=shanghainese",
+      "text": "there are 0 shanghainese restaurant -s serving dinner"
+    },
+    {
+      "concepts": "T=inform;name=chow;food=comfort_food",
+      "text": "chow serves comfort food"
+    },
+    {
+      "concepts": "T=inform;name=chow;goodformeal=lunch_or_dinner",
+      "text": "chow is good for lunch or dinner"
+    },
+    {
+      "concepts": "T=inform;name=chow;phone=4155522469",
+      "text": "chow 's number is 4155522469"
+    },
+    {
+      "concepts": "T=inform;name=chow;price=22_euro",
+      "text": "chow 's price is 22 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=darbar_restaurant;pricerange=cheap",
+      "text": "the darbar restaurant is cheap"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;goodformeal=dinner;near=bernal_heights;pricerange=cheap",
+      "text": "the angkor borei restaurant offers cheap dinner -s near to bernal heights"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;type=restaurant",
+      "text": "the angkor borei restaurant is a nice restaurant"
+    },
+    {
+      "concepts": "T=inform;name=angkor_borei_restaurant;area=hayes_valley_or_bernal_heights;phone=4155508417",
+      "text": "the angkor borei restaurant is located in the hayes valley or bernal heights area . their phone number is 4155508417"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "in what area are you looking"
+    },
+    {
+      "concepts": "T=confirm;area=dont_care",
+      "text": "can i confirm that you do not care what area"
+    },
+    {
+      "concepts": "T=confirm;area=dont_care",
+      "text": "can i confirm that you do not care about the area"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=city_view_restaurant;pricerange=cheap",
+      "text": "city view restaurant is in the price range of cheap"
+    },
+    {
+      "concepts": "T=inform;name=city_view_restaurant;food=dim_sum;address=662_commercial_street;phone=4153982838",
+      "text": "city view restaurant serves dim sum . address is 662 commercial street and phone number 4153982838"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "thank you"
+    },
+    {
+      "concepts": "T=inform_no_match;food=cafes;near=russian_hill",
+      "text": "0 restaurant -s close to russian hill that serve cafes food"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;food=vietnamese;near=russian_hill",
+      "text": "aux delices restaurant serves vietnamese food near russian hill"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;address=2327_polk_street",
+      "text": "aux delices restaurant 's address is 2327 polk street"
+    },
+    {
+      "concepts": "T=inform;name=aux_delices_restaurant;kidsallowed=yes",
+      "text": "aux delices restaurant allows kid -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=request;goodformeal",
+      "text": "are you looking for food by breakfast , brunch , lunch , or dinner type"
+    },
+    {
+      "concepts": "T=inform;name=house_of_nanking;goodformeal=lunch;kidsallowed=no",
+      "text": "house of nanking is good for lunch and does not allow child -s"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=ozumo;pricerange=expensive;food=japanese",
+      "text": "ozumo is an expensive japanese restaurant"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=4;food=japanese;pricerange=expensive",
+      "text": "there are 4 other restaurant -s that are expensive japanese restaurant -s"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "in what area are you looking for"
+    },
+    {
+      "concepts": "T=inform;name=skool;area=hayes_valley;pricerange=expensive;food=japanese",
+      "text": "skool is an expensive japanese restaurant in hayes valley"
+    },
+    {
+      "concepts": "T=inform;name=skool;address=1725_alameda_street",
+      "text": "skool 's address is 1725 alameda street"
+    },
+    {
+      "concepts": "T=inform;name=skool;postcode=94103",
+      "text": "skool 's postcode is 94103"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_no_match;food=french;kidsallowed=yes",
+      "text": "sorry but i could not find a french restaurant that allows kid -s"
+    },
+    {
+      "concepts": "T=inform;name=franchino;pricerange=moderate",
+      "text": "franchino is a moderate priced restaurant"
+    },
+    {
+      "concepts": "T=inform;name=franchino;address=347_columbus_avenue;price=22_euro",
+      "text": "franchino is located at 347 columbus avenue and costs around 22 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you searching for"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you searching for"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you searching for"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you searching for"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=inform;name=fresca;kidsallowed=no;pricerange=moderate;near=pacific_heights",
+      "text": "the restaurant i recommend is fresca . it is moderate -ly priced , does not allow kid -s , and is near pacific heights"
+    },
+    {
+      "concepts": "T=inform;name=fresca;type=restaurant",
+      "text": "the restaurant is called fresca"
+    },
+    {
+      "concepts": "T=inform;name=fresca;phone=4154472668",
+      "text": "fresca 's phone number is 4154472668"
+    },
+    {
+      "concepts": "T=inform;name=fresca;food=peruvian_or_tapas",
+      "text": "fresca serves peruvian or tapas"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "good bye"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is your price range"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there is 239 good restaurant -s if you do not care about the price"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food are you looking for"
+    },
+    {
+      "concepts": "T=confirm;pricerange=dont_care",
+      "text": "can i confirm that the price does not matter to you"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what is the location of the restaurant you are looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what is the price range that you are looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there are 239 restaurant -s which include all price range -s"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what is the location of the restaurant you are looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there are 239 restaurant -s which include all price range -s"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what food are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there are 239 restaurant -s which include all price range -s"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "what area are you looking for"
+    },
+    {
+      "concepts": "T=request;pricerange",
+      "text": "what price range are you looking for"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;pricerange=dont_care",
+      "text": "there are 239 restaurant -s which include all price range -s"
+    },
+    {
+      "concepts": "T=request;near",
+      "text": "what is the location of the restaurant you are looking for"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=51;goodformeal=dinner;pricerange=expensive",
+      "text": "there are 51 expensive restaurant -s serving dinner"
+    },
+    {
+      "concepts": "T=request;food",
+      "text": "what kind of food would you like"
+    },
+    {
+      "concepts": "T=inform;name=michael_mina_restaurant;food=burgers;pricerange=expensive;goodformeal=dinner",
+      "text": "michael mina restaurant serves expensive burgers for dinner"
+    },
+    {
+      "concepts": "T=inform;name=michael_mina_restaurant;address=335_powell_street",
+      "text": "the michael mina restaurant is located at 335 powell street"
+    },
+    {
+      "concepts": "T=reqmore;",
+      "text": "what else can i help you with"
+    },
+    {
+      "concepts": "T=inform;name=michael_mina_restaurant;near=union_square",
+      "text": "the michael mina restaurant is near to union square"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform_count;type=restaurant;count=239;goodformeal=dont_care",
+      "text": "there are 239 restaurant -s good for any meal"
+    },
+    {
+      "concepts": "T=request;area",
+      "text": "thank you good bye"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;near=pacific_heights;goodformeal=lunch",
+      "text": "la mediterranee near pacific heights good for lunch"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;address=2210_fillmore_street;phone=4159212956",
+      "text": "la mediterranee 's address is 2210 fillmore street and phone is 4159212956"
+    },
+    {
+      "concepts": "T=inform;name=la_mediterranee;phone=4159212956",
+      "text": "la mediterranee phone 4159212956"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "goodbye"
+    },
+    {
+      "concepts": "T=inform;name=chow;food=comfort_food;goodformeal=dinner",
+      "text": "i recommend chow . it serves comfort food and good for dinner"
+    },
+    {
+      "concepts": "T=inform;name=chow;address=215_church_street;price=22_euro",
+      "text": "chow food is located at 215 church street . it costs 22 euro"
+    },
+    {
+      "concepts": "T=goodbye;",
+      "text": "bye bye"
+    }
+  ]
+}

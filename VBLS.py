@@ -37,7 +37,8 @@ class VBLS:
         Return: 
             [(word,weight), ...]
         '''
-        feaVec = self._OneHot([self.FeatureMap[x] for x in features if x in self.FeatureMap],self.featureCount)
+        feaIdsWeights = [(self.FeatureMap[(c,v)],w) for c,v,w in features if (c,v) in self.FeatureMap]
+        feaVec = self._OneHot([x for x,_ in feaIdsWeights],self.featureCount,[x for _,x in feaIdsWeights])
         wordVec = np.dot(np.array(feaVec),self.B)
         wordIds = sorted(zip(wordVec,range(len(wordVec))), key=lambda x:-x[0])
         words = [(self.WordMapT[x],w) for w,x in wordIds if w>threshold]
@@ -58,6 +59,8 @@ class VBLS:
     def _OneHot(self, vs, l, ws=None):
         if ws is None:
             ws = [1.0]*len(vs)
+        else:
+            pass
         v = [0.0]*l
         for i,w in zip(vs,ws):
             v[i] = w

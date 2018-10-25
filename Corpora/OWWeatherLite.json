@@ -1,0 +1,47 @@
+﻿{
+  "version": 1.0,
+  "separator": " ",
+
+  "data": [
+    {
+      "concepts": "@Month=4;@CloudCover=100;@Precipitiation=8.13;@Temperature=15.915",
+      "text": "gloomy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=100;@Precipitiation=9.9;@Temperature=12.61",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=10;@Precipitiation=8.38;@Temperature=5.39",
+      "text": "spotty"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=50;@Precipitiation=0;@Temperature=24.61",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=50;@Precipitiation=1.395;@Temperature=16.305",
+      "text": "spitting"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=100;@Precipitiation=0;@Temperature=16.305",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=50;@Precipitiation=8.38;@Temperature=5.39",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=50;@Precipitiation=4.065;@Temperature=27.11",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=0;@Precipitiation=0;@Temperature=14",
+      "text": "fine"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=100;@Precipitiation=8.38;@Temperature=14",
+      "text": "cloudy"
+    }
+  ]
+}

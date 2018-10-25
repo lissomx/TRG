@@ -1,0 +1,3465 @@
+﻿{
+  "version": 1.0,
+  "separator": " ",
+
+  //total record: 864
+
+  "data": [
+    {
+      "concepts": "@Month=4;@CloudCover=48.9681940753796;@Precipitiation=6.07662601304549;@Temperature=20.1599175650393",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=29.4436841408926;@Precipitiation=0;@Temperature=16.2572967321273",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=39.164923708497;@Precipitiation=3.93149186757928;@Temperature=6.25590103896144",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=10.7280365707018;@Precipitiation=0;@Temperature=25.0410637731809",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=7.17559662050363;@Precipitiation=4.55401559753996;@Temperature=22.9123602824203",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=74.261540954123;@Precipitiation=0;@Temperature=22.0249233578448",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=5.44549776494759;@Precipitiation=2.67550918533258;@Temperature=25.5824004738836",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=60.7763637605944;@Precipitiation=0;@Temperature=26.195884193697",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=70.7493166768687;@Precipitiation=0;@Temperature=8.43435552345326",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=93.7965647754243;@Precipitiation=0;@Temperature=4.05814772011626",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=79.4239474830329;@Precipitiation=0.44457907880404;@Temperature=11.2076766432019",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=59.9863158818271;@Precipitiation=3.41215236587085;@Temperature=18.0670754027027",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=98.887539607886;@Precipitiation=2.0469218410351;@Temperature=12.8415013191251",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=42.9265286507674;@Precipitiation=0;@Temperature=21.506015407823",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=12.9184086867228;@Precipitiation=9.80393441217203;@Temperature=16.7894792544932",
+      "text": "rain"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=50.2326857532527;@Precipitiation=0;@Temperature=17.892173672054",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=44.4968543222625;@Precipitiation=0;@Temperature=21.8074840787181",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=52.1049330253643;@Precipitiation=1.50132038806161;@Temperature=18.368540857415",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=98.6550015856768;@Precipitiation=1.13673994090256;@Temperature=4.92552246636503",
+      "text": "thunder"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=87.8559812846854;@Precipitiation=8.52852525959188;@Temperature=29.4711244600551",
+      "text": "thunder"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=78.940480239196;@Precipitiation=3.91598091516457;@Temperature=8.73761215272714",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=0.0659216661313184;@Precipitiation=1.95040144384857;@Temperature=17.5001512569236",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=85.9445996051396;@Precipitiation=0.0141781539256583;@Temperature=23.1587863468513",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=34.777042285901;@Precipitiation=5.5628695032107;@Temperature=10.8287275967508",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=18.1353965858628;@Precipitiation=5.72437086260615;@Temperature=18.3021226478471",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=15.7293316050104;@Precipitiation=0;@Temperature=24.5230160230738",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=61.2717544945291;@Precipitiation=0;@Temperature=12.4069707560432",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=64.3444743307049;@Precipitiation=0.797379791744696;@Temperature=5.66760078907367",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=91.0015128511011;@Precipitiation=0;@Temperature=9.24910292486153",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=93.0081341848747;@Precipitiation=1.07163269015105;@Temperature=11.9000410173135",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.5004056652544;@Precipitiation=6.326969231538;@Temperature=12.6241409859127",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.9483214565312;@Precipitiation=0;@Temperature=-2.74716361740938",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=42.5337151822325;@Precipitiation=1.61070037188507;@Temperature=14.2590381702683",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=83.2137115221534;@Precipitiation=2.47332619799922;@Temperature=-1.32686590141937",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=15.7064200917754;@Precipitiation=0;@Temperature=34.7434028011809",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=74.0515217064188;@Precipitiation=7.98724229119124;@Temperature=-1.60589340075194",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=0.500147557118976;@Precipitiation=0.0969977187165049;@Temperature=7.42769672253527",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=16.3587970735313;@Precipitiation=1.82465538663075;@Temperature=19.0795833988812",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=85.6811184369405;@Precipitiation=0.0428609533900679;@Temperature=9.23245516763649",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=86.9563731304167;@Precipitiation=7.90978250687466;@Temperature=13.190245605535",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=11.6558134610093;@Precipitiation=2.3625546800683;@Temperature=7.7512673530035",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.09790103468015;@Precipitiation=0;@Temperature=20.0002188789613",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=18.3133260432227;@Precipitiation=4.95253219034175;@Temperature=31.1902552600299",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=12.9252821732896;@Precipitiation=2.26609113384322;@Temperature=4.35708135424977",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=93.8527268328949;@Precipitiation=0.328571028266368;@Temperature=14.2105592474484",
+      "text": "thunder"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=22.3288531519141;@Precipitiation=0;@Temperature=9.82844762497509",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=25.4892569153985;@Precipitiation=9.49201147607156;@Temperature=19.5823564269824",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=63.2450831882866;@Precipitiation=6.16986211713863;@Temperature=8.67301118798228",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=17.5853578455678;@Precipitiation=4.9787979529839;@Temperature=19.939534698203",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=46.6810109311161;@Precipitiation=0.628657543951952;@Temperature=33.8307665653996",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=58.7959306122716;@Precipitiation=0;@Temperature=7.75498556760372",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=22.328149304878;@Precipitiation=0;@Temperature=7.79877164031322",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=74.8603169223575;@Precipitiation=4.02961643659958;@Temperature=10.5703574950203",
+      "text": "adorable"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=16.097757833124;@Precipitiation=2.01608807105389;@Temperature=28.7601343958779",
+      "text": "adventerous"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.6399436018616;@Precipitiation=2.59234057448448;@Temperature=5.97280476945117",
+      "text": "acclaimed"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=43.7728503922805;@Precipitiation=0;@Temperature=25.6589567318228",
+      "text": "accomplished"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.2550565094012;@Precipitiation=4.22854524614687;@Temperature=31.4031327125026",
+      "text": "brave"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=86.0293071651968;@Precipitiation=1.01223949298833;@Temperature=5.82598054553661",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=66.8973643644235;@Precipitiation=0.0144702305898397;@Temperature=6.68007400841921",
+      "text": "brilliant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=34.4950021870877;@Precipitiation=0;@Temperature=32.7892546679169",
+      "text": "composed"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=37.695969239667;@Precipitiation=0;@Temperature=14.4056122019308",
+      "text": "concerned"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=16.0558030549697;@Precipitiation=5.23047245556045;@Temperature=3.04598899489548",
+      "text": "concrete"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=50.0876025529986;@Precipitiation=0;@Temperature=18.3953552229075",
+      "text": "focused"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=12.3340159712052;@Precipitiation=5.47308787070359;@Temperature=14.7743514267515",
+      "text": "grim"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=53.1095501282763;@Precipitiation=3.6907207323847;@Temperature=1.90361966477876",
+      "text": "handsome"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=95.4690203049542;@Precipitiation=1.74327725013871;@Temperature=3.43808206300162",
+      "text": "quirky"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=46.9280096455142;@Precipitiation=3.76585625737713;@Temperature=20.674014313139",
+      "text": "precious"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=10.5067242451509;@Precipitiation=0;@Temperature=6.38719777497332",
+      "text": "handy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.280050628949;@Precipitiation=0;@Temperature=14.1553100658699",
+      "text": "intelligent"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=92.365824427626;@Precipitiation=0;@Temperature=15.5954931792689",
+      "text": "joyfull"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=49.5477426562215;@Precipitiation=5.37485122908133;@Temperature=25.5736598379461",
+      "text": "keen"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=94.7653095679196;@Precipitiation=0.327500313603087;@Temperature=13.4786392063175",
+      "text": "jubilant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=47.3279254265725;@Precipitiation=7.08704691583619;@Temperature=-1.04523892807087",
+      "text": "brilliant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.5078458788376;@Precipitiation=4.04376736160543;@Temperature=9.86977673526377",
+      "text": "comical"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=37.9483139319105;@Precipitiation=0;@Temperature=10.0982463706277",
+      "text": "childish"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=73.7302190501849;@Precipitiation=0;@Temperature=20.2973849856655",
+      "text": "cheerfull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=27.0396999209373;@Precipitiation=6.25274091882293;@Temperature=31.4126541633544",
+      "text": "competent"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=37.0568385985945;@Precipitiation=1.66653218268255;@Temperature=24.2655056240156",
+      "text": "cranky"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=35.3438090231939;@Precipitiation=0;@Temperature=25.1039095046483",
+      "text": "depressed"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=6.01187832933472;@Precipitiation=5.22686784598831;@Temperature=20.4171541624876",
+      "text": "dramatic"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=52.8250190675375;@Precipitiation=0.106636252895294;@Temperature=8.17365323979578",
+      "text": "ferocious"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=74.7336699975346;@Precipitiation=2.64372951005759;@Temperature=-0.147377201443249",
+      "text": "generous"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=60.9592876215276;@Precipitiation=0;@Temperature=6.80374526804487",
+      "text": "quiet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=14.8426447598462;@Precipitiation=7.29378576649064;@Temperature=15.195292074585",
+      "text": "playfull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=50.9544827281285;@Precipitiation=5.45362365555653;@Temperature=25.0437662665331",
+      "text": "passionate"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=58.7638604262675;@Precipitiation=0;@Temperature=19.5492786518667",
+      "text": "modest"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=48.5781991149197;@Precipitiation=6.51955208497101;@Temperature=5.90994663197079",
+      "text": "welcoming"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=26.6659031280623;@Precipitiation=0;@Temperature=11.1726510165504",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.8720149983987;@Precipitiation=0.189761634007917;@Temperature=14.8924208523577",
+      "text": "sweet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=86.3836226921452;@Precipitiation=4.80445827522523;@Temperature=13.3190626988835",
+      "text": "steamy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=58.6407165316123;@Precipitiation=7.51532854485108;@Temperature=13.4276084313624",
+      "text": "spicy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=80.223661651939;@Precipitiation=0.998611900628829;@Temperature=33.0195048105388",
+      "text": "sour"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.0869140099208;@Precipitiation=2.11421695990219;@Temperature=20.6054081325864",
+      "text": "elegant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=73.3395222450325;@Precipitiation=4.36555834331809;@Temperature=14.8284386375446",
+      "text": "elaborate"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=4.24298057530214;@Precipitiation=0.852780904272935;@Temperature=36.4213520479814",
+      "text": "reliable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=69.6462441560096;@Precipitiation=0;@Temperature=24.4513037491456",
+      "text": "dependable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=61.2981938111122;@Precipitiation=1.0520964481086;@Temperature=20.5178294033175",
+      "text": "bruised"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=94.3163099672256;@Precipitiation=0.801390365628242;@Temperature=20.9695528170045",
+      "text": "sad"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=95.4857517944117;@Precipitiation=2.47314886554757;@Temperature=10.1218554240613",
+      "text": "mean"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.2926646947361;@Precipitiation=0.066078418524041;@Temperature=34.3446156079949",
+      "text": "happy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=8.88006189320239;@Precipitiation=0.637943096001606;@Temperature=23.7504684304634",
+      "text": "moody"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=14.4630863398607;@Precipitiation=7.07402739505006;@Temperature=0.965971360423588",
+      "text": "clean"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=60.1749834419112;@Precipitiation=2.09402973681876;@Temperature=23.339077223944",
+      "text": "colorfull"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=63.7230914382837;@Precipitiation=1.8033134164956;@Temperature=-2.38166592122133",
+      "text": "icy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.9011861793237;@Precipitiation=8.66312000461068;@Temperature=27.5378016904964",
+      "text": "cooking"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=45.9132823375581;@Precipitiation=1.76823976795107;@Temperature=17.4750323360018",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=68.2998334841336;@Precipitiation=1.73491995411223;@Temperature=9.30249509357963",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=55.4786710792587;@Precipitiation=0.196507922996072;@Temperature=11.6776751620218",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=53.6779238161062;@Precipitiation=2.40165681678413;@Temperature=24.2285435477172",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.1713569812343;@Precipitiation=0;@Temperature=8.10167080220378",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=67.9861023873026;@Precipitiation=2.63164969298134;@Temperature=22.0372170576021",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=53.7966145918689;@Precipitiation=4.21732012469197;@Temperature=25.4555073617611",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=17.5122292793878;@Precipitiation=5.01974072539236;@Temperature=7.78075530163979",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=85.505802550123;@Precipitiation=6.98034889233781;@Temperature=23.6935846523678",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=96.8038425300288;@Precipitiation=7.78560286587365;@Temperature=13.3455437082823",
+      "text": "soaking"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=70.170441209418;@Precipitiation=6.73290651055654;@Temperature=35.5868345015947",
+      "text": "tropical"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=90.1787095657451;@Precipitiation=1.67816119987432;@Temperature=5.12740139774857",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=23.0067604328537;@Precipitiation=2.75050070891646;@Temperature=13.9093530853974",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=88.2951399256918;@Precipitiation=6.94606131112485;@Temperature=28.9573656402656",
+      "text": "boiling"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=95.6910692135296;@Precipitiation=3.39828291566963;@Temperature=5.68525037437922",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=20.5316263346614;@Precipitiation=7.64679306217786;@Temperature=17.9132181478959",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=43.6874268779938;@Precipitiation=0;@Temperature=13.3854896361267",
+      "text": "nippy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=2.1295354711495;@Precipitiation=2.62965581431503;@Temperature=5.46579704731973",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=11.5542037931989;@Precipitiation=5.06807154491454;@Temperature=27.0381153228172",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=66.9148054285509;@Precipitiation=5.33419022943554;@Temperature=25.1720213656509",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=32.1435743161214;@Precipitiation=1.90106194210288;@Temperature=13.7349630493275",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=7.12392307218347;@Precipitiation=0;@Temperature=15.5759391096634",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=67.2908673376268;@Precipitiation=7.20689133164794;@Temperature=18.7259007219672",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=39.8903903271492;@Precipitiation=8.56224137123779;@Temperature=27.8688199224597",
+      "text": "boiling"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=84.746240863924;@Precipitiation=1.97098056130623;@Temperature=9.90553624813237",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=49.0939856735496;@Precipitiation=0;@Temperature=17.1566426892889",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=59.9427535477759;@Precipitiation=0;@Temperature=22.7127389524331",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=5.11015430330772;@Precipitiation=0;@Temperature=19.6517648193202",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=19.7559328841772;@Precipitiation=1.92112270235602;@Temperature=7.5964192618413",
+      "text": "nippy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=97.2611292252602;@Precipitiation=0;@Temperature=34.0976008990629",
+      "text": "equatorial"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=98.4079649198837;@Precipitiation=0;@Temperature=13.7036165052157",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=70.7106208758012;@Precipitiation=1.21068243148768;@Temperature=9.2074622715765",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=80.7300789191993;@Precipitiation=3.84881898670868;@Temperature=24.0478028423422",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=18.1085220156743;@Precipitiation=1.89936180424847;@Temperature=6.74378760270485",
+      "text": "nippy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=77.9980335747814;@Precipitiation=0;@Temperature=10.8077694342228",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=84.8370532434606;@Precipitiation=3.50621829519804;@Temperature=5.51945203204614",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=77.248632897273;@Precipitiation=2.03854476814091;@Temperature=23.3618364810347",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=48.8151826191764;@Precipitiation=3.52258957087649;@Temperature=21.6008791873655",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=1.39182144840798;@Precipitiation=0;@Temperature=15.8083399145297",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=93.291288937112;@Precipitiation=7.86679660761114;@Temperature=11.6809198597171",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=28.1686815564375;@Precipitiation=6.2782996394943;@Temperature=11.3971162457564",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.0043041924966;@Precipitiation=0.124002715444194;@Temperature=35.2448160834214",
+      "text": "scorching"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=22.8610721988888;@Precipitiation=8.20214079590614;@Temperature=13.4110923078242",
+      "text": "soaking"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.0214984244767;@Precipitiation=1.62514765275416;@Temperature=20.7059077530754",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=20.6673419664927;@Precipitiation=1.46813475545875;@Temperature=9.21893538898273",
+      "text": "nippy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=2.00251937005786;@Precipitiation=1.15291983357301;@Temperature=10.7876725268307",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=3.79482512539012;@Precipitiation=0;@Temperature=17.1167803557807",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=90.7787913879281;@Precipitiation=0;@Temperature=35.2544322386032",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=78.4307131443316;@Precipitiation=6.25704091687549;@Temperature=19.2213649786503",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=6.60815285826482;@Precipitiation=1.06122163384278;@Temperature=5.43904576544605",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=88.5221936220872;@Precipitiation=0.0313762973860727;@Temperature=2.84427906642867",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=16.5297813790523;@Precipitiation=7.78954924628583;@Temperature=14.057468277741",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=25.4128222006433;@Precipitiation=4.37109078682544;@Temperature=19.5411866655439",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=33.6615108575958;@Precipitiation=0;@Temperature=5.45227252277651",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=50.2361027757805;@Precipitiation=0;@Temperature=13.6380400668401",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=59.8002533241176;@Precipitiation=0.117034068995637;@Temperature=23.2912387081241",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=21.6672515597508;@Precipitiation=6.3122434401476;@Temperature=8.41403265231011",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=73.3419049407085;@Precipitiation=1.98004104857335;@Temperature=11.9886833115428",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=19.8853259998771;@Precipitiation=0.437663109003409;@Temperature=4.42553393746052",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=84.9788423092006;@Precipitiation=4.89203531936371;@Temperature=6.19021101383036",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.3551197160758;@Precipitiation=4.93569323855252;@Temperature=16.7629430654612",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=93.4911527640611;@Precipitiation=0;@Temperature=7.64798362427297",
+      "text": "heavy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=15.0975567824662;@Precipitiation=0;@Temperature=16.7753431110481",
+      "text": "autumny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=52.0843395274525;@Precipitiation=0;@Temperature=26.1916712596787",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=61.6297809694101;@Precipitiation=3.48502967674054;@Temperature=4.94039508629143",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=25.4976498547465;@Precipitiation=2.17485727072454;@Temperature=12.1527097901295",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=38.722382829861;@Precipitiation=0;@Temperature=17.6216890095555",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=68.9728137892544;@Precipitiation=0;@Temperature=28.6796809552934",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=98.4909277402288;@Precipitiation=2.70464318522934;@Temperature=14.5148560163122",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=58.2135027545567;@Precipitiation=0.752084916342089;@Temperature=22.1675967363816",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=0.813173130533273;@Precipitiation=0.0688797384262456;@Temperature=5.4643069587016",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=91.0954175009837;@Precipitiation=5.15591530598044;@Temperature=15.0191728492962",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=47.7309524303912;@Precipitiation=1.91543804595966;@Temperature=3.5389920554771",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=65.9712621318043;@Precipitiation=0;@Temperature=29.6647768329525",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=23.2745585140188;@Precipitiation=0;@Temperature=13.9746672734873",
+      "text": "autumny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=83.700647057826;@Precipitiation=2.1017396354078;@Temperature=24.878396227196",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=5.18080550487191;@Precipitiation=4.57452503475571;@Temperature=15.8953591599806",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=3.11122858110407;@Precipitiation=2.55550718634646;@Temperature=24.7705662663423",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=9.64526231849811;@Precipitiation=7.19954365272985;@Temperature=12.7845464728095",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=49.4814540489956;@Precipitiation=5.06962881047727;@Temperature=9.25260200536931",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=13.240534585547;@Precipitiation=4.28542503555558;@Temperature=34.9824692530802",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=83.5401690022741;@Precipitiation=0;@Temperature=20.1726817529847",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=68.5382776281509;@Precipitiation=4.86479292013906;@Temperature=7.85230534340828",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=5.05614141237742;@Precipitiation=5.67043066405246;@Temperature=11.1502418785776",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=41.8402139757947;@Precipitiation=0;@Temperature=17.3995914934527",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=9.51271062228489;@Precipitiation=2.95247752533875;@Temperature=12.8479770280039",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=57.3931637021681;@Precipitiation=1.69211928388668;@Temperature=12.8827096406988",
+      "text": "springy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=80.4541026616721;@Precipitiation=0;@Temperature=11.6065883321159",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=96.5879085457828;@Precipitiation=1.33888109018043;@Temperature=6.97507183437937",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=40.8876678631118;@Precipitiation=0;@Temperature=7.03067492689969",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=45.8664001644898;@Precipitiation=0.946045395511224;@Temperature=14.6525022816064",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=59.1810663506301;@Precipitiation=6.01757839953414;@Temperature=8.29150791114732",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=4.00358522497285;@Precipitiation=1.95006883563943;@Temperature=9.43653385120748",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=21.3930282375743;@Precipitiation=0;@Temperature=19.1497075827046",
+      "text": "springy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=3.50934588513772;@Precipitiation=0;@Temperature=8.11520352045782",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=22.1823465182364;@Precipitiation=0;@Temperature=15.632351862305",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=85.0372959324332;@Precipitiation=5.66890896156845;@Temperature=26.5870208662269",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=21.0228401799793;@Precipitiation=2.63638966580685;@Temperature=13.0498663863818",
+      "text": "autumny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=92.0998270120937;@Precipitiation=2.65756184435336;@Temperature=10.4319148254823",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=42.6431224880009;@Precipitiation=0;@Temperature=11.9831048143809",
+      "text": "autumny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=18.4259290892752;@Precipitiation=0;@Temperature=7.96780034191338",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=97.2175561809994;@Precipitiation=9.67376163782261;@Temperature=33.6762656934309",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=3.6020336689437;@Precipitiation=2.76915859808641;@Temperature=10.7931421777295",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=23.0116303185986;@Precipitiation=0;@Temperature=29.3488370748324",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=57.624014400702;@Precipitiation=0.387629428872666;@Temperature=16.2400338889659",
+      "text": "decent"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=27.0828125193169;@Precipitiation=6.05938829195657;@Temperature=2.90576195893146",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=28.1533931978761;@Precipitiation=2.04648869336419;@Temperature=9.97997357787098",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=9.36285588394983;@Precipitiation=2.82123961719276;@Temperature=25.5829980664761",
+      "text": "scorching"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=62.6736478240572;@Precipitiation=0;@Temperature=2.87889511435241",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=52.9987294008018;@Precipitiation=1.87728115804833;@Temperature=19.5614122826007",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=0.595853384861654;@Precipitiation=6.87041609189493;@Temperature=20.993591599047",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=1.34547231781551;@Precipitiation=5.91573252806241;@Temperature=12.253040822797",
+      "text": "normal"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=23.3905410502993;@Precipitiation=3.38109954311564;@Temperature=-1.65384919264999",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=88.0388779044332;@Precipitiation=0;@Temperature=14.9227940382263",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=87.8456635344055;@Precipitiation=6.59052630084126;@Temperature=7.03864727551986",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=25.868014211705;@Precipitiation=6.80668178000799;@Temperature=-3.18707806817586",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=84.5587026721606;@Precipitiation=6.9541016414641;@Temperature=9.29367911121514",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=31.4663353988278;@Precipitiation=0;@Temperature=11.7841038282468",
+      "text": "normal"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=29.6863189105346;@Precipitiation=9.88558896160013;@Temperature=19.4694755376035",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=68.2886207794252;@Precipitiation=0.981543790247079;@Temperature=16.5369683096264",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=37.7848127101477;@Precipitiation=0.173329311811053;@Temperature=15.8552018216882",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=82.0742510641339;@Precipitiation=2.16301821734431;@Temperature=22.1653475404882",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=20.2298514173505;@Precipitiation=4.99307604860192;@Temperature=29.9040709932214",
+      "text": "scorching"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=42.378342963;@Precipitiation=2.42680983540919;@Temperature=4.65450616009277",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=15.4995236152315;@Precipitiation=6.20461500426969;@Temperature=33.15403840217",
+      "text": "roasting"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=88.3956255802864;@Precipitiation=2.64303910557788;@Temperature=12.6806325702279",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=6.48624273319088;@Precipitiation=8.66340480407858;@Temperature=35.885972265413",
+      "text": "boiling"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.0761342929099;@Precipitiation=0;@Temperature=11.2941057915912",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=2.95781591113555;@Precipitiation=0;@Temperature=14.7659116403367",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=3.09014418306302;@Precipitiation=0;@Temperature=20.8100056194188",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=58.2167769122016;@Precipitiation=0;@Temperature=25.5867928370167",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=63.6674918065162;@Precipitiation=5.00316636787875;@Temperature=7.65986199449741",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=75.4660538283484;@Precipitiation=2.2103373635329;@Temperature=18.9533421027443",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=77.9581591849952;@Precipitiation=0;@Temperature=25.2154315327692",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=11.2654550519145;@Precipitiation=3.27523024034464;@Temperature=34.324169374534",
+      "text": "roasting"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=8.53614984477691;@Precipitiation=3.96208282589544;@Temperature=9.04328661805637",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=36.9084418923168;@Precipitiation=3.54421260098192;@Temperature=31.1530213038544",
+      "text": "scorching"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=26.1075713793317;@Precipitiation=7.92613538691128;@Temperature=17.1546048172073",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=83.5337576845352;@Precipitiation=1.56324459065834;@Temperature=17.6495055656738",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=0.450451346324036;@Precipitiation=2.28393689956699;@Temperature=36.5975824786665",
+      "text": "roasting"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=47.5337763072614;@Precipitiation=0.508731165532363;@Temperature=19.9260576630924",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=68.9633719944224;@Precipitiation=5.28676192757988;@Temperature=8.39579507003342",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=39.5953385343753;@Precipitiation=8.13227115634469;@Temperature=5.36133212215329",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=5.39983371524132;@Precipitiation=1.57845993385578;@Temperature=23.6663312149869",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=76.7149579137168;@Precipitiation=3.87967423174515;@Temperature=4.27911995495628",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=78.9790265629902;@Precipitiation=0.737031776926961;@Temperature=17.4775788364082",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=37.9615545915261;@Precipitiation=2.21779974209042;@Temperature=11.0589126012004",
+      "text": "normal"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=83.2885377031232;@Precipitiation=0;@Temperature=8.69831980915662",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=30.9554719975942;@Precipitiation=0.961942142761285;@Temperature=16.4121043718849",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=50.349906948558;@Precipitiation=2.5149362278287;@Temperature=20.3924656709621",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=34.696356921781;@Precipitiation=6.36427004147986;@Temperature=20.3842670108817",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=6.12044623406625;@Precipitiation=0;@Temperature=14.784608658396",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=91.5308678017607;@Precipitiation=0.171979644392608;@Temperature=9.1857490601883",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=50.1117549604325;@Precipitiation=2.13262739871751;@Temperature=24.8661305882764",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=4.6391962117698;@Precipitiation=4.69036541753931;@Temperature=2.67069854090488",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=74.5829718534755;@Precipitiation=0;@Temperature=18.185924905709",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=64.3140345645668;@Precipitiation=0;@Temperature=14.6559646158321",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=20.2550802939828;@Precipitiation=0;@Temperature=12.466628672493",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=33.6771516286196;@Precipitiation=0;@Temperature=31.503549153066",
+      "text": "boiling"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=51.3098399859433;@Precipitiation=0;@Temperature=20.9951996564005",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=37.6753642399215;@Precipitiation=5.96734572545967;@Temperature=4.56649478756194",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=64.241317270436;@Precipitiation=0;@Temperature=12.1909743325557",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=79.2713069726114;@Precipitiation=1.8953810750951;@Temperature=21.6780753859682",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=30.8958844891265;@Precipitiation=7.49729495106605;@Temperature=25.221857680302",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=3.16555593310183;@Precipitiation=3.12016985321425;@Temperature=-3.17789109814814",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=19.7648997976281;@Precipitiation=5.05221634928706;@Temperature=17.3472144995105",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=69.8067509894291;@Precipitiation=2.28698808093881;@Temperature=15.4238045699214",
+      "text": "gloomy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=39.8929959814497;@Precipitiation=7.57559374109637;@Temperature=0.685282894245014",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=81.2289747787774;@Precipitiation=5.44872576210123;@Temperature=26.5118822786873",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=15.0261929794337;@Precipitiation=1.39133949927117;@Temperature=8.68694006472684",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=33.8618569699404;@Precipitiation=3.9454786310417;@Temperature=27.0110734184557",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=68.7614566966712;@Precipitiation=0;@Temperature=34.4601158979955",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=60.7879446636829;@Precipitiation=0.0812153592012894;@Temperature=9.51357511553148",
+      "text": "nippy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=14.9668171605872;@Precipitiation=1.79699757122761;@Temperature=10.0387522456836",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=48.3713061774016;@Precipitiation=0;@Temperature=7.5108356118532",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.6111894965224;@Precipitiation=0;@Temperature=22.7730424061618",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.0078551219813;@Precipitiation=5.19077646038066;@Temperature=31.7549962123972",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=40.5219614228802;@Precipitiation=9.03280147418045;@Temperature=20.3838941124519",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=20.263277283061;@Precipitiation=1.49691048888346;@Temperature=17.5608396968948",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=51.0154773253088;@Precipitiation=3.65685332591499;@Temperature=-2.14690585815669",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=76.9537269496143;@Precipitiation=0.454733516706495;@Temperature=20.2978958450714",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=34.9248425732017;@Precipitiation=0;@Temperature=15.6207927478109",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=71.2958613742589;@Precipitiation=3.49270380085926;@Temperature=8.51767716151554",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=54.2392179622498;@Precipitiation=0.886438915206324;@Temperature=22.9610207992238",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=18.5266056184315;@Precipitiation=0;@Temperature=17.6091506754184",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=23.4031923224233;@Precipitiation=0;@Temperature=25.1281843488515",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=51.5774093808501;@Precipitiation=7.96099601717712;@Temperature=-3.12405719945396",
+      "text": "horrible"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=92.9691015244318;@Precipitiation=5.3420376261892;@Temperature=21.686018088067",
+      "text": "glum"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=42.7260519669978;@Precipitiation=0;@Temperature=24.3266897113047",
+      "text": "summer"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=65.3236633005197;@Precipitiation=2.01337596114882;@Temperature=16.3301203199337",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=10.1710199891455;@Precipitiation=7.62680807867404;@Temperature=11.3079040747918",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=17.4910026218235;@Precipitiation=5.81817360886288;@Temperature=23.713197982974",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=93.2186434479517;@Precipitiation=0;@Temperature=9.5168252430888",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=37.6171774871727;@Precipitiation=4.51648664852441;@Temperature=20.8653154815572",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=17.7112879314047;@Precipitiation=0;@Temperature=9.5152268166259",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=73.7814850517462;@Precipitiation=5.60824940603611;@Temperature=9.02596349692715",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=9.14674876683706;@Precipitiation=8.63011209756607;@Temperature=36.0778638351466",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=71.780392700704;@Precipitiation=0.645805569200686;@Temperature=3.07309412278845",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=34.2775749667909;@Precipitiation=2.05462771253876;@Temperature=22.9137262454926",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=79.8989287483967;@Precipitiation=3.62198118987585;@Temperature=24.4221418523659",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=11.1113473359083;@Precipitiation=5.65798150393087;@Temperature=10.906279766516",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=78.5517188620529;@Precipitiation=4.80474172588659;@Temperature=26.6153903451214",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=66.6295172491248;@Precipitiation=0.92697019889344;@Temperature=12.111378182057",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=63.1677759174108;@Precipitiation=1.71629097063853;@Temperature=5.13861048236424",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=92.8809481174131;@Precipitiation=2.17605154834504;@Temperature=24.710613856735",
+      "text": "gloomy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=90.313492664282;@Precipitiation=0;@Temperature=29.2706926697589",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=81.1991698021065;@Precipitiation=0;@Temperature=9.03065429923621",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=7.92023833278578;@Precipitiation=1.15889345169947;@Temperature=16.1222379076026",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=68.0775251090888;@Precipitiation=2.7070765566626;@Temperature=12.2779178440375",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=7.04446863711088;@Precipitiation=1.98229762513298;@Temperature=4.06211286479706",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=23.3387081061204;@Precipitiation=2.86483698062824;@Temperature=12.3185653823142",
+      "text": "unusual"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=17.0341178854155;@Precipitiation=1.51818690382325;@Temperature=18.3091798477895",
+      "text": "surprising"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=47.305517851983;@Precipitiation=0;@Temperature=16.6355368882443",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=45.1630843547932;@Precipitiation=1.26388672337117;@Temperature=24.0719329848615",
+      "text": "typical"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=63.8414731546498;@Precipitiation=8.81911937646527;@Temperature=18.1967475669769",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=6.12914976949298;@Precipitiation=6.56624286605336;@Temperature=7.04293403371374",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=77.3269470209847;@Precipitiation=0;@Temperature=22.8810608373774",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=54.0914072441363;@Precipitiation=1.27277003911918;@Temperature=32.0243099688991",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=18.4470280625145;@Precipitiation=1.53919093792289;@Temperature=13.9480375473472",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=82.7938434122102;@Precipitiation=0;@Temperature=9.79153709553719",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=21.7475708675327;@Precipitiation=1.07903969253369;@Temperature=0.853236610616201",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=0.177516648628524;@Precipitiation=0;@Temperature=22.1435203427745",
+      "text": "lovely"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=46.7357821980192;@Precipitiation=1.08718724574297;@Temperature=5.14709642771496",
+      "text": "poor"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=48.921376536098;@Precipitiation=0.764501684310148;@Temperature=14.6398165572154",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=13.421768701366;@Precipitiation=1.69400465565454;@Temperature=21.9352209322551",
+      "text": "good"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=62.1304329308357;@Precipitiation=3.64606873022675;@Temperature=28.628814012417",
+      "text": "decent"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=33.7008477345579;@Precipitiation=0;@Temperature=31.8879267482822",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=34.2410503114765;@Precipitiation=0;@Temperature=15.3922820557199",
+      "text": "typical"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=30.3147960129728;@Precipitiation=2.72829816891733;@Temperature=7.6471233606977",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=31.8785269427479;@Precipitiation=0;@Temperature=2.29933699514686",
+      "text": "calm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=76.5144848621052;@Precipitiation=6.54161287450307;@Temperature=5.75344222134139",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=56.6023250839684;@Precipitiation=2.72298071062331;@Temperature=19.8682290607357",
+      "text": "unseasonable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=28.3940931914347;@Precipitiation=1.01502989530332;@Temperature=20.9706245845978",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=26.1928083031405;@Precipitiation=0;@Temperature=27.7178249323684",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=53.1488046763226;@Precipitiation=6.76546279631344;@Temperature=23.5391763022212",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=15.0169369834554;@Precipitiation=0;@Temperature=12.323763345058",
+      "text": "gray"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=3.2320035636574;@Precipitiation=0.789471164908945;@Temperature=19.5189373236145",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=68.3119591177962;@Precipitiation=0;@Temperature=10.2646519350655",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=59.2009556755428;@Precipitiation=7.18424785939243;@Temperature=0.27498599451733",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=51.5723318567371;@Precipitiation=0;@Temperature=23.836379471224",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=83.8497401605592;@Precipitiation=0;@Temperature=-0.724547379605728",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=50.7472319299109;@Precipitiation=5.1209580008271;@Temperature=11.0020628411053",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=65.6144827444174;@Precipitiation=0.97694384650185;@Temperature=28.3470041905609",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=33.4070213294621;@Precipitiation=4.74211713907408;@Temperature=24.8632370458605",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=15.2241287823879;@Precipitiation=0.129116986682227;@Temperature=26.4288207307033",
+      "text": "calm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=15.87214046897;@Precipitiation=0;@Temperature=21.8611445842921",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=76.8354049310253;@Precipitiation=0;@Temperature=12.8668816290362",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=2.02206922789201;@Precipitiation=8.12942099811017;@Temperature=10.496426071495",
+      "text": "spotty"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=27.7899972292548;@Precipitiation=2.48429967596396;@Temperature=13.5853703067942",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=93.0902584423731;@Precipitiation=0.275360296524763;@Temperature=22.4336059392912",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=55.0844755280225;@Precipitiation=0;@Temperature=7.94896311989937",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=57.1858940912345;@Precipitiation=5.71515171812622;@Temperature=27.0193775481029",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=74.0501829767833;@Precipitiation=0.276329793211226;@Temperature=28.6998098275484",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=57.4132568470264;@Precipitiation=8.03438844652585;@Temperature=22.224189317233",
+      "text": "damp"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=54.3068905148222;@Precipitiation=3.05941070367555;@Temperature=30.0414778789093",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=28.8347375247789;@Precipitiation=1.73125065626169;@Temperature=16.1293370332426",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=81.5676411062328;@Precipitiation=1.96902197397734;@Temperature=24.8118214930789",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=42.2685869700595;@Precipitiation=4.73327829477064;@Temperature=5.37760280031599",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=48.0301392022661;@Precipitiation=5.16778287808773;@Temperature=8.42663159787032",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=53.4424990664434;@Precipitiation=4.50267322571141;@Temperature=34.9995644687068",
+      "text": "mixed"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=50.5934583724446;@Precipitiation=4.6718730028774;@Temperature=8.05172169962512",
+      "text": "mixrf"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=7.39485454158618;@Precipitiation=4.72815243766091;@Temperature=20.0870525765964",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=12.7209606174012;@Precipitiation=0.0530941536757602;@Temperature=8.01702350500832",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=33.8069890783201;@Precipitiation=0;@Temperature=33.2742213373744",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=59.9704572278869;@Precipitiation=3.95829870703551;@Temperature=19.0022559184824",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=16.0784403402724;@Precipitiation=0;@Temperature=12.7109946636348",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=25.2737982316286;@Precipitiation=0;@Temperature=7.49755239540597",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=63.6850094719254;@Precipitiation=0;@Temperature=25.8189484669775",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=48.2210802604542;@Precipitiation=6.90415573999479;@Temperature=9.50362249300984",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.1382405618849;@Precipitiation=1.91361476719082;@Temperature=26.6906785887483",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=11.0085907443467;@Precipitiation=1.27191297698855;@Temperature=16.7947237670537",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=24.2818100490988;@Precipitiation=6.9602473176365;@Temperature=6.04338975417585",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=39.1997946143149;@Precipitiation=3.84500080819475;@Temperature=27.7763681562833",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=93.9251618897194;@Precipitiation=2.54966802461057;@Temperature=15.5389434768767",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=72.8582880333337;@Precipitiation=1.18613602145861;@Temperature=13.5550298552145",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=58.5322404552867;@Precipitiation=0;@Temperature=28.6153957477237",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=62.5066356093188;@Precipitiation=0;@Temperature=18.8248823223379",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=21.5605515621419;@Precipitiation=2.65389988071932;@Temperature=18.4863975899324",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=17.1944408291925;@Precipitiation=2.37710867941245;@Temperature=18.4266548119842",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=46.7591068925146;@Precipitiation=3.39404575248903;@Temperature=8.63989859582851",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=94.2808737486046;@Precipitiation=0.461557578678037;@Temperature=10.3227194466035",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=51.54629687385;@Precipitiation=7.125672520588;@Temperature=9.00278206361587",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=89.0816223291129;@Precipitiation=0;@Temperature=-2.48064746749618",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=41.6238382652513;@Precipitiation=1.14438658065367;@Temperature=21.8998345757601",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=80.3591162806187;@Precipitiation=5.50915445769632;@Temperature=15.0091615895178",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=4.07897867452306;@Precipitiation=2.24966572090037;@Temperature=25.6114084142686",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=41.9601828986593;@Precipitiation=5.34617872624946;@Temperature=1.06113578698651",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=3.39935314999863;@Precipitiation=0;@Temperature=13.7187198739586",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=83.2471249081414;@Precipitiation=4.6205071961137;@Temperature=15.1234369928918",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=9.34735355402685;@Precipitiation=2.08905395712659;@Temperature=23.9735650546819",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=42.2825994632592;@Precipitiation=0;@Temperature=1.97488270970754",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=22.0355436308475;@Precipitiation=3.67742140526763;@Temperature=10.6693467472537",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=85.4943603209659;@Precipitiation=0;@Temperature=9.53704789911725",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=85.5319900370818;@Precipitiation=1.6347369739575;@Temperature=11.8606432049445",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=92.4128070904002;@Precipitiation=1.78665743418814;@Temperature=19.9197484472207",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=88.0837646723184;@Precipitiation=0;@Temperature=15.8257383007024",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=46.9919584444687;@Precipitiation=0;@Temperature=12.8472872128139",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=77.4857086490308;@Precipitiation=5.40286955335311;@Temperature=17.7979940690417",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=28.3513418065157;@Precipitiation=2.1555697130205;@Temperature=5.89647440324373",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=52.9087930698454;@Precipitiation=0;@Temperature=25.8431060717037",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=52.4096995836169;@Precipitiation=0;@Temperature=4.28399206129089",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=0.329823233340785;@Precipitiation=0;@Temperature=33.7193411432157",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=10.0892705424173;@Precipitiation=1.98112353429251;@Temperature=11.2643048838546",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=99.0853508464458;@Precipitiation=1.55689435489331;@Temperature=26.0955145220764",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=7.62370345537723;@Precipitiation=1.65674836880376;@Temperature=8.59280233631507",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=0.872349506650283;@Precipitiation=4.46966310584436;@Temperature=15.4203130510125",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=54.963602477202;@Precipitiation=0;@Temperature=31.8113563193387",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=79.434365816151;@Precipitiation=3.14096317387231;@Temperature=25.6137866517826",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=93.8714341231954;@Precipitiation=0;@Temperature=11.5589919735114",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=60.2991569136731;@Precipitiation=4.77217231459551;@Temperature=0.507088391951791",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=68.5031503292281;@Precipitiation=6.52349771852768;@Temperature=10.1781586993477",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=28.8156123966051;@Precipitiation=1.25843786017897;@Temperature=36.2840410847934",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=24.949754925887;@Precipitiation=0;@Temperature=1.84548839916731",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=80.6612609329919;@Precipitiation=2.19142049850962;@Temperature=24.1005679246274",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=55.2803774621712;@Precipitiation=7.30643208135219;@Temperature=8.40087873339694",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=0.73707723093083;@Precipitiation=0;@Temperature=15.3811009192332",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.2885997976589;@Precipitiation=0;@Temperature=13.981644016994",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=20.1135598216735;@Precipitiation=0;@Temperature=19.509144001314",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=18.9986327751533;@Precipitiation=0.819745279727385;@Temperature=17.3130596941258",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=21.2106159521316;@Precipitiation=1.9078785611167;@Temperature=13.8231753300704",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=98.158261039368;@Precipitiation=0;@Temperature=8.66754741126092",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=18.9898562706028;@Precipitiation=2.10814970629669;@Temperature=15.6570135981343",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=49.5141634482491;@Precipitiation=1.20844916063754;@Temperature=11.0003278593162",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=74.5246409319922;@Precipitiation=0;@Temperature=21.121320687398",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=98.3733300577725;@Precipitiation=3.34152321114276;@Temperature=5.73593820640162",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=16.0843500942385;@Precipitiation=0.174182447690602;@Temperature=25.096875037326",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=35.1448510937136;@Precipitiation=2.50078089091032;@Temperature=23.2145254088913",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=92.2684812882303;@Precipitiation=0;@Temperature=30.254967366776",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=43.310725895367;@Precipitiation=6.82248570729163;@Temperature=18.7134003561844",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=18.2662145785364;@Precipitiation=0.465785100798023;@Temperature=13.6158029493856",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=86.839291773196;@Precipitiation=0;@Temperature=23.916528339566",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=4.54685790676012;@Precipitiation=0;@Temperature=19.2008057808554",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=66.859148147916;@Precipitiation=2.45637240738439;@Temperature=12.7189524919349",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=53.1455584117889;@Precipitiation=2.78438123407978;@Temperature=23.5892720205054",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=96.5737804288854;@Precipitiation=0;@Temperature=18.6069153342568",
+      "text": "freezy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=34.4149830445717;@Precipitiation=4.92480326457638;@Temperature=15.0658434524182",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=27.1873908709676;@Precipitiation=2.19157851829733;@Temperature=10.4470863166345",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=56.7266968808727;@Precipitiation=3.5205440078492;@Temperature=21.0885849975788",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=81.4575997094892;@Precipitiation=5.96297205016155;@Temperature=8.22969427986522",
+      "text": "freezy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=80.2836306766996;@Precipitiation=7.58063381779968;@Temperature=7.67836666321306",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=39.7870585973314;@Precipitiation=0;@Temperature=24.8213451567578",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=9.877310884128;@Precipitiation=0;@Temperature=20.5485583948384",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=56.9687688057165;@Precipitiation=1.90496738672022;@Temperature=16.7816161139829",
+      "text": "mixed"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=78.0486061135533;@Precipitiation=0;@Temperature=19.2767646323036",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=14.5308710702373;@Precipitiation=5.86735085984569;@Temperature=26.5291975488743",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=43.0746636088354;@Precipitiation=0;@Temperature=4.5597605174965",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=70.9859350561099;@Precipitiation=0;@Temperature=28.7570364109366",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=69.7923831035348;@Precipitiation=5.80411371105542;@Temperature=11.1987177064078",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=72.3044174128698;@Precipitiation=9.11093324716712;@Temperature=33.1869019669746",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=2.66059516121661;@Precipitiation=2.6178870556028;@Temperature=19.5737196374003",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.3555520509163;@Precipitiation=0.74902206439945;@Temperature=20.5779941514591",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=45.7917361733465;@Precipitiation=1.5671130666263;@Temperature=9.35124492450209",
+      "text": "mixed"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=91.5817284451713;@Precipitiation=3.43214375680878;@Temperature=29.8472322237292",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=6.62833946134352;@Precipitiation=0;@Temperature=4.39070101611815",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=73.3844772322962;@Precipitiation=4.02307419489281;@Temperature=29.307176724997",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=56.0546397958205;@Precipitiation=6.28602006390506;@Temperature=21.8276878715296",
+      "text": "mixed"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=29.9003963497935;@Precipitiation=0;@Temperature=12.8666609294976",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=54.6507928774929;@Precipitiation=1.84659639278268;@Temperature=25.0033048842723",
+      "text": "good"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=22.5046620343368;@Precipitiation=4.02894102336324;@Temperature=18.4699469279218",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=77.7277261846362;@Precipitiation=3.16641683984381;@Temperature=14.2334262289868",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=25.8201239285153;@Precipitiation=1.79819820409091;@Temperature=13.4585381464048",
+      "text": "damp"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=85.8337898672716;@Precipitiation=0;@Temperature=11.2967830053888",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=58.8486450998339;@Precipitiation=3.47706692957183;@Temperature=1.95370764970486",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=91.5815600154836;@Precipitiation=4.67277664174921;@Temperature=20.6600566614047",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=34.7720326552037;@Precipitiation=9.02985484294121;@Temperature=19.1185775770753",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=97.8393489019197;@Precipitiation=2.03173589245963;@Temperature=20.3712075514585",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=38.4821692660834;@Precipitiation=0.285659819429582;@Temperature=15.5354617059349",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=8.84998827653471;@Precipitiation=1.50883107399979;@Temperature=29.2572634303604",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=85.7715661105567;@Precipitiation=2.19339136302163;@Temperature=18.560877907081",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=6.76242928335556;@Precipitiation=6.50512774550595;@Temperature=5.76307956155533",
+      "text": "wintery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=79.483272544799;@Precipitiation=6.35131957820213;@Temperature=12.137465180353",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=20.355776287781;@Precipitiation=8.43052414824745;@Temperature=36.1452824551683",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=72.0212794244388;@Precipitiation=0;@Temperature=32.3813342401066",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=94.6614134100552;@Precipitiation=1.74168744301502;@Temperature=18.5599314527539",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=57.1751073269058;@Precipitiation=6.43908093070569;@Temperature=16.85528052483",
+      "text": "mixed"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=80.2208488714978;@Precipitiation=2.08341083099293;@Temperature=15.6524722377409",
+      "text": "showers"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=25.7667209607394;@Precipitiation=1.35526777464676;@Temperature=18.4246536300446",
+      "text": "spring"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=23.1817056998525;@Precipitiation=8.07016271027278;@Temperature=13.1672524142904",
+      "text": "spring"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=18.4927684341058;@Precipitiation=0;@Temperature=2.32620105724139",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=82.4446253396778;@Precipitiation=2.50076362537721;@Temperature=13.0694898726463",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=75.161958241445;@Precipitiation=9.4814506242431;@Temperature=32.8343255023958",
+      "text": "normal"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=35.8560677784756;@Precipitiation=3.74036888998019;@Temperature=8.2369330231738",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=31.4893565287298;@Precipitiation=0;@Temperature=9.65198653650562",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=74.533516668963;@Precipitiation=0;@Temperature=22.8980572653273",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=74.4762551851926;@Precipitiation=8.68894813726141;@Temperature=23.7028121633329",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=66.903433048587;@Precipitiation=0;@Temperature=18.6598572258278",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=71.6651129404386;@Precipitiation=0;@Temperature=19.7078001351924",
+      "text": "normal"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=49.4589876613854;@Precipitiation=0;@Temperature=19.1387274668406",
+      "text": "unsure"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=54.0053989989708;@Precipitiation=4.0583569883175;@Temperature=1.4864547352616",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=46.675193424651;@Precipitiation=0.415785655898874;@Temperature=-2.00245625359121",
+      "text": "blizzard"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=73.8262363587628;@Precipitiation=0;@Temperature=11.0712542849226",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=41.9692704649499;@Precipitiation=4.40033866712839;@Temperature=6.05188564966986",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=16.2404971272873;@Precipitiation=3.5196874624629;@Temperature=22.1217278099767",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=80.1737255790149;@Precipitiation=5.07804253677746;@Temperature=27.0032934728094",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=11.1390627972498;@Precipitiation=0;@Temperature=-1.08483118894735",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=77.6217207674038;@Precipitiation=0;@Temperature=24.5009609637228",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=85.4092429789758;@Precipitiation=6.91424889957265;@Temperature=7.71911787299398",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=6.31755646612381;@Precipitiation=9.28835764070431;@Temperature=29.1953379744037",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=29.3925225405919;@Precipitiation=4.63885745491779;@Temperature=35.8660706880205",
+      "text": "heatwave"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=79.0927590704955;@Precipitiation=0;@Temperature=11.5970490647094",
+      "text": "windy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=71.5358240863009;@Precipitiation=0.0340434600012579;@Temperature=-1.82992364220783",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=17.870478945724;@Precipitiation=3.99655935428876;@Temperature=36.4307445516348",
+      "text": "dry"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=23.3009977840357;@Precipitiation=1.53943755698364;@Temperature=11.5265643746809",
+      "text": "chill"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=17.0584259634178;@Precipitiation=2.64233718560186;@Temperature=18.8843154574671",
+      "text": "chill"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=94.7045394194799;@Precipitiation=0;@Temperature=7.4001012296556",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=16.4328301867623;@Precipitiation=6.30154362493732;@Temperature=9.73511786369845",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=88.4361651206558;@Precipitiation=0;@Temperature=10.9876769606805",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=13.3683843134755;@Precipitiation=0;@Temperature=17.3481516368492",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=59.7425018249743;@Precipitiation=2.42262982940424;@Temperature=24.2179069470232",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=71.3217218272955;@Precipitiation=5.49506123037313;@Temperature=25.5238307037781",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.0308055658968;@Precipitiation=0.890800282913633;@Temperature=22.9047509747067",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=58.9972225758234;@Precipitiation=2.41350635986473;@Temperature=11.3405362954226",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.6592196941651;@Precipitiation=0;@Temperature=32.1761555098212",
+      "text": "hummid"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=6.74797343404404;@Precipitiation=1.69827546067456;@Temperature=13.5468066831337",
+      "text": "standard"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=80.7702094226937;@Precipitiation=6.03677535431309;@Temperature=24.3008229681155",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.80094109932;@Precipitiation=6.71072267056942;@Temperature=30.102493507216",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=20.0925641786738;@Precipitiation=8.69698825240926;@Temperature=18.0739443817846",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=45.5306219614719;@Precipitiation=3.10331182553121;@Temperature=21.1969406080325",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=45.4907466869292;@Precipitiation=0.354354188430288;@Temperature=-2.29642130856236",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=36.1186585557268;@Precipitiation=8.55288217419427;@Temperature=31.1394711974121",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=25.7443108715789;@Precipitiation=0.356177345954896;@Temperature=25.3520831970741",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=34.3882553439533;@Precipitiation=0;@Temperature=7.54648950979881",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=69.4353198024609;@Precipitiation=3.48596956596988;@Temperature=5.01470395297497",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=1.15842097492815;@Precipitiation=2.70489979702742;@Temperature=22.0136801462824",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=26.8207364374868;@Precipitiation=2.07247682204585;@Temperature=13.997581600867",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=91.2986719940317;@Precipitiation=5.91052972398257;@Temperature=-1.81229088546349",
+      "text": "terrible"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=22.7267754370006;@Precipitiation=1.63102947373457;@Temperature=12.2350265288889",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=1.32765257792904;@Precipitiation=0;@Temperature=8.32242005491276",
+      "text": "clear"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=40.6206050611197;@Precipitiation=0;@Temperature=19.6938995422627",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=74.6483327702844;@Precipitiation=7.90288153370045;@Temperature=15.4168607797878",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=59.9261082522227;@Precipitiation=2.73885082177764;@Temperature=13.6342610547991",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=58.8863398688316;@Precipitiation=6.35857224801489;@Temperature=16.0489536026674",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=4.32868399858879;@Precipitiation=7.17346088808657;@Temperature=16.6624117968615",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=55.24477332609;@Precipitiation=0.420519488454107;@Temperature=34.0555360721077",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=88.2605321185014;@Precipitiation=2.94588207037462;@Temperature=0.357829691897067",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=27.0290492694029;@Precipitiation=0;@Temperature=8.31411355172476",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=32.6633662137498;@Precipitiation=0;@Temperature=13.1855841304947",
+      "text": "average"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=99.0181704512882;@Precipitiation=7.86015237959109;@Temperature=13.0184193857426",
+      "text": "terrible"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=99.561021243949;@Precipitiation=4.88877558965645;@Temperature=3.49353740443175",
+      "text": "miserable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=2.92928526314408;@Precipitiation=2.47891780969171;@Temperature=9.37469759529675",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=23.4732776523909;@Precipitiation=0;@Temperature=1.85032688314576",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=29.8851310414659;@Precipitiation=1.70465364333459;@Temperature=-2.49589549869108",
+      "text": "terrible"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=94.6384727929898;@Precipitiation=0;@Temperature=21.6764474592854",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=79.146103318383;@Precipitiation=8.57117602446637;@Temperature=30.3418088234085",
+      "text": "terrible"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=93.0273449481592;@Precipitiation=0.566649308626842;@Temperature=5.68903063760094",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=77.1483788160367;@Precipitiation=2.52970656086677;@Temperature=10.8617846225955",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=48.0710430760267;@Precipitiation=0;@Temperature=21.1673419521364",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=96.6145404598743;@Precipitiation=0;@Temperature=33.3198637841222",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=85.8095503346108;@Precipitiation=1.21225732864917;@Temperature=12.1538010359527",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=24.5142330064039;@Precipitiation=0.53457497720354;@Temperature=21.3396673712924",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=19.1014079931664;@Precipitiation=0.239870841982714;@Temperature=20.6412925412232",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=66.1701096529933;@Precipitiation=0;@Temperature=12.48361387212",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=21.5533806577108;@Precipitiation=0;@Temperature=8.26572380993316",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=59.9880010168944;@Precipitiation=7.2349583044159;@Temperature=3.99387986532127",
+      "text": "awful"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.0092705474278;@Precipitiation=1.19411168266279;@Temperature=10.9383443679094",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=2.47405176166168;@Precipitiation=7.78454973818015;@Temperature=13.0286107518238",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=59.8596385958882;@Precipitiation=9.30845121634586;@Temperature=27.2992964796579",
+      "text": "rainstorm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=49.6645621255341;@Precipitiation=0.0205453371724791;@Temperature=14.6215813920328",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=79.9571067932793;@Precipitiation=0;@Temperature=5.58147399785997",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=23.4626567566128;@Precipitiation=4.5895989986321;@Temperature=7.50736819402192",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=68.7871694885135;@Precipitiation=0;@Temperature=13.5654498411228",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=41.7593015552309;@Precipitiation=0.339492475143397;@Temperature=25.9988617600914",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=55.2746092226704;@Precipitiation=7.68527062318533;@Temperature=2.05748488422366",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=27.3144307207849;@Precipitiation=0.61209389279694;@Temperature=10.8448169324569",
+      "text": "drizzly"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=93.8289849990182;@Precipitiation=1.8680437661512;@Temperature=9.23359157792925",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=45.8894451828159;@Precipitiation=2.33192273057155;@Temperature=16.8490703334515",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=19.6940013764864;@Precipitiation=5.39636874498165;@Temperature=22.9313550823747",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=59.4304382612139;@Precipitiation=4.90107503760656;@Temperature=8.85753358930234",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=51.3716552645767;@Precipitiation=8.58561149611399;@Temperature=32.0304084181322",
+      "text": "crazy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=69.6168574363072;@Precipitiation=0;@Temperature=33.5562051563646",
+      "text": "boiling"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=98.8314160140378;@Precipitiation=0;@Temperature=7.62936262038972",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=79.4388191678742;@Precipitiation=3.81547665068203;@Temperature=7.36845630243349",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=27.390064265295;@Precipitiation=5.95659991962211;@Temperature=8.11663942111965",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=46.682359951866;@Precipitiation=0.147264066267416;@Temperature=22.0279663441228",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=69.316397825869;@Precipitiation=0;@Temperature=20.0659714935329",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=55.6177723946133;@Precipitiation=4.44788505139197;@Temperature=35.1959522924693",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=89.3753696183559;@Precipitiation=0;@Temperature=20.6526199031168",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=63.4881775656194;@Precipitiation=5.30096877376594;@Temperature=14.8696055407308",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=73.9514992916731;@Precipitiation=0.255205188242349;@Temperature=9.17575472733274",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=16.6020719411793;@Precipitiation=0.80727139652114;@Temperature=16.1073899834637",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=84.7025702170574;@Precipitiation=0.428571174819288;@Temperature=16.630903414125",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=30.9709555613673;@Precipitiation=5.153729676918;@Temperature=9.06577425751173",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=58.2311108048219;@Precipitiation=0;@Temperature=35.0551913267584",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=42.2515019971186;@Precipitiation=0;@Temperature=12.4089110650443",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=71.9851677175542;@Precipitiation=0.357168248122171;@Temperature=5.59001182627865",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=42.7458004759372;@Precipitiation=0;@Temperature=14.2007945390608",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=7.8035756516287;@Precipitiation=8.96334036009542;@Temperature=30.7500218131673",
+      "text": "changeable"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=12.2455958799671;@Precipitiation=0;@Temperature=23.9830200291579",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=61.4773378528083;@Precipitiation=6.72917585558685;@Temperature=9.23290145570082",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=42.1825974444778;@Precipitiation=2.84079504386559;@Temperature=13.4341212322163",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=55.877509040701;@Precipitiation=5.20894892812192;@Temperature=30.1570543771736",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=75.9601625501924;@Precipitiation=3.14162271402386;@Temperature=25.3371556313043",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=61.6001380428673;@Precipitiation=0;@Temperature=7.41074805098621",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=69.9305118852903;@Precipitiation=1.65380852024714;@Temperature=6.88453127964611",
+      "text": "cool"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=2.05669174997913;@Precipitiation=4.24014208548709;@Temperature=12.0936734446947",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=59.9529148824294;@Precipitiation=1.03574652345653;@Temperature=14.7886703435419",
+      "text": "changeable"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=53.4239952235594;@Precipitiation=0.427271946942095;@Temperature=-0.441440597596318",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=69.5556532915475;@Precipitiation=2.03831285403963;@Temperature=7.94826892394026",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=58.3162779725698;@Precipitiation=4.55839744892828;@Temperature=5.40110801694501",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=0.154185108912264;@Precipitiation=6.40731029772075;@Temperature=21.8662963659392",
+      "text": "unlikely"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=1.37114985909832;@Precipitiation=0.944669356404184;@Temperature=21.4196203174487",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=31.7238641119208;@Precipitiation=1.40796123602798;@Temperature=13.5311437089234",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=30.7555244447456;@Precipitiation=2.44077182462475;@Temperature=10.0457678706598",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=62.4550811305899;@Precipitiation=0;@Temperature=12.913193210607",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.68930567786531;@Precipitiation=1.02982009786638;@Temperature=16.0486790819739",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=1.6311054125573;@Precipitiation=1.61951494216896;@Temperature=10.2786086609022",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=10.9033059845228;@Precipitiation=0;@Temperature=-2.80284676974772",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=64.7479787770417;@Precipitiation=0.250136851929192;@Temperature=13.2545822324905",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=94.3777634270386;@Precipitiation=7.3112215372786;@Temperature=17.2075950716984",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=2.7572201112086;@Precipitiation=6.49302848605114;@Temperature=35.4755532146178",
+      "text": "roasting"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=27.6201723737736;@Precipitiation=6.97478578342813;@Temperature=6.50667191242644",
+      "text": "changeable"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=26.9299841145659;@Precipitiation=6.71783777983759;@Temperature=26.6261581067444",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=62.8333744885555;@Precipitiation=2.26147665961714;@Temperature=34.9821760541071",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=30.9223127229709;@Precipitiation=0.721006184611938;@Temperature=24.6847208172338",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=59.5618245469229;@Precipitiation=0;@Temperature=28.6164351260692",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=81.3934267411909;@Precipitiation=9.78306628413641;@Temperature=15.4209668059326",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.4439476506989;@Precipitiation=0;@Temperature=11.8513655676187",
+      "text": "pleasant"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=0.242340657972889;@Precipitiation=0.985896453180302;@Temperature=22.2697407893742",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.2297544946101;@Precipitiation=1.27891269015098;@Temperature=10.4696262551237",
+      "text": "nice"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=83.9239109698329;@Precipitiation=2.39918297802526;@Temperature=9.52593383647778",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=60.4813500123477;@Precipitiation=0;@Temperature=-2.6825933298015",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=15.8494691438272;@Precipitiation=6.8214460051113;@Temperature=17.7739896035166",
+      "text": "changeable"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=71.8598307444993;@Precipitiation=0;@Temperature=10.3242442857028",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=93.7490068812617;@Precipitiation=3.69197693029045;@Temperature=4.16830908871643",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=19.633552860298;@Precipitiation=2.20020142574804;@Temperature=20.6516223034456",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=44.5109067226345;@Precipitiation=3.03085896462708;@Temperature=33.6249929770338",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=50.503467000324;@Precipitiation=5.96153561111611;@Temperature=23.819039962864",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=14.3027134771937;@Precipitiation=5.21305715176419;@Temperature=18.1866826717447",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=85.8315478013044;@Precipitiation=2.24559420493692;@Temperature=34.4931496377863",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=8.45648032075562;@Precipitiation=0;@Temperature=5.05604581124896",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=42.3089239943348;@Precipitiation=0.670896732653909;@Temperature=15.545912340817",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=75.1303917146895;@Precipitiation=0.642475371510943;@Temperature=22.0018716064523",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=10.0082769570911;@Precipitiation=0;@Temperature=21.2443685211914",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=80.2652551700665;@Precipitiation=0;@Temperature=35.0600107422704",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=75.4904190429907;@Precipitiation=8.08482634121777;@Temperature=13.6895715534638",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.7361241223924;@Precipitiation=1.47872980884683;@Temperature=8.49434662642625",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=77.2124631689919;@Precipitiation=0.570285716098866;@Temperature=19.4626153163717",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=91.9448072518896;@Precipitiation=9.74265584523913;@Temperature=30.8572520369325",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=45.0980424625324;@Precipitiation=6.2458925766991;@Temperature=11.4956462356894",
+      "text": "damp"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=20.4161940703244;@Precipitiation=0;@Temperature=13.3824539507751",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=17.1309550838223;@Precipitiation=0;@Temperature=14.6764224719659",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=5.49987587402569;@Precipitiation=0;@Temperature=26.8957064880038",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=32.1605849695208;@Precipitiation=0;@Temperature=10.478909484846",
+      "text": "blistering"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=70.3878692213389;@Precipitiation=0;@Temperature=8.34988037085621",
+      "text": "coudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=86.9991907323707;@Precipitiation=7.60473866538365;@Temperature=16.618346033333",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=73.5743631020069;@Precipitiation=0;@Temperature=17.000326919295",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=96.8997298259752;@Precipitiation=7.28797593437507;@Temperature=36.2487456057774",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=5.35854380827329;@Precipitiation=0;@Temperature=13.1236580022581",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=26.1432455508705;@Precipitiation=7.28618951138397;@Temperature=4.25307702248594",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=73.2497102456399;@Precipitiation=1.42021082275557;@Temperature=25.0748518697987",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=87.3897382930805;@Precipitiation=4.39085948624223;@Temperature=8.25542834051672",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=75.3839999788366;@Precipitiation=2.56345376561557;@Temperature=18.7357505333637",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=60.0324613787385;@Precipitiation=4.33094780828382;@Temperature=5.31194852301476",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=16.5462722147565;@Precipitiation=6.47224288707238;@Temperature=19.7498487124312",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=14.7885797148517;@Precipitiation=2.49355181476267;@Temperature=18.7312424922787",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=23.2541530967011;@Precipitiation=0;@Temperature=15.2399076898768",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=28.1192246024121;@Precipitiation=5.13386459052277;@Temperature=26.2048052763496",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=71.9673757776466;@Precipitiation=0;@Temperature=10.5206687433509",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=85.5616264443666;@Precipitiation=8.07619780394072;@Temperature=12.6286986513523",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=40.1262057200662;@Precipitiation=0;@Temperature=9.0283839433493",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.4258197794789;@Precipitiation=9.88700825208193;@Temperature=32.735437362178",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=52.0094748362943;@Precipitiation=0;@Temperature=22.0904103474693",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=98.9787871478958;@Precipitiation=4.45374161202169;@Temperature=10.3431739127744",
+      "text": "dark"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=83.5590087266448;@Precipitiation=7.80622686487913;@Temperature=30.3176499432827",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=88.5341548307492;@Precipitiation=1.69333651254109;@Temperature=16.7184971842582",
+      "text": "thunder"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=76.3666744233885;@Precipitiation=0.151639476666059;@Temperature=5.55142070184528",
+      "text": "damp"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=61.039960459359;@Precipitiation=0;@Temperature=13.0164482612379",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=84.8463992517658;@Precipitiation=0;@Temperature=11.5473432424047",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.3436466308048;@Precipitiation=8.14517555710169;@Temperature=8.4839688370209",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=57.2850396657759;@Precipitiation=4.36766665773823;@Temperature=3.94741688839505",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=37.0518290610294;@Precipitiation=8.05208104750239;@Temperature=13.2884442609821",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=38.6000359610655;@Precipitiation=2.07068423826745;@Temperature=15.4156028089978",
+      "text": "pouring"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=3.23147541062509;@Precipitiation=0.551930965977689;@Temperature=21.050386233628",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=61.9271528264168;@Precipitiation=6.28987782345613;@Temperature=18.4482682305939",
+      "text": "damp"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=59.3286429808143;@Precipitiation=8.21217401315094;@Temperature=13.7111853479274",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=46.1733654822099;@Precipitiation=0;@Temperature=19.8557582835321",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=10.694157430294;@Precipitiation=1.01314693692287;@Temperature=18.0400988466433",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=31.2823247310158;@Precipitiation=0;@Temperature=14.8407086485581",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=35.9622850715938;@Precipitiation=4.02835795387084;@Temperature=35.5379248895719",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=67.0503781954992;@Precipitiation=6.88181605524002;@Temperature=22.0755200864866",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=50.6978654538737;@Precipitiation=1.31749967051554;@Temperature=11.8119460773803",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=92.2348919754079;@Precipitiation=3.67128844106164;@Temperature=7.81642441440207",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=79.4169210267332;@Precipitiation=8.08002030925826;@Temperature=8.96275729077996",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=60.3480325827133;@Precipitiation=2.82314587157832;@Temperature=11.0305606852009",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=59.0471282410655;@Precipitiation=4.15199089746549;@Temperature=33.9012343318068",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=45.6255757462352;@Precipitiation=7.98972716383623;@Temperature=20.3677207009484",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=81.5258068877858;@Precipitiation=9.88042488865574;@Temperature=13.5734182867424",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=31.1689463589196;@Precipitiation=4.09442314456423;@Temperature=17.3086969211831",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=13.1344489348747;@Precipitiation=0.818946122521975;@Temperature=22.545598935874",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=53.5074603061692;@Precipitiation=0.205214506874427;@Temperature=10.3604960335887",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=26.0856245765861;@Precipitiation=0;@Temperature=18.7075040514569",
+      "text": "warmish"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=0.739533827053166;@Precipitiation=3.32368072523907;@Temperature=31.3558864947529",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=23.0186217106034;@Precipitiation=0.732177772667342;@Temperature=11.9383941817835",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=26.0884591499755;@Precipitiation=1.08423300245974;@Temperature=4.60640191021673",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=74.2924893155193;@Precipitiation=0.239109022356155;@Temperature=8.28618554920712",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=14.7002175053117;@Precipitiation=8.13187500272499;@Temperature=15.9399939200887",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=98.618128150058;@Precipitiation=5.1942348805695;@Temperature=30.8772921615966",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=38.5450969629665;@Precipitiation=5.48123499911802;@Temperature=16.8474159526859",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=59.9244791362083;@Precipitiation=0;@Temperature=9.33802185600997",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=30.6040544671025;@Precipitiation=0.719976403824974;@Temperature=10.4274099429545",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=46.2268389511047;@Precipitiation=5.6776525587857;@Temperature=14.9943149431582",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=64.8095458116427;@Precipitiation=1.10209395648078;@Temperature=23.6745008771981",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=29.2640234479979;@Precipitiation=2.54579649109198;@Temperature=14.7996865279133",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.6904211890373;@Precipitiation=7.41587057114386;@Temperature=33.2091323723454",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=0.225250842154608;@Precipitiation=1.63654505648955;@Temperature=23.0081151819034",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=31.1365340515676;@Precipitiation=7.58714239776467;@Temperature=13.1126962785668",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=74.2481909572371;@Precipitiation=4.52013720721944;@Temperature=5.90945862884142",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=18.9056849660844;@Precipitiation=7.14822081584866;@Temperature=-2.83166170631147",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=31.4705852565684;@Precipitiation=6.36630796327549;@Temperature=2.52665716771346",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=74.630049045491;@Precipitiation=0;@Temperature=17.1479477901328",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=79.8043986688388;@Precipitiation=3.75395134769098;@Temperature=17.7091598093413",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=45.7466459580449;@Precipitiation=0;@Temperature=12.9757580652301",
+      "text": "changeable"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=74.2641320797913;@Precipitiation=0;@Temperature=-2.13857981449858",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=64.8724302020261;@Precipitiation=6.35718973835799;@Temperature=18.8491233845796",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=88.8482412271426;@Precipitiation=0;@Temperature=7.6609862974896",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=24.6526491477399;@Precipitiation=3.91461944904859;@Temperature=-0.142194892187694",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=45.7632729065433;@Precipitiation=0.6777308218124;@Temperature=12.2467287644403",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=29.6018961954871;@Precipitiation=0;@Temperature=12.1149687419669",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=70.657807295517;@Precipitiation=6.59116947610451;@Temperature=11.1957016295081",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=2.74160648823791;@Precipitiation=0;@Temperature=23.777897505871",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=48.8953232527223;@Precipitiation=7.35993495991916;@Temperature=25.1941075167219",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=23.9908266458618;@Precipitiation=5.9433553256017;@Temperature=-2.65148208975395",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=94.7621067030179;@Precipitiation=5.62751270847279;@Temperature=15.0799527317425",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=89.9072286625892;@Precipitiation=5.93570300677591;@Temperature=34.6683945131201",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=51.3814807177435;@Precipitiation=1.89454166261225;@Temperature=18.6743665510809",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=92.0151207558881;@Precipitiation=0;@Temperature=21.9470104000238",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=46.465721794621;@Precipitiation=1.72501973485808;@Temperature=13.9066641388678",
+      "text": "showery"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=29.9855162994869;@Precipitiation=6.46185841472906;@Temperature=13.8159880602993",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=46.6930478563034;@Precipitiation=7.3737174965412;@Temperature=0.779140635607363",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=19.7639076131228;@Precipitiation=0;@Temperature=2.5003020998185",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=28.2256650404193;@Precipitiation=2.32802536154074;@Temperature=15.2220673998501",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.98240597731546;@Precipitiation=0.672184406203304;@Temperature=24.5133795644498",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=6.22248701109667;@Precipitiation=2.68824581569445;@Temperature=22.3030166675863",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=82.3753707960133;@Precipitiation=2.78752843568452;@Temperature=6.54965732807278",
+      "text": "british"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=42.7025058971264;@Precipitiation=2.75530527278562;@Temperature=21.432036900009",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=2.74955583864337;@Precipitiation=6.98301338919579;@Temperature=4.56959398617483",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=53.1345242416181;@Precipitiation=5.25570333071784;@Temperature=19.0728172695929",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=37.6855091832976;@Precipitiation=8.14621807059563;@Temperature=22.7798094020457",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=2.59446981483813;@Precipitiation=1.12158711816724;@Temperature=19.3943832932014",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=35.0590302306502;@Precipitiation=5.73491650984386;@Temperature=30.1649653626769",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=37.2242041105517;@Precipitiation=0;@Temperature=0.738583389855261",
+      "text": "bitter"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=65.5359617273956;@Precipitiation=1.9530523418789;@Temperature=6.44703089480616",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=64.6999192725401;@Precipitiation=0.311353194588494;@Temperature=17.5440998639744",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=0.230140099409102;@Precipitiation=0;@Temperature=35.6641547085411",
+      "text": "sweltering"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=2.48272270079829;@Precipitiation=8.83506226424829;@Temperature=36.1230413209615",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=72.8811317928513;@Precipitiation=0.640400772774779;@Temperature=12.4378759483285",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=68.8411147188587;@Precipitiation=0;@Temperature=12.703922153159",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=86.9338310262812;@Precipitiation=0;@Temperature=16.5002873663233",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=49.6176446553402;@Precipitiation=4.40847849022526;@Temperature=5.47366234529003",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=9.57253296373996;@Precipitiation=0;@Temperature=10.9993162752964",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=2.67779627008261;@Precipitiation=0.657837750766351;@Temperature=22.6077259288578",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=47.405193162805;@Precipitiation=0;@Temperature=10.0799998300197",
+      "text": "patchy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=33.1185817872726;@Precipitiation=3.15956301496344;@Temperature=30.0087561359064",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=34.2299292954756;@Precipitiation=4.03519427497648;@Temperature=12.9816867473962",
+      "text": "muggy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=9.6948946405644;@Precipitiation=0;@Temperature=11.6033827436265",
+      "text": "bright"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=98.5798138187173;@Precipitiation=1.82871282603997;@Temperature=-3.02871288967725",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=53.8744434499529;@Precipitiation=0;@Temperature=25.0334989921206",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=99.589088419261;@Precipitiation=0.618076814095526;@Temperature=1.25578583856848",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=33.984195922494;@Precipitiation=2.27931664445871;@Temperature=13.4623278909094",
+      "text": "milf"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.9161698696744;@Precipitiation=7.62744779988539;@Temperature=30.077790306298",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=34.7626662975003;@Precipitiation=0;@Temperature=-0.570625387854235",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=38.4082315668502;@Precipitiation=1.36873203254711;@Temperature=-2.54094337776347",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=72.4356744310053;@Precipitiation=6.21152474676796;@Temperature=1.0158157777208",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=84.8505760938165;@Precipitiation=0;@Temperature=18.4283630676839",
+      "text": "midl"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=27.296422388077;@Precipitiation=5.4051352837892;@Temperature=5.61003152674997",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=65.6837260190787;@Precipitiation=0.328564513474034;@Temperature=12.9229050794956",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=53.9738927753521;@Precipitiation=0;@Temperature=15.9089446461661",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.25918007421269;@Precipitiation=2.94465097374965;@Temperature=23.8067640918338",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=4.1897681561251;@Precipitiation=0;@Temperature=26.3418909432655",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=19.3309842233225;@Precipitiation=0.340930941477851;@Temperature=8.20010197987785",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.159596006926;@Precipitiation=0;@Temperature=14.3966756512628",
+      "text": "patchy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=40.008064843718;@Precipitiation=5.77398998639267;@Temperature=7.96727481318045",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=96.1383899190176;@Precipitiation=8.70640308349691;@Temperature=27.9702654707433",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=60.2832945810088;@Precipitiation=0;@Temperature=10.0878978696828",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=97.8478160676769;@Precipitiation=0.372444280475585;@Temperature=17.8151978287032",
+      "text": "stormy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=22.4739664804535;@Precipitiation=7.59977326514189;@Temperature=31.1822269614098",
+      "text": "humid"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=10.2313771425892;@Precipitiation=1.44638755646832;@Temperature=24.1229504946726",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=18.6020864726054;@Precipitiation=0;@Temperature=30.1801409548382",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=43.6349231952964;@Precipitiation=0;@Temperature=10.2314231842064",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=51.4586307813686;@Precipitiation=0.0595422052310511;@Temperature=18.7602181359149",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=40.175984352909;@Precipitiation=0;@Temperature=21.7169113313159",
+      "text": "lovely"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=41.6681733642091;@Precipitiation=0.13937444066134;@Temperature=13.3893959565551",
+      "text": "rainy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=6.44398858139477;@Precipitiation=1.20804001828099;@Temperature=14.7158164751883",
+      "text": "sunny"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=36.6133389233674;@Precipitiation=0;@Temperature=13.4789896530653",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=59.7399989886861;@Precipitiation=0;@Temperature=21.734360969972",
+      "text": "summery"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=35.7919279186949;@Precipitiation=0.652184450566854;@Temperature=15.8234710131648",
+      "text": "dull"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=4.54039247917961;@Precipitiation=3.67725664852525;@Temperature=15.7046175112364",
+      "text": "unusual"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=45.7616233945646;@Precipitiation=0;@Temperature=22.9744607011762",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=97.6873741940071;@Precipitiation=2.1570756253959;@Temperature=7.49471982058823",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=47.1858325168424;@Precipitiation=1.46385489015088;@Temperature=17.5537320644892",
+      "text": "depressing"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=21.8895383281119;@Precipitiation=0;@Temperature=28.3532061618861",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=54.4482310090439;@Precipitiation=7.57966025535001;@Temperature=7.10437590261193",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=25.4279612216297;@Precipitiation=0;@Temperature=8.91525949076994",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=18.1537751192943;@Precipitiation=0;@Temperature=5.94189146268269",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=51.2927638605669;@Precipitiation=2.93523377633897;@Temperature=13.5336753480573",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=26.7590950367782;@Precipitiation=1.56507466400744;@Temperature=24.3357913785082",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=99.5553633661733;@Precipitiation=0.269253627746018;@Temperature=15.6421180741219",
+      "text": "grey"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=22.8484620912226;@Precipitiation=0;@Temperature=17.3432539468227",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.67192924752456;@Precipitiation=3.59272722313773;@Temperature=10.2387156080169",
+      "text": "chilly"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=50.7412169364939;@Precipitiation=5.17280868793503;@Temperature=34.3198388921981",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=38.3216844118767;@Precipitiation=0;@Temperature=29.1896086977141",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=53.7396330636645;@Precipitiation=0.148361045330931;@Temperature=17.1512593840348",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=51.6632690800649;@Precipitiation=8.31068141451603;@Temperature=32.3403645479169",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=9.83918733421675;@Precipitiation=0;@Temperature=35.5146428012218",
+      "text": "sweltering"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=65.4196785136218;@Precipitiation=6.13293701761073;@Temperature=17.9756748586221",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=64.8677480243462;@Precipitiation=2.47927421521362;@Temperature=34.2921071420247",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=58.0423746993963;@Precipitiation=8.37802266784852;@Temperature=12.801645958769",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=86.6887325824652;@Precipitiation=1.5203720168678;@Temperature=4.54436666647176",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=54.1357537517956;@Precipitiation=2.01103243665352;@Temperature=5.12545553705909",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=99.3498735592467;@Precipitiation=0;@Temperature=-2.50518879651334",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=0.862509245454571;@Precipitiation=0;@Temperature=-1.84221827858231",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=33.9340355870938;@Precipitiation=2.8351521214634;@Temperature=28.7882503724928",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=31.7564851286618;@Precipitiation=6.64751203227672;@Temperature=18.7688363631437",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=94.7573968184913;@Precipitiation=5.18455658992033;@Temperature=21.3207146199377",
+      "text": "overcast"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=24.6394053216276;@Precipitiation=0;@Temperature=4.88643294025512",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=90.7359777906612;@Precipitiation=8.73901284846431;@Temperature=17.9817392782549",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=21.9467583214616;@Precipitiation=1.23842136967388;@Temperature=24.0520939585437",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=1.11924749851192;@Precipitiation=1.86975520480878;@Temperature=12.8245341038027",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=30.3809519998641;@Precipitiation=0;@Temperature=12.7894809204198",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=45.8707293709138;@Precipitiation=0;@Temperature=28.1326983835561",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=21.1683777259515;@Precipitiation=0.3210438386542;@Temperature=1.70359216918405",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=84.8663543746184;@Precipitiation=1.82163111604826;@Temperature=-1.07968241384238",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=74.9936905107432;@Precipitiation=4.14946892872894;@Temperature=4.01774787317857",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=66.8772263298171;@Precipitiation=3.44583072047952;@Temperature=8.10068180324541",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=84.09983864245;@Precipitiation=2.50129137435057;@Temperature=13.2450972282864",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=47.8173732048913;@Precipitiation=4.62661835210706;@Temperature=7.8735626029752",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=43.9937640652031;@Precipitiation=4.07052639585944;@Temperature=10.0383328613305",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=37.3995393688788;@Precipitiation=1.06563368186151;@Temperature=13.8322482025773",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=1.96980922574634;@Precipitiation=0;@Temperature=21.2722005219861",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=82.9554517674052;@Precipitiation=8.59792086491264;@Temperature=29.6812262955826",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=38.8990829414218;@Precipitiation=2.35631840486839;@Temperature=12.3516782471033",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=36.3337272947346;@Precipitiation=3.23220369672971;@Temperature=20.9325622178626",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=19.7264270948835;@Precipitiation=1.69034065727626;@Temperature=20.3541859966676",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=85.991669858802;@Precipitiation=1.22957092612962;@Temperature=13.4841806015718",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=60.9617501315483;@Precipitiation=3.09763723918127;@Temperature=10.0141484744587",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=51.338206162368;@Precipitiation=2.5328323621316;@Temperature=11.3360377459396",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=69.5507942091445;@Precipitiation=0;@Temperature=19.3894438349732",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=30.1763413614483;@Precipitiation=3.76442498768886;@Temperature=3.33389346180199",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=25.0328953960132;@Precipitiation=0.503603392096052;@Temperature=29.222457521545",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=55.4678142794724;@Precipitiation=0.92450120483269;@Temperature=20.6745940493395",
+      "text": "hot"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=40.6281132905875;@Precipitiation=7.57090328534641;@Temperature=31.5281693843185",
+      "text": "roasting"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=68.3433395663012;@Precipitiation=0;@Temperature=0.036272726597391",
+      "text": "freezing"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=17.5024183082871;@Precipitiation=4.62589576911456;@Temperature=24.3022699528245",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=20.0101665314334;@Precipitiation=0;@Temperature=17.1096317375031",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=71.9616059548974;@Precipitiation=0;@Temperature=18.103626639244",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=88.0004384033384;@Precipitiation=3.50462201740808;@Temperature=25.7126039184549",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=84.6988958235359;@Precipitiation=7.74157268790136;@Temperature=7.62077592460475",
+      "text": "wet"
+    },
+    {
+      "concepts": "@Month=7;@CloudCover=92.6923967398202;@Precipitiation=7.12950633351202;@Temperature=30.0053867672921",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=39.153162128829;@Precipitiation=0;@Temperature=19.8335597326902",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=84.8780596092707;@Precipitiation=0.725510416997369;@Temperature=18.6403248988419",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=60.512496931717;@Precipitiation=0;@Temperature=12.6183895298365",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=77.7950905160024;@Precipitiation=2.71626745439426;@Temperature=14.6216007259216",
+      "text": "cloudy"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=36.5606593604016;@Precipitiation=3.82990570979654;@Temperature=-0.729811728051776",
+      "text": "cold"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=18.8031018333524;@Precipitiation=0.786946732214162;@Temperature=12.3858068440788",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=78.1685638605471;@Precipitiation=1.43832333492503;@Temperature=14.5469697140283",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=13.9915965562647;@Precipitiation=3.63453793204135;@Temperature=2.75172219671855",
+      "text": "fresh"
+    },
+    {
+      "concepts": "@Month=4;@CloudCover=7.70679912888762;@Precipitiation=7.50659774837857;@Temperature=21.2707928468617",
+      "text": "warm"
+    },
+    {
+      "concepts": "@Month=10;@CloudCover=26.6632061575834;@Precipitiation=0.969900971008419;@Temperature=8.1383689578615",
+      "text": "mild"
+    },
+    {
+      "concepts": "@Month=1;@CloudCover=85.7403618682829;@Precipitiation=4.04160974199027;@Temperature=5.58227168084228",
+      "text": "cold"
+    }
+  ]
+}

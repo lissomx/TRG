@@ -4,6 +4,7 @@
 import SSA
 import TRG
 import VBLS
+import VBREG as REG
 from MockupCorpus import *
 
 # def SSAFragTriangle_ToFragemnts():
@@ -33,8 +34,17 @@ from MockupCorpus import *
 trg = TRG.TRG(FurnitureEx)
 txt = trg.Generate(
     [
-        ('colour','red'),
-        ('type','desk')
+        ('colour','red',0),
+        ('type','desk',1)
+    ])
+
+reg = REG.VBREG(FurnitureEx,FurnitureDistractors)
+txt = reg.Generate([
+        ('colour','red',1),
+        ('type','sofa',1)
+    ],[
+        [('colour','red',1),('type','sofa',1)],
+        [('type','desk',1),('colour','green',1)]
     ])
 
 pass

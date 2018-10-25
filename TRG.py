@@ -56,33 +56,36 @@ class TRG:
             self.Text = sentence
             self.FillInfo = {}
             self.Seq = [self.__GetPlaceholderTag(word,fg) for word,fg in sentence]
-            self.Features = [(c,v,1) for _,fg in sentence if fg is not None for c,v in fg.items()]
+            self.Features = [(c,v,w) for _,fg in sentence if fg is not None for c,v,w in fg]
             self.__Tag = repr(self.Seq)
 
         def GetPlaceholderData(self,strict):
             if strict:
-                return [((self.__Tag,i),inf[0],[(c,v,1) for c,v in inf[1].items()]) 
-                for i,inf in zip(range(len(self.Text)),self.Text) if inf[1] is not None]
+                return [((self.__Tag,i),inf[0],[(c,v,w) for c,v,w in inf[1]]) 
+                for i,inf in enumerate(self.Text) if inf[1] is not None]
             else:
-                [(self.__GetPlaceholderTag(inf[0],inf[1]),inf[0],[(c,v,1) for c,v in inf[1].items()]) 
-                for i,inf in zip(range(len(self.Text)),self.Text) if inf[1] is not None]
+                return [(self.__GetPlaceholderTag(inf[0],inf[1]),inf[0],[(c,v,w) for c,v,w in inf[1]]) 
+                for i,inf in enumerate(self.Text) if inf[1] is not None]
         
         def Fill(self,tag,word,strict):
             if strict:
                 _,i = tag
                 self.FillInfo[i]=word
             else:
+                ids = [i for i,x in enumerate(self.Seq) if x==tag]
+                for i in ids:
+                    self.FillInfo[i]=word
                 pass
         
         def GetText(self,separator):
-            temp = [(w if i not in self.FillInfo else self.FillInfo[i]) for i,w in zip(range(len(self.Seq)),self.Seq)]
+            temp = [(w if i not in self.FillInfo else self.FillInfo[i]) for i,w in enumerate(self.Seq)]
             return separator.join(temp)
         
         def __GetPlaceholderTag(self, word, feature):
             if feature is None:
                 return word
             else:
-                concepts = sorted(feature.keys())
+                concepts = sorted(c for c,_,_ in feature)
                 return repr(concepts)
 
         def __hash__(self):

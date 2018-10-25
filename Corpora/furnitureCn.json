@@ -1,0 +1,53 @@
+﻿{
+  "separator": "",
+  "right2left": false,
+  "version": 1.0,
+  "case-sensitive": false,
+
+  "data": [
+    {
+      "concepts": "c=red;t=table",
+      "text": "红色的桌子"
+    },
+    {
+      "concepts": "c=red;t=chair",
+      "text": "红色的椅子"
+    },
+    {
+      "concepts": "c=red;t=fun",
+      "text": "红色的电扇"
+    },
+    {
+      "concepts": "c=blue;t=table",
+      "text": "蓝色的桌子"
+    },
+    {
+      "concepts": "c=blue;t=chair",
+      "text": "蓝色的椅子"
+    },
+    {
+      "concepts": "c=green;t=table",
+      "text": "绿色的桌子"
+    },
+    {
+      "concepts": "c=green;t=fun",
+      "text": "绿色的电扇"
+    },
+    {
+      "concepts": "c=blue;t=table",
+      "text": "一张蓝色的桌子"
+    },
+    {
+      "concepts": "c=blue;t=chair",
+      "text": "一把蓝色的椅子"
+    },
+    {
+      "concepts": "c=green;t=table",
+      "text": "一张绿色的桌子"
+    },
+    {
+      "concepts": "c=green;t=fun",
+      "text": "一个绿色的电扇"
+    }
+  ]
+}

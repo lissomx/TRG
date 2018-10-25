@@ -1,0 +1,4426 @@
+﻿{
+  "separator": " ",
+  "right2left": false,
+  "version": 1.0,
+  "case-sensitive": false,
+
+  //Tuna corpus without trails which include location info
+  //original version is here: https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php
+  //only singular for people without location info
+
+  "data": [
+    {
+      "trial_id": "s101t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "beard, glasses, old",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "old",
+          "data": "age=old"
+        }
+      ]
+    },
+    {
+      "trial_id": "s101t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "guy with barb",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "guy",
+          "data": "type=person"
+        },
+        {
+          "word": "with barb",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s101t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "glasses, barb guy",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "barb",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "guy",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s101t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "guy with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "guy",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s101t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "guy with bald head and barb",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "guy",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "bald head",
+          "data": "hasHair=0"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "barb",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses with white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with dark hair dark beard facing front",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "dark hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "dark beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "facing front",
+          "data": "orientation=front"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s102t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses with dark hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "with dark hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "elderly gentleman with a white beard wearing spectacles",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "wearing spectacles",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "younger man with full head of dark hair,beard and mustache wearing open neck shirt under jacket",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "younger",
+          "data": "age=0"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "full head of dark hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "mustache",
+          "data": "other=other"
+        },
+        {
+          "word": "wearing open neck shirt under jacket",
+          "data": "hasShirt=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "elderly gentleman with full head of grey hair, whute beard and mustache and wearing large lens spectacles",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "full head of grey hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "whute beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "mustache",
+          "data": "other=other"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "wearing large spectacles lens spectacles",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "elderly gentleman wearing heavy framed spectacles",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing heavy framed spectacles",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "elderly gentleman wirh receding white hair, white beard and mustache wearing open neck shirt",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": "wirh receding white hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "mustache",
+          "data": "other=other"
+        },
+        {
+          "word": "wearing open neck shirt",
+          "data": "hasShirt=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s108t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "youngest looking gentleman wearing spectacles possibly oriental origin",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "youngest looking",
+          "data": "age=0"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing spectacles",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "possibly oriental origin",
+          "data": "other=other"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a beard and glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a grey beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a grey beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s114t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with black hair and glasses",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a white beard and glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man has a dark brown beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "has a dark brown beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a white beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "it is an older man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "it is",
+          "data": ""
+        },
+        {
+          "word": "an",
+          "data": ""
+        },
+        {
+          "word": "older",
+          "data": "age=old"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a long beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a long beard",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s131t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and dark hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "dark hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s149t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the photo of the man with the beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "photo",
+          "data": "type=other"
+        },
+        {
+          "word": "of",
+          "data": ""
+        },
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and a white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a dark beard and dark hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "a dark beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "dark hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and a beard",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man wearing glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s169t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and black hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the guy with the beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "guy",
+          "data": "type=person"
+        },
+        {
+          "word": "with the beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the bloke wearing glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "bloke",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s177t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "black haired man",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "black haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s181t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "the white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s181t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the guy with the glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "guy",
+          "data": "type=person"
+        },
+        {
+          "word": "with the glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s181t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with black hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with black hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard and glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the",
+          "data": ""
+        },
+        {
+          "word": "white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with black hair mustach and beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "mustach",
+          "data": "other=other"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the bald man with a beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "bald",
+          "data": "hasHair=0"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s18t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the black haired man with glasses",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "black haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "apicture of a man who has a white beard and who is wearing glasses, he is facing the front",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "apicture",
+          "data": "type=other"
+        },
+        {
+          "word": "of",
+          "data": ""
+        },
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "who",
+          "data": ""
+        },
+        {
+          "word": "has a white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "who is wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "he is facing the front",
+          "data": "orientation=front"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with black hair, and facial hair who is facing the front",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": ", and",
+          "data": ""
+        },
+        {
+          "word": "facial hair",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "who is facing the front",
+          "data": "orientation=front"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "apicture of an elderly man who is wearing glasses, who has a beard, and is facing the left hand side of the screen",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "apicture",
+          "data": "type=other"
+        },
+        {
+          "word": "of",
+          "data": ""
+        },
+        {
+          "word": "an",
+          "data": ""
+        },
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "who is",
+          "data": ""
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "who has a beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": ", and",
+          "data": ""
+        },
+        {
+          "word": "is facing the left hand side of the screen",
+          "data": "orientation=left"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a photo of an elderly gentleman, who is wearing glasses and is facing the right hand side of the screen",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "photo",
+          "data": "type=other"
+        },
+        {
+          "word": "of",
+          "data": ""
+        },
+        {
+          "word": "an",
+          "data": ""
+        },
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "gentleman",
+          "data": "type=person"
+        },
+        {
+          "word": ", who is",
+          "data": ""
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and is",
+          "data": ""
+        },
+        {
+          "word": "facing the right hand side of the screen",
+          "data": "orientation=right"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "an elderly man with white facial hair that is facing the right hand side of the screen",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "an",
+          "data": ""
+        },
+        {
+          "word": "elderly",
+          "data": "age=old"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white facial hair",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "that is facing the right hand side of the screen",
+          "data": "orientation=right"
+        }
+      ]
+    },
+    {
+      "trial_id": "s192t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a young man who is wearing glasses and who is looking forward",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "young",
+          "data": "age=0"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "who is wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "who is looking forward",
+          "data": "orientation=front"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with beard and wearing glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s20t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man wearing glasses and with dark hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "with dark hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and a beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with a beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and a beard",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "bald man with white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "bald",
+          "data": "hasHair=0"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s30t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses and black hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with white beard",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man in glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "in glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "an old man with a white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "an",
+          "data": ""
+        },
+        {
+          "word": "old",
+          "data": "age=old"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s41t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man in glasses with dark hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "in glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "with dark hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s48t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s48t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "white bearded man",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "white",
+          "data": "hairColour=light"
+        },
+        {
+          "word": "bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and a white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses and facial hair",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "facial hair",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "a man with a white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "a",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s50t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "brown haired man with glasses",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "brown haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with gray beard and glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "gray beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "dark haired, bearded man",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "dark haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with gray beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "gray beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with gray beard, facing left",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with gray beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": ",",
+          "data": ""
+        },
+        {
+          "word": "facing left",
+          "data": "orientation=left"
+        }
+      ]
+    },
+    {
+      "trial_id": "s53t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "dark haired man with glasses",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "dark haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the bearded man",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the bearded man",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the gray beared man",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "gray beared",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s59t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with black hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with black hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with the white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with the white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a white beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with black glasses frames",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with black frames",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s5t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses and black hair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "black hair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "dark haired man with grey beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "dark haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with grey beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "middle aged dark haired dark bearded man",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "middle aged",
+          "data": "age=unknown"
+        },
+        {
+          "word": "dark haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "dark bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "grey haired grey bearded man with glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "grey haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "grey bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "grey haired maddle aged man with dark glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "grey haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "maddle aged",
+          "data": "age=unknown"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with dark glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "balding grey haired grey bearded man",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "balding",
+          "data": "other=other"
+        },
+        {
+          "word": "grey haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "grey bearded",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        }
+      ]
+    },
+    {
+      "trial_id": "s60t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "young dark haired man with spectacles",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "young",
+          "data": "age=0"
+        },
+        {
+          "word": "dark haired",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with spectacles",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s62t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with withe beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with withe beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s78t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "main with white beard.",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "main",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": ".",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man wearing glasses with a white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man wearing glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "wearing glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with a white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with a white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s81t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "the man with glasses and dark heair",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "the",
+          "data": ""
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "dark heair",
+          "data": "hasHair=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "beard and glasses",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with beard and glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "glasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "white beard",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s84t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "negro",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "negro",
+          "data": "other=other"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t21",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with white beard",
+      "targets": [
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with white beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t22",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with beard",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with beard",
+          "data": "hasBeard=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t23",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with glasses",
+      "targets": [
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=0;hasTie=0;hasBeard=1;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=0",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t24",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "older man with flasses",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=left;hairColour=dark;hasSuit=0;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=right;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "older",
+          "data": "age=old"
+        },
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with flasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t25",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with ehite beard and balding",
+      "targets": [
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=0"
+      ],
+      "distractors": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=1;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=young;orientation=front;hairColour=dark;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with ehite beard",
+          "data": "hasBeard=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "balding",
+          "data": "other=other"
+        }
+      ]
+    },
+    {
+      "trial_id": "s98t26",
+      "trial_type": "people",
+      "cardinality": "1",
+      "text": "man with cark hair and glasses",
+      "targets": [
+        "age=young;orientation=front;hairColour=dark;hasSuit=1;hasShirt=1;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1"
+      ],
+      "distractors": [
+        "age=old;orientation=left;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=left;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=right;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=1;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=0;hasShirt=1;hasTie=0;hasBeard=0;hasGlasses=0;hasHair=1",
+        "age=old;orientation=front;hairColour=light;hasSuit=1;hasShirt=0;hasTie=1;hasBeard=0;hasGlasses=0;hasHair=1"
+      ],
+      "alignment": [
+        {
+          "word": "man",
+          "data": "type=person"
+        },
+        {
+          "word": "with",
+          "data": ""
+        },
+        {
+          "word": "cark hair",
+          "data": "hasHair=1"
+        },
+        {
+          "word": "and",
+          "data": ""
+        },
+        {
+          "word": "glasses",
+          "data": "hasGlasses=1"
+        }
+      ]
+    }
+  ]
+}
