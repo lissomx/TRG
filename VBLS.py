@@ -14,19 +14,19 @@ __email__ = ""
 import numpy as np
 
 class VBLS:
-    def __init__(self, corpus):
+    def __init__(self, texts, data):
         '''
         Init the selector with a small training corpus
             corpus: [(features, text), ...]; a feature-text corpus 
             features: (key,value,weight)
             text: string
         '''
-        self.FeatureMap, self.featureCount = self._VectorBuilder((c,v) for _,fg in corpus for c,v,_ in fg)
-        self.WordMap, self.wordCount = self._VectorBuilder(freg for freg,_ in corpus)
+        self.FeatureMap, self.featureCount = self._VectorBuilder((c,v) for fg in data for c,v,_ in fg)
+        self.WordMap, self.wordCount = self._VectorBuilder(freg for freg in texts)
         self.WordMapT = dict(zip(self.WordMap.values(),self.WordMap.keys()))
-        recordFeas = (([self.FeatureMap[(c,v)] for c,v,_ in fg],[w for _,_,w in fg]) for _,fg in corpus)
+        recordFeas = (([self.FeatureMap[(c,v)] for c,v,_ in fg],[w for _,_,w in fg]) for fg in data)
         A = np.array(list(self._OneHot(fea,self.featureCount,w) for fea,w in recordFeas))
-        W = np.array(list(self._OneHot([self.WordMap[freg]],self.wordCount) for freg,_ in corpus))
+        W = np.array(list(self._OneHot([self.WordMap[freg]],self.wordCount) for freg in texts))
         self.B = self._Solver(A,W)
     
     def Lex(self, features, threshold=0.2):

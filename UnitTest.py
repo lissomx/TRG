@@ -5,6 +5,7 @@ import SSA
 import TRG
 import VBLS
 import VBREG as REG
+import CorpusReader as cr
 from MockupCorpus import *
 
 # def SSAFragTriangle_ToFragemnts():
@@ -31,14 +32,9 @@ from MockupCorpus import *
 
 # print([c for txt,fea in Furniture for c,v,w in fea])
 
-trg = TRG.TRG(FurnitureEx)
-txt = trg.Generate(
-    [
-        ('colour','red',0),
-        ('type','desk',1)
-    ])
 
-reg = REG.VBREG(FurnitureEx,FurnitureDistractors)
+ts,ds,ats = cr.LoadAlignedRegCorpus('Corpora/ETunaF-Aligned2.json')
+reg = REG.VBREG(ts,ds,ats)
 txt = reg.Generate([
         ('colour','red',1),
         ('type','sofa',1)
@@ -46,5 +42,17 @@ txt = reg.Generate([
         [('colour','red',1),('type','sofa',1)],
         [('type','desk',1),('colour','green',1)]
     ])
+    #   "targets": [
+    #     "colour=grey;orientation=front;type=desk;size=large"
+    #   ],
+    #   "distractors": [
+    #     "colour=blue;orientation=front;type=desk;size=large",
+    #     "colour=red;orientation=back;type=desk;size=large",
+    #     "colour=green;orientation=left;type=desk;size=small",
+    #     "colour=blue;orientation=front;type=fan;size=large",
+    #     "colour=red;orientation=back;type=fan;size=large",
+    #     "colour=green;orientation=left;type=fan;size=small"
+    #   ],
+    
 
 pass

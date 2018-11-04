@@ -15,17 +15,25 @@ from functools import reduce
 import TRG
 
 class VBREG:
-    def __init__(self, alignedTargets,distractors,separator=' ',strict=False):
-        corpusEx = []
-        allConcept = [c for r in alignedTargets for _,fg in r if fg is not None for c,_,_ in fg]
+    def __init__(self, targets,distractors,alignedTexts,separator=' ',strict=False):
+        # corpusEx = []
+        _targetsEx = []
+        _alignedTexts = []
+        allConcept = [c for r in alignedTexts for _,fg in r if fg is not None for c,_,_ in fg]
         self.allConcept = set(allConcept)
-        for record,distr in zip(alignedTargets,distractors):
+        for target,record,distr in zip(targets,alignedTexts,distractors):
             # record e.g.: [ ('the',None),('red',[('colour','red',1)]),('sofa',[('type','sofa',1)]) ]
-            allFea = reduce(lambda a,b: a+b, [d[1] for d in record if d[1] is not None])
-            diff = self.__Difference(allFea,distr)
-            recordEx = [(w,None) if fg is None else (w,fg+diff) for w,fg in record]
-            corpusEx.append(recordEx)
-        self.Generator = TRG.TRG(corpusEx,separator,strict)
+            notemptyfgs = [d[1] for d in record if d[1] is not None]
+            if len(notemptyfgs)==0:
+                continue #skip the texts which express none feature
+            # allFea = reduce(lambda a,b: a+b, notemptyfgs)
+            # diff = self.__Difference(allFea,distr)
+            diff = self.__Difference(target,distr)
+            _targetsEx.append(target+diff)
+            _alignedTexts.append(record)
+            # recordEx = [(w,None) if fg is None else (w,fg+diff) for w,fg in record]
+            # corpusEx.append(recordEx)
+        self.Generator = TRG.TRG(_alignedTexts,_targetsEx,separator,strict)
     
     def Generate(self, target, distractors):
         '''

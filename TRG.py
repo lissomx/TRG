@@ -14,23 +14,24 @@ __email__ = ""
 import VBLS
 
 class TRG:
-    def __init__(self, AlignedCorpus, separator=' ', strict=True):
+    def __init__(self, alignedTexts, data, separator=' ', strict=True):
         '''
         '''
         self.Strict = strict
         self.separator = separator
-        schemas = [(s,s.Features) for s in (self.Schema(r) for r in AlignedCorpus)]
-        self.schemaSelector = VBLS.VBLS(schemas)
-        smallCorpora = [x for s,_ in schemas for x in s.GetPlaceholderData(self.Strict)]
+        schemas = [s for s in (self.Schema(r) for r in alignedTexts)]
+        self.schemaSelector = VBLS.VBLS(schemas,data)
+        smallCorpora = [x for s in schemas for x in s.GetPlaceholderData(self.Strict)]
         dataDic = {}
         for tag,word,fg in smallCorpora:
             if tag in dataDic:
-                dataDic[tag].append((word,fg))
+                dataDic[tag][0].append(word)
+                dataDic[tag][1].append(fg)
             else:
-                dataDic[tag] = [(word,fg)]
-        self.lexSelectors = dict([(key,VBLS.VBLS(val)) for key,val in dataDic.items()])
+                dataDic[tag] = ([word],[fg])
+        self.lexSelectors = dict([(key,VBLS.VBLS(val[0],val[1])) for key,val in dataDic.items()])
 
-    def Generate(self,features,threshold=0.2):
+    def Generate(self,features,threshold=0.0):
         '''
         Generate most suitable text for the given data
             features: [(concept,value), ...] and concepts and values are strings
@@ -39,10 +40,10 @@ class TRG:
             (text,weight)
         '''
         best = ('<no suitable text>', threshold)
-        for schema,weight in self.schemaSelector.Lex(features):
+        for schema,weight in self.schemaSelector.Lex(features,threshold):
             sweight = weight
             for tag,word,_ in schema.GetPlaceholderData(self.Strict):
-                words = self.lexSelectors[tag].Lex(features)
+                words = self.lexSelectors[tag].Lex(features,threshold)
                 word, wweight = words[0] if len(words)>0 else ('<UNKNOW>',0)
                 sweight = min(sweight,wweight)
                 schema.Fill(tag,word,self.Strict)
@@ -75,7 +76,6 @@ class TRG:
                 ids = [i for i,x in enumerate(self.Seq) if x==tag]
                 for i in ids:
                     self.FillInfo[i]=word
-                pass
         
         def GetText(self,separator):
             temp = [(w if i not in self.FillInfo else self.FillInfo[i]) for i,w in enumerate(self.Seq)]

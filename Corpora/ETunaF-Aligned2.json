@@ -3,11 +3,14 @@
   "right2left": false,
   "version": 1.0,
   "case-sensitive": false,
-
-  //Tuna corpus without trails which include location info
-  //original version is here: https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php
-  //only singular for furnature without location info
-  //182 samples
+  
+  "comments":
+  [
+  "Tuna corpus without trails which include location info",
+  "original version is here: https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php",
+  "only singular for furnature without location info",
+  "182 samples"
+  ],
 
   "data": [
     {

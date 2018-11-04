@@ -3,10 +3,12 @@
   "right2left": false,
   "version": 1.0,
   "case-sensitive": false,
-
-  //Tuna corpus without trails which include location info
-  //original version is here: https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php
-  //only singular for people without location info
+  "comments":
+  [
+  "Tuna corpus without trails which include location info",
+  "original version is here: https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php",
+  "only singular for furnature without location info"
+  ],
 
   "data": [
     {
@@ -67,7 +69,7 @@
       "alignment": [
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with barb",
@@ -106,7 +108,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -129,7 +131,7 @@
       "alignment": [
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -156,7 +158,7 @@
       "alignment": [
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -222,7 +224,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -253,7 +255,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -292,7 +294,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -319,7 +321,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -346,7 +348,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -373,7 +375,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -408,7 +410,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -447,7 +449,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -502,7 +504,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -561,7 +563,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing heavy framed spectacles",
@@ -592,7 +594,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wirh receding white hair",
@@ -643,7 +645,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing spectacles",
@@ -678,7 +680,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -721,7 +723,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the beard",
@@ -752,7 +754,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -795,7 +797,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -826,7 +828,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the white beard",
@@ -857,7 +859,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -900,7 +902,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with wiskers",
@@ -943,7 +945,7 @@
         },
         {
           "word": "men",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the middle row",
@@ -998,7 +1000,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on the rightest",
@@ -1037,7 +1039,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on the bottom row",
@@ -1072,7 +1074,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on the northeast corner",
@@ -1107,7 +1109,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -1154,7 +1156,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1220,7 +1222,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1274,7 +1276,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the middle row",
@@ -1340,7 +1342,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -1383,7 +1385,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "has a dark brown beard",
@@ -1414,7 +1416,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -1465,7 +1467,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -1496,7 +1498,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a long beard",
@@ -1527,7 +1529,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -1570,7 +1572,7 @@
         },
         {
           "word": "person",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1597,7 +1599,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1624,7 +1626,7 @@
         },
         {
           "word": "person",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1651,7 +1653,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1678,7 +1680,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -1705,7 +1707,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "middle row",
@@ -1748,7 +1750,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the beard",
@@ -1791,7 +1793,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the beard",
@@ -1834,7 +1836,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -1873,7 +1875,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the glasses",
@@ -1916,7 +1918,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the beard",
@@ -1959,7 +1961,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2002,7 +2004,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2045,7 +2047,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2088,7 +2090,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2131,7 +2133,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -2162,7 +2164,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -2193,7 +2195,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2236,7 +2238,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the white beard",
@@ -2267,7 +2269,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the beard",
@@ -2298,7 +2300,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -2329,7 +2331,7 @@
         },
         {
           "word": "bloke",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -2360,7 +2362,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the white beard",
@@ -2391,7 +2393,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -2418,7 +2420,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the top",
@@ -2457,7 +2459,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the bottom",
@@ -2496,7 +2498,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2539,7 +2541,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the glasses",
@@ -2570,7 +2572,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the top",
@@ -2609,7 +2611,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with black hair",
@@ -2640,7 +2642,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the",
@@ -2683,7 +2685,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2730,7 +2732,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -2761,7 +2763,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -2796,7 +2798,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a beard",
@@ -2831,7 +2833,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -2870,7 +2872,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "who",
@@ -2921,7 +2923,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -2980,7 +2982,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "who is",
@@ -3047,7 +3049,7 @@
         },
         {
           "word": "gentleman",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": ", who is",
@@ -3094,7 +3096,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white facial hair",
@@ -3133,7 +3135,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "who is wearing glasses",
@@ -3168,7 +3170,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with beard",
@@ -3203,7 +3205,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with beard",
@@ -3230,7 +3232,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -3257,7 +3259,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -3284,7 +3286,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -3311,7 +3313,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -3350,7 +3352,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -3389,7 +3391,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a beard",
@@ -3420,7 +3422,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -3459,7 +3461,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -3490,7 +3492,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -3517,7 +3519,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -3556,7 +3558,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -3583,7 +3585,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with beard",
@@ -3610,7 +3612,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -3637,7 +3639,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in glasses",
@@ -3672,7 +3674,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -3699,7 +3701,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in glasses",
@@ -3734,7 +3736,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the white beard",
@@ -3769,7 +3771,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on the left",
@@ -3804,7 +3806,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -3835,7 +3837,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -3870,7 +3872,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -3897,7 +3899,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -3936,7 +3938,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -3979,7 +3981,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a beard",
@@ -4010,7 +4012,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -4053,7 +4055,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4084,7 +4086,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -4115,7 +4117,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4142,7 +4144,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -4193,7 +4195,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -4216,7 +4218,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -4255,7 +4257,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4282,7 +4284,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with gray beard",
@@ -4321,7 +4323,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4348,7 +4350,7 @@
       "alignment": [
         {
           "word": "men",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in glasses",
@@ -4383,7 +4385,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in",
@@ -4418,7 +4420,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "down",
@@ -4449,7 +4451,7 @@
       "alignment": [
         {
           "word": "men",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in",
@@ -4484,7 +4486,7 @@
       "alignment": [
         {
           "word": "men",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in",
@@ -4519,7 +4521,7 @@
       "alignment": [
         {
           "word": "men",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in glasses",
@@ -4558,7 +4560,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -4589,7 +4591,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -4616,7 +4618,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4647,7 +4649,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -4682,7 +4684,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -4709,7 +4711,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with black hair",
@@ -4740,7 +4742,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with the white beard",
@@ -4771,7 +4773,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a beard",
@@ -4802,7 +4804,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -4841,7 +4843,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with black frames",
@@ -4872,7 +4874,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -4903,7 +4905,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -4946,7 +4948,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with grey beard",
@@ -4985,7 +4987,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -5016,7 +5018,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -5051,7 +5053,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with dark glasses",
@@ -5090,7 +5092,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -5121,7 +5123,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with spectacles",
@@ -5183,7 +5185,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -5210,7 +5212,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "at the",
@@ -5257,7 +5259,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "at the bottom",
@@ -5288,7 +5290,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with withe beard",
@@ -5323,7 +5325,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         }
       ]
     },
@@ -5524,7 +5526,7 @@
       "alignment": [
         {
           "word": "main",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -5559,7 +5561,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -5602,7 +5604,7 @@
       "alignment": [
         {
           "word": "male subject",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on bottow",
@@ -5637,7 +5639,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white hair",
@@ -5680,7 +5682,7 @@
         },
         {
           "word": "subject",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "on the bottom",
@@ -5719,7 +5721,7 @@
         },
         {
           "word": "guy",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "in the middle",
@@ -5770,7 +5772,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -5805,7 +5807,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a beard",
@@ -5836,7 +5838,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "wearing glasses",
@@ -5867,7 +5869,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -5898,7 +5900,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with a white beard",
@@ -5929,7 +5931,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -6022,7 +6024,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
@@ -6130,7 +6132,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with white beard",
@@ -6157,7 +6159,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with beard",
@@ -6184,7 +6186,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with glasses",
@@ -6215,7 +6217,7 @@
         },
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with flasses",
@@ -6242,7 +6244,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with ehite beard",
@@ -6277,7 +6279,7 @@
       "alignment": [
         {
           "word": "man",
-          "data": "type=person"
+          "data": ""
         },
         {
           "word": "with",
