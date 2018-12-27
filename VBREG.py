@@ -3,13 +3,17 @@
 
 '''
     Vector-Based REG driven by Text-Reassamble Generator (TRG)
+    VB-REG is implemented based on the paper: 
+        "Statistical NLG for Generating the Content and Form of Referring Expressions"
+        X Li, K van Deemter, C Lin, 2018
+        http://www.aclweb.org/anthology/W18-6561
 '''
 
 __author__ = "Xiao Li"
 __copyright__ = "Copyright 2018, Xiao Li"
 __license__ = "MIT"
 __version__ = "1.0"
-__email__ = ""
+__email__ = "xiao [dot] li [at] abdn [dot] ac [dot] uk"
 
 from functools import reduce
 import TRG

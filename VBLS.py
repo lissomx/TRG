@@ -3,13 +3,17 @@
 
 '''
     VBLS: Vector-Based Lexical Selector
+    VBLS is implemented based on the paper: 
+        "Statistics-Based Lexical Choice for NLG from Quantitative Information"
+        X Li, K van Deemter, C Lin, 2016
+        http://www.aclweb.org/anthology/W16-6618
 '''
 
 __author__ = "Xiao Li"
 __copyright__ = "Copyright 2018, Xiao Li"
 __license__ = "MIT"
 __version__ = "1.0"
-__email__ = ""
+__email__ = "xiao [dot] li [at] abdn [dot] ac [dot] uk"
 
 import numpy as np
 

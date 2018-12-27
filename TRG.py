@@ -9,7 +9,7 @@ __author__ = "Xiao Li"
 __copyright__ = "Copyright 2018, Xiao Li"
 __license__ = "MIT"
 __version__ = "1.0"
-__email__ = ""
+__email__ = "xiao [dot] li [at] abdn [dot] ac [dot] uk"
 
 import VBLS
 
